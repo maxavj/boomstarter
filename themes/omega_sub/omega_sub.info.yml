@@ -1,0 +1,57 @@
+name: omega_sub
+type: theme
+description: 'Omega Subtheme for Bootstarter'
+package: Core
+'base theme': omega_simple_starterkit
+force_export: false
+inherit_layout: false
+scss_support: false
+libraries:
+  - omega_sub/omega_sub
+
+regions:
+
+  #header
+  top_nav:          'Top Navigation'
+  video_header:     'Video Header'
+
+  #main content
+  editors_choice:   'Editors Choice'
+  day_recordsman:   'Day Recordsman'
+  popular_awards:   'Popular Awards'
+  just_finished:    'Just Finished'
+  popular_projects: 'Popular Projects'
+  make_step_1:      'Make First Step Now'
+  just_started:     'Just Started'
+  new_users:        'New Users'
+  author_comment:   'Successful Author Comment'
+  facebook_connect: 'Facebook Connect'
+  final_projects:   'Final Projects'
+  project_sum_100:  'Project 100%'
+  vk_connect:       'VK Connect'
+  project_sum_75:   'Project 75%'
+  tmpopular_award:  'The Most Popular Award'
+  project_sum_50:   'Project 50%'
+  limited_offer:    'Limited Offer'
+  make_step_2:      'Make First Step Now - 2'
+  project_updates:  'Project Updates'
+  project_sum_25:   'Project 25%'
+  footer:           'Footer'
+
+  # default
+  content:          'Content'
+
+features:
+  logo: true
+  name: true
+  slogan: true
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  main_menu: true
+  secondary_menu: true
+version: 8.x-5.x
+core: 8.x
+project: omega
+datestamp: 1469485442
