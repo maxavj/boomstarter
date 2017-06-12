@@ -1,0 +1,6 @@
+nod.nod:
+  path: '/promo'
+  defaults:
+    _controller: '\Drupal\mynod\Controller\MyNodController::nod'
+  requirements:
+    _permission: 'view content'

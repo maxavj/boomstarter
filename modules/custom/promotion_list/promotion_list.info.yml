@@ -1,0 +1,11 @@
+name: promotion_list
+description: Create my template
+package: Custom
+dependencies:
+  - node
+  - block
+type: module
+core: 8.x
+package: Examples
+
+

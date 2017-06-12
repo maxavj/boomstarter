@@ -1,0 +1,10 @@
+name: Follow
+description: 'Add sitewide and per user links to social network profiles.'
+type: module
+# core: 8.x
+
+# Information added by Drupal.org packaging script on 2016-08-11
+version: '8.x-2.x-dev'
+core: '8.x'
+project: 'follow'
+datestamp: 1470929940

@@ -1,0 +1,7 @@
+
+name: myNod
+description: 'Page with Nod'
+type: module
+core: 8.x
+version: 1.0
+package: Examples

@@ -1,0 +1,11 @@
+<?php  
+	/**
+ 	* Implements hook_theme().
+	*/
+function promotion_list_theme($variables) {
+   $theme['promotion_list'] = array(
+     'variables' => array('nodes' => array()),
+     'template' => 'promotion_list',
+   );
+   return $theme;
+}

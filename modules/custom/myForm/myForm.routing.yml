@@ -1,0 +1,8 @@
+collect_name.form:
+  path: '/admin/form'
+  defaults:
+    _title: 'myForm'
+    _form: '\Drupal\myForm\Form\myForm'
+  requirements:
+    _permission: 'access content'
+  

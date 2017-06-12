@@ -1,0 +1,6 @@
+sayhello.sayhello:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\sayhello\Controller\SayHelloController::sayhello'
+  requirements:
+    _permission: 'view content'

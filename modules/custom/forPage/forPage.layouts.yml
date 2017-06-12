@@ -1,0 +1,12 @@
+forPage:
+  label: three fields
+  category: My Layouts
+  template: templates/forPage
+  css: css/forPage.css
+  regions:
+    first:
+      label: first
+    second:
+      label: second
+    three: 
+      label: three
