@@ -1,0 +1,50 @@
+main_page:
+  label: twenty-two fields
+  category: My Layouts
+  template: templates/main_page
+  css: css/main_page.css
+  regions:
+    first:
+      label: first
+    second:
+      label: second
+    three: 
+      label: three
+    four:
+      label: four
+    five:
+      label: five
+    six:
+      label: six
+    seven:
+      label: seven
+    eigth:
+      label: eigth
+    nine: 
+      label: nine
+    ten:
+      label: ten
+    elev:
+      label: elev
+    twelw:
+      label: twelw
+    thirteen:
+      label: thirteen
+    fourteen:
+      label: fourteen
+    fifteen: 
+      label: fifteen
+    sixteen:
+      label: sixteen
+    seventeen:
+      label: seventeen
+    eigteen:
+      label: eigteen
+    nineteen:
+      label: eigteen
+    twenty:
+      label: twenty
+    twenty-one:
+      label: twenty-one
+    twenty-two:
+      label: twenty-two
