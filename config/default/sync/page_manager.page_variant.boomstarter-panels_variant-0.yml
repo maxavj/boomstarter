@@ -5,6 +5,7 @@ dependencies:
   config:
     - page_manager.page.boomstarter
     - views.view.main_page
+    - views.view.statictic
   content:
     - 'block_content:basic:ae2d69db-557c-44b9-a011-a8d42afd53b8'
   module:
@@ -38,6 +39,17 @@ variant_settings:
       region: second
       weight: 0
       uuid: 99714bb1-fd68-4695-952e-f22140787004
+      context_mapping: {  }
+    515c8698-97e5-4fbd-af90-276dbcc11323:
+      id: 'views_block:statictic-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: three
+      weight: 0
+      uuid: 515c8698-97e5-4fbd-af90-276dbcc11323
       context_mapping: {  }
   id: panels_variant
   uuid: 459d84ce-def6-4643-8bbd-8c4a3763b77e
