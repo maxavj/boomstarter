@@ -1,0 +1,20 @@
+uuid: a9c1c683-3d41-494e-b094-c8af2833801b
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - omega_simple_starterkit
+id: omega_simple_starterkit_searchform
+theme: omega_simple_starterkit
+region: header
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+visibility: {  }

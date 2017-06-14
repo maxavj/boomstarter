@@ -1,0 +1,24 @@
+uuid: 9c094094-10ef-47fe-a610-fe0965d344e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.headmenu
+  module:
+    - system
+  theme:
+    - omega_sub
+id: omega_sub_headmenu
+theme: omega_sub
+region: top_nav
+weight: 0
+provider: null
+plugin: 'system_menu_block:headmenu'
+settings:
+  id: 'system_menu_block:headmenu'
+  label: Headmenu
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

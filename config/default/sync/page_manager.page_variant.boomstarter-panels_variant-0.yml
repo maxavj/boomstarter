@@ -1,0 +1,56 @@
+uuid: 3489cde5-2873-4447-b4e9-308e1eaa2dbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.boomstarter
+    - views.view.main_page
+  content:
+    - 'block_content:basic:ae2d69db-557c-44b9-a011-a8d42afd53b8'
+  module:
+    - block_content
+    - panels
+    - views
+id: boomstarter-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    f32e1555-f169-4821-83bd-1ee99d4ee645:
+      id: 'block_content:ae2d69db-557c-44b9-a011-a8d42afd53b8'
+      label: 'Boomstarter Российская краудфандинговая платформа'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: first
+      weight: 0
+      uuid: f32e1555-f169-4821-83bd-1ee99d4ee645
+      context_mapping: {  }
+    99714bb1-fd68-4695-952e-f22140787004:
+      id: 'views_block:main_page-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: second
+      weight: 0
+      uuid: 99714bb1-fd68-4695-952e-f22140787004
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 459d84ce-def6-4643-8bbd-8c4a3763b77e
+  label: null
+  weight: 0
+  layout: main_page
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: boomstarter-panels_variant-0
+  builder: standard
+page: boomstarter
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

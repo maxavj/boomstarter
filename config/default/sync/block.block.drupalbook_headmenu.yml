@@ -1,0 +1,24 @@
+uuid: ed135fce-7411-4e62-977f-ae8139ffbb84
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.headmenu
+  module:
+    - system
+  theme:
+    - drupalbook
+id: drupalbook_headmenu
+theme: drupalbook
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:headmenu'
+settings:
+  id: 'system_menu_block:headmenu'
+  label: Headmenu
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

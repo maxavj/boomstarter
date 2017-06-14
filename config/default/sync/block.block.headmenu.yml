@@ -1,0 +1,24 @@
+uuid: 115a5495-dcbf-4771-8db4-7af01f733e1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.headmenu
+  module:
+    - system
+  theme:
+    - bartik
+id: headmenu
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:headmenu'
+settings:
+  id: 'system_menu_block:headmenu'
+  label: Headmenu
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

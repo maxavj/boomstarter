@@ -1,0 +1,25 @@
+uuid: 932a29bc-ac9d-4cac-8ac3-e8ca95d0f202
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:13739984-c89e-4100-8cd6-5921c8244209'
+  module:
+    - block_content
+  theme:
+    - omega_simple_starterkit
+id: omega_simple_starterkit_boomlogo
+theme: omega_simple_starterkit
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:13739984-c89e-4100-8cd6-5921c8244209'
+settings:
+  id: 'block_content:13739984-c89e-4100-8cd6-5921c8244209'
+  label: boomlogo
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

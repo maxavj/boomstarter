@@ -1,0 +1,12 @@
+uuid: 4663741f-bd83-4b42-9ae3-55366b6be152
+langcode: en
+status: true
+dependencies: {  }
+id: boomstarter
+label: boomstarter
+description: ''
+use_admin_theme: false
+path: /main
+access_logic: and
+access_conditions: {  }
+parameters: {  }

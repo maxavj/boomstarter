@@ -1,0 +1,21 @@
+uuid: 8c00c548-708f-4caf-ae48-790e03f83f61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mesto
+    - node.type.proekt
+  module:
+    - text
+id: node.proekt.field_mesto
+field_name: field_mesto
+entity_type: node
+bundle: proekt
+label: место
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
