@@ -1,0 +1,25 @@
+uuid: db60fb9c-5003-4203-a1f8-00e603aed067
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:13739984-c89e-4100-8cd6-5921c8244209'
+  module:
+    - block_content
+  theme:
+    - drupalbook
+id: drupalbook_boomlogo
+theme: drupalbook
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:13739984-c89e-4100-8cd6-5921c8244209'
+settings:
+  id: 'block_content:13739984-c89e-4100-8cd6-5921c8244209'
+  label: boomlogo
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

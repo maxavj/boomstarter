@@ -1,0 +1,21 @@
+uuid: 646f1dfd-5170-42a8-a82a-ca89c5140e04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_komentarii
+    - node.type.proekt
+  module:
+    - text
+id: node.proekt.field_komentarii
+field_name: field_komentarii
+entity_type: node
+bundle: proekt
+label: Коментарий
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

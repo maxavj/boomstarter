@@ -1,0 +1,24 @@
+uuid: afa5fdd5-cb08-4018-807d-100f0e1976c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.login-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: login_menu
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:login-menu'
+settings:
+  id: 'system_menu_block:login-menu'
+  label: Login_menu
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }
