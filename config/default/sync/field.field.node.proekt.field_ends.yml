@@ -1,0 +1,21 @@
+uuid: 8ac1efd4-516e-42c9-82b2-958a5c526952
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ends
+    - node.type.proekt
+  module:
+    - datetime_range
+id: node.proekt.field_ends
+field_name: field_ends
+entity_type: node
+bundle: proekt
+label: ends
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

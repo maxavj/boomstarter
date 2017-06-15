@@ -1,0 +1,26 @@
+uuid: bd72122a-e262-4f2c-a12f-7e7f9d0e2007
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video
+    - node.type.proekt
+  module:
+    - video
+id: node.proekt.field_video
+field_name: field_video
+entity_type: node
+bundle: proekt
+label: video
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: ''
+  file_directory: 'videos/[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: video

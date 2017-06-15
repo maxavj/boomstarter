@@ -1,0 +1,9 @@
+uuid: d7000fa6-e4b9-466f-8b35-b10b341f055a
+langcode: en
+status: true
+dependencies: {  }
+name: Местонахождение
+vid: celabinsk
+description: ''
+hierarchy: 0
+weight: 0

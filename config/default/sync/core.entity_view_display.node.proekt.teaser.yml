@@ -1,0 +1,30 @@
+uuid: 7c2eb78c-bef7-4a9d-b700-8a6b264a337f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.proekt.field_komentarii
+    - field.field.node.proekt.field_mesto
+    - field.field.node.proekt.field_sobrano
+    - field.field.node.proekt.field_tip_video
+    - field.field.node.proekt.field_video
+    - field.field.node.proekt.field_vybor_redakcii
+    - node.type.proekt
+  module:
+    - user
+id: node.proekt.teaser
+targetEntityType: node
+bundle: proekt
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_komentarii: true
+  field_mesto: true
+  field_sobrano: true
+  field_tip_video: true
+  field_video: true
+  field_vybor_redakcii: true

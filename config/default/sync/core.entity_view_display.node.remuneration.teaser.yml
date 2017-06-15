@@ -1,0 +1,28 @@
+uuid: f02200be-d6db-4005-b9fe-c48bdd8dc69d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.remuneration.body
+    - node.type.remuneration
+  module:
+    - text
+    - user
+id: node.remuneration.teaser
+targetEntityType: node
+bundle: remuneration
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
