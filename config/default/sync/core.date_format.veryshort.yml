@@ -1,8 +1,0 @@
-uuid: 5e653bb5-b5a5-4c64-9ea3-fbccd5712924
-langcode: en
-status: true
-dependencies: {  }
-id: veryshort
-label: veryshort
-locked: false
-pattern: d
