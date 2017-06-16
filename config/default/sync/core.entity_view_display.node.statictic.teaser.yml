@@ -1,0 +1,18 @@
+uuid: 8a7ed5b3-0ac3-456c-9ecf-6fc15043c33f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.statictic
+  module:
+    - user
+id: node.statictic.teaser
+targetEntityType: node
+bundle: statictic
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

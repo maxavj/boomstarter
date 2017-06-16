@@ -1,0 +1,19 @@
+uuid: 412e526c-dde4-4bdc-abb3-efd69f72184a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_money
+field_name: field_money
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

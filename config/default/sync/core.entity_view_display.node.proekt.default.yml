@@ -3,13 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.proekt.field_categogy
     - field.field.node.proekt.field_ends
     - field.field.node.proekt.field_komentarii
     - field.field.node.proekt.field_links
     - field.field.node.proekt.field_mesto
-    - field.field.node.proekt.field_sobrano
+    - field.field.node.proekt.field_price_project
+    - field.field.node.proekt.field_reward
     - field.field.node.proekt.field_social
-    - field.field.node.proekt.field_tip_video
+    - field.field.node.proekt.field_status
+    - field.field.node.proekt.field_sum_sponsors
     - field.field.node.proekt.field_video
     - field.field.node.proekt.field_vybor_redakcii
     - node.type.proekt
@@ -23,8 +26,16 @@ targetEntityType: node
 bundle: proekt
 mode: default
 content:
+  field_categogy:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
   field_ends:
-    weight: 115
+    weight: 9
     label: above
     settings:
       timezone_override: ''
@@ -34,49 +45,67 @@ content:
     type: daterange_default
     region: content
   field_komentarii:
-    weight: 106
+    weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_links:
-    weight: 113
+    weight: 7
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_mesto:
-    weight: 103
+    weight: 1
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
-  field_sobrano:
-    weight: 109
+  field_price_project:
+    weight: 5
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_reward:
+    weight: 12
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   field_social:
-    weight: 114
+    weight: 8
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
-  field_tip_video:
-    weight: 104
+  field_status:
+    weight: 11
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_sum_sponsors:
+    weight: 6
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_video:
-    weight: 105
+    weight: 3
     label: above
     settings:
       width: '480'
@@ -86,7 +115,7 @@ content:
     type: video_embed_player
     region: content
   field_vybor_redakcii:
-    weight: 111
+    weight: 10
     label: above
     settings:
       format: default
@@ -96,7 +125,7 @@ content:
     type: boolean
     region: content
   links:
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }

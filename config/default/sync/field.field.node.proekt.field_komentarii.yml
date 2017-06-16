@@ -11,7 +11,7 @@ id: node.proekt.field_komentarii
 field_name: field_komentarii
 entity_type: node
 bundle: proekt
-label: Коментарий
+label: Comment
 description: ''
 required: false
 translatable: false

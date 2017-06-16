@@ -4,10 +4,12 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.proekt.field_categogy
+    - field.field.node.proekt.field_ends
     - field.field.node.proekt.field_komentarii
+    - field.field.node.proekt.field_links
     - field.field.node.proekt.field_mesto
-    - field.field.node.proekt.field_sobrano
-    - field.field.node.proekt.field_tip_video
+    - field.field.node.proekt.field_social
     - field.field.node.proekt.field_video
     - field.field.node.proekt.field_vybor_redakcii
     - node.type.proekt
@@ -22,9 +24,11 @@ content:
     weight: 100
     region: content
 hidden:
+  field_categogy: true
+  field_ends: true
   field_komentarii: true
+  field_links: true
   field_mesto: true
-  field_sobrano: true
-  field_tip_video: true
+  field_social: true
   field_video: true
   field_vybor_redakcii: true

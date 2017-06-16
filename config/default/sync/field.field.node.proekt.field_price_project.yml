@@ -1,0 +1,21 @@
+uuid: 7bb0e110-dcc2-471a-a5f2-c74a833678da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_project
+    - node.type.proekt
+  module:
+    - text
+id: node.proekt.field_price_project
+field_name: field_price_project
+entity_type: node
+bundle: proekt
+label: price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

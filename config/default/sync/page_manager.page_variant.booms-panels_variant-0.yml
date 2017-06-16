@@ -1,0 +1,43 @@
+uuid: d8c8a95f-e8bf-41de-b5fb-2ea3561b9a54
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.booms
+  content:
+    - 'block_content:basic:ae2d69db-557c-44b9-a011-a8d42afd53b8'
+  module:
+    - block_content
+    - panels
+id: booms-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    4ac1871f-62fb-439b-9c0d-ef2b11461f07:
+      id: 'block_content:ae2d69db-557c-44b9-a011-a8d42afd53b8'
+      label: 'Boomstarter Российская краудфандинговая платформа'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: first
+      weight: 0
+      uuid: 4ac1871f-62fb-439b-9c0d-ef2b11461f07
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 316735b2-7879-4fdf-a8b9-6dce677883cf
+  label: null
+  weight: 0
+  layout: main_page
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: booms-panels_variant-0
+  builder: standard
+page: booms
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

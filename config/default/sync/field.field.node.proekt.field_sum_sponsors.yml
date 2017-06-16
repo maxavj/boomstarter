@@ -1,0 +1,21 @@
+uuid: 1afc07a3-96de-4319-a925-485e8a905950
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sum_sponsors
+    - node.type.proekt
+  module:
+    - text
+id: node.proekt.field_sum_sponsors
+field_name: field_sum_sponsors
+entity_type: node
+bundle: proekt
+label: sum_sponsors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,23 @@
+uuid: 500445d7-4b1e-430f-a805-e67e3e79f596
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_status
+    - node.type.proekt
+id: node.proekt.field_status
+field_name: field_status
+entity_type: node
+bundle: proekt
+label: status
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

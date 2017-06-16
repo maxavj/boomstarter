@@ -1,0 +1,28 @@
+uuid: 5a40a388-15fa-44dd-ae85-d2a4cf3fcb1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categogy
+    - node.type.proekt
+    - taxonomy.vocabulary.korotkometraznye_filmy
+id: node.proekt.field_categogy
+field_name: field_categogy
+entity_type: node
+bundle: proekt
+label: categogy
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      korotkometraznye_filmy: korotkometraznye_filmy
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: tags
+field_type: entity_reference

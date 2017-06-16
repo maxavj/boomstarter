@@ -11,7 +11,7 @@ id: node.proekt.field_ends
 field_name: field_ends
 entity_type: node
 bundle: proekt
-label: ends
+label: date_range
 description: ''
 required: false
 translatable: false

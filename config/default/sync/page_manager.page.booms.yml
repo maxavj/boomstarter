@@ -1,0 +1,12 @@
+uuid: ad472af0-0feb-440a-ab1a-dcad26e57175
+langcode: en
+status: true
+dependencies: {  }
+id: booms
+label: booms
+description: ''
+use_admin_theme: false
+path: /main_page
+access_logic: and
+access_conditions: {  }
+parameters: {  }

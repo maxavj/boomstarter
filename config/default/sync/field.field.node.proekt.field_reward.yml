@@ -1,0 +1,21 @@
+uuid: dca5f08c-6250-4be2-a9ff-3dccb7774f87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reward
+    - node.type.proekt
+id: node.proekt.field_reward
+field_name: field_reward
+entity_type: node
+bundle: proekt
+label: reward
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

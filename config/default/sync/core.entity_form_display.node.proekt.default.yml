@@ -3,13 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.proekt.field_categogy
     - field.field.node.proekt.field_ends
     - field.field.node.proekt.field_komentarii
     - field.field.node.proekt.field_links
     - field.field.node.proekt.field_mesto
-    - field.field.node.proekt.field_sobrano
+    - field.field.node.proekt.field_price_project
+    - field.field.node.proekt.field_reward
     - field.field.node.proekt.field_social
-    - field.field.node.proekt.field_tip_video
+    - field.field.node.proekt.field_status
+    - field.field.node.proekt.field_sum_sponsors
     - field.field.node.proekt.field_video
     - field.field.node.proekt.field_vybor_redakcii
     - node.type.proekt
@@ -29,6 +32,15 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_categogy:
+    weight: 46
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_ends:
     weight: 45
     settings: {  }
@@ -60,14 +72,19 @@ content:
     third_party_settings: {  }
     type: text_textfield
     region: content
-  field_sobrano:
-    weight: 39
+  field_price_project:
+    weight: 48
     settings:
-      rows: 9
-      summary_rows: 3
+      size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: text_textarea_with_summary
+    type: text_textfield
+    region: content
+  field_reward:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   field_social:
     weight: 44
@@ -78,13 +95,20 @@ content:
     third_party_settings: {  }
     type: text_textarea_with_summary
     region: content
-  field_tip_video:
-    weight: 34
+  field_status:
+    weight: 47
     settings:
-      size: 60
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_sum_sponsors:
+    weight: 49
+    settings:
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textfield
+    type: text_textarea
     region: content
   field_video:
     weight: 35

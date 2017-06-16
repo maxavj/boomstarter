@@ -1,0 +1,42 @@
+uuid: 0aedf7f2-d48d-4629-b210-372a066103b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.statictic.field_money
+    - field.field.node.statictic.field_sponsors
+    - field.field.node.statictic.field_succesful_project
+    - node.type.statictic
+  module:
+    - text
+    - user
+id: node.statictic.default
+targetEntityType: node
+bundle: statictic
+mode: default
+content:
+  field_money:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_sponsors:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_succesful_project:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

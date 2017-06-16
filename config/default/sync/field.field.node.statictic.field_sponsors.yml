@@ -1,0 +1,21 @@
+uuid: 70d3f3cc-9c2d-4614-bd77-c3f5db02c244
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sponsors
+    - node.type.statictic
+  module:
+    - text
+id: node.statictic.field_sponsors
+field_name: field_sponsors
+entity_type: node
+bundle: statictic
+label: sponsors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
