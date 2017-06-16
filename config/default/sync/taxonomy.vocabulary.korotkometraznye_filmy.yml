@@ -5,5 +5,5 @@ dependencies: {  }
 name: Категории
 vid: korotkometraznye_filmy
 description: ''
-hierarchy: 0
+hierarchy: 1
 weight: 0

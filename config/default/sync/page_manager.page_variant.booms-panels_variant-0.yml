@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - page_manager.page.booms
+    - views.view.editor_s_choice
   content:
     - 'block_content:basic:ae2d69db-557c-44b9-a011-a8d42afd53b8'
   module:
     - block_content
     - panels
+    - views
 id: booms-panels_variant-0
 label: Panels
 variant: panels_variant
@@ -25,6 +27,17 @@ variant_settings:
       region: first
       weight: 0
       uuid: 4ac1871f-62fb-439b-9c0d-ef2b11461f07
+      context_mapping: {  }
+    c4107662-ff37-4784-971a-4a60207f0eb1:
+      id: 'views_block:editor_s_choice-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: second
+      weight: 0
+      uuid: c4107662-ff37-4784-971a-4a60207f0eb1
       context_mapping: {  }
   id: panels_variant
   uuid: 316735b2-7879-4fdf-a8b9-6dce677883cf
