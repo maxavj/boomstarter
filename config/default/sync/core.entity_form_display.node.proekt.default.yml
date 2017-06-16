@@ -73,12 +73,11 @@ content:
     type: text_textfield
     region: content
   field_price_project:
-    weight: 48
+    weight: 51
     settings:
-      size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: text_textfield
+    type: number
     region: content
   field_reward:
     weight: 50

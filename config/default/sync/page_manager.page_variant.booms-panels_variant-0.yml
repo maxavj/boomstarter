@@ -1,10 +1,10 @@
-uuid: d8c8a95f-e8bf-41de-b5fb-2ea3561b9a54
+uuid: 954c3f93-cdac-444d-8205-3347fc0333ea
 langcode: en
 status: true
 dependencies:
   config:
     - page_manager.page.booms
-    - views.view.editor_s_choice
+    - views.view.main_page_view
   content:
     - 'block_content:basic:ae2d69db-557c-44b9-a011-a8d42afd53b8'
   module:
@@ -12,24 +12,24 @@ dependencies:
     - panels
     - views
 id: booms-panels_variant-0
-label: Panels
+label: booms
 variant: panels_variant
 variant_settings:
   blocks:
-    4ac1871f-62fb-439b-9c0d-ef2b11461f07:
+    0f678840-d192-4d9d-9cfc-fdd94b1ec519:
       id: 'block_content:ae2d69db-557c-44b9-a011-a8d42afd53b8'
       label: 'Boomstarter Российская краудфандинговая платформа'
       provider: block_content
-      label_display: visible
+      label_display: '0'
       status: true
       info: ''
       view_mode: full
       region: first
       weight: 0
-      uuid: 4ac1871f-62fb-439b-9c0d-ef2b11461f07
+      uuid: 0f678840-d192-4d9d-9cfc-fdd94b1ec519
       context_mapping: {  }
-    c4107662-ff37-4784-971a-4a60207f0eb1:
-      id: 'views_block:editor_s_choice-block_1'
+    cab99225-c67a-4eee-a3b7-f08c11a4993e:
+      id: 'views_block:main_page_view-block_1'
       label: ''
       provider: views
       label_display: visible
@@ -37,10 +37,32 @@ variant_settings:
       items_per_page: none
       region: second
       weight: 0
-      uuid: c4107662-ff37-4784-971a-4a60207f0eb1
+      uuid: cab99225-c67a-4eee-a3b7-f08c11a4993e
+      context_mapping: {  }
+    8ba6fd8a-de52-45f0-9395-3ada62708da2:
+      id: 'views_block:main_page_view-block_3'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: three
+      weight: 0
+      uuid: 8ba6fd8a-de52-45f0-9395-3ada62708da2
+      context_mapping: {  }
+    17e54fc2-e988-4a43-914b-11b3da02faee:
+      id: 'views_block:main_page_view-block_2'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: four
+      weight: 0
+      uuid: 17e54fc2-e988-4a43-914b-11b3da02faee
       context_mapping: {  }
   id: panels_variant
-  uuid: 316735b2-7879-4fdf-a8b9-6dce677883cf
+  uuid: 71068896-c00b-410e-b049-29ad49d4fa84
   label: null
   weight: 0
   layout: main_page

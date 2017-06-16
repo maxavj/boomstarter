@@ -1,17 +1,15 @@
-uuid: fa5b620a-fee7-4a8b-ad24-8f774c903a2c
+uuid: 1a3dad16-63db-46e9-9e50-42758f5d2a94
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - text
 id: node.field_price_project
 field_name: field_price_project
 entity_type: node
-type: text
-settings:
-  max_length: 255
-module: text
+type: float
+settings: {  }
+module: core
 locked: false
 cardinality: 1
 translatable: true
