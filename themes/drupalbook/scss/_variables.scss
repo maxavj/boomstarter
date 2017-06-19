@@ -1,0 +1,21 @@
+$gray: gray;
+$login-color: #00aef4;
+$search-placeholder-color: #3c3c3b;
+$block-header: #3c3c3b;
+$header-color: #ffffff;
+$block2-bg: #f2f7f7;
+$block2-link: #00aeef;
+$block2-link-hover: #0080b3;
+
+
+$container-width: 980px;
+
+// img
+
+$logo: url('../img/logo.svg');
+
+$pt-sans: 'PT Sans';
+@font-face {
+  font-family: 'PT Sans';
+    src:url('../fonts/pt-sans/PTS55F.ttf');
+}

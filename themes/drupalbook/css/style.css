@@ -1,0 +1,316 @@
+@font-face {
+  font-family: 'PT Sans';
+  src: url("../fonts/pt-sans/PTS55F.ttf");
+}
+
+/* line 1, /var/www/boomstarter/themes/drupalbook/scss/_global.scss */
+::before {
+  content: '';
+}
+
+/* line 6, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+#block-drupalbook-headmenu {
+  max-width: 600px;
+  float: left;
+}
+
+/* line 11, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+#block-drupalbook-headmenu .menu-item:first-child a {
+  margin-left: 40px;
+}
+
+/* line 15, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+#block-drupalbook-headmenu .menu-item:first-child:before {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  width: 158px;
+  height: 17px;
+  background: url("../img/logo.svg") 0 0 no-repeat;
+  background-size: contain;
+}
+
+/* line 28, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+#block-drupalbook-login-menu {
+  float: right;
+  max-width: 70px;
+}
+
+/* line 32, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+#block-drupalbook-login-menu a {
+  color: #00aef4;
+}
+
+/* line 35, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+#block-drupalbook-login-menu a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 42, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+nav {
+  display: inline-block;
+  vertical-align: top;
+  width: inherit;
+}
+
+/* line 48, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+header {
+  z-index: 9;
+  margin: 0;
+  height: 60px;
+}
+
+/* line 53, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+header .region-header {
+  max-width: 980px;
+  margin: 0 auto;
+  height: 60px;
+}
+
+/* line 59, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+header .menu {
+  margin: 0 auto;
+}
+
+/* line 62, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+header .menu .menu-item {
+  display: inline-block;
+  line-height: 60px;
+  padding-top: 0;
+}
+
+/* line 67, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+header .menu .menu-item a {
+  text-decoration: none;
+  color: gray;
+  padding: 0;
+  margin-left: 15px;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* line 77, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+header .menu .menu-item a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* line 85, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+header #block-drupalbook-searchform {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 700;
+  font-size: 14px;
+  float: left;
+  line-height: 60px;
+  margin-left: 24px;
+}
+
+/* line 95, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+header #block-drupalbook-searchform input[type="search"] {
+  border: none;
+  outline: none;
+  color: #3c3c3b;
+  margin-top: 21px;
+}
+
+/* line 101, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+header #block-drupalbook-searchform input[type="search"]::placeholder {
+  color: #3c3c3b;
+  opacity: .6;
+}
+
+/* line 107, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+header #block-drupalbook-searchform input[type="submit"] {
+  display: none;
+}
+
+/* line 112, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+header #block-drupalbook-searchform form:before {
+  content: '';
+  display: inline-block;
+  background-image: url(../img/search-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 15px;
+  vertical-align: baseline;
+  position: relative;
+  top: 2px;
+  left: 0;
+}
+
+/* line 133, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.field--name-body {
+  height: 530px;
+}
+
+/* line 136, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.field--name-body > p:first-child {
+  margin: 0;
+  clear: both;
+  z-index: 9;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 35px;
+  line-height: 40px;
+  z-index: 2;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  color: #ffffff;
+  padding-top: 115px;
+}
+
+/* line 148, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.field--name-body > p:nth-child(2) {
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 35px;
+  line-height: 40px;
+  z-index: 2;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+/* line 157, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.field--name-body > p:nth-child(3) {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 530px;
+  margin: 0;
+  filter: blur(0px);
+  overflow: hidden;
+}
+
+/* line 168, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.field--name-body > p:nth-child(3) iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 530px;
+  pointer-events: none;
+}
+
+/* line 180, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.field--name-body .podvideo {
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0 auto;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+
+/* line 190, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.field--name-body #buttonvid {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* line 196, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.field--name-body #buttonvid #playvideo {
+  background: transparent;
+  background-image: url("../img/play-icon.svg");
+  height: 42px;
+  width: 42px;
+  border: none;
+  padding: 0;
+}
+
+/* line 205, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.field--name-body #buttonvid p {
+  font-size: 13px;
+  font-style: italic;
+}
+
+/* line 212, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region {
+  background: #f2f7f7;
+}
+
+/* line 215, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+/* line 219, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container h2 {
+  color: #3c3c3b;
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+  padding: 55px 0 20px;
+}
+
+/* line 228, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-title {
+  margin: 30px 0 10px;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* line 233, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-title a {
+  color: #00aeef;
+  font-size: 28px;
+  line-height: 40px;
+  font-family: "PT Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* line 241, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-title a:hover {
+  text-decoration: underline;
+  color: #0080b3;
+}
+
+/* line 248, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-mesto > .field-content, .second-region .views-element-container .views-field-category > .field-content {
+  display: inline-block;
+  vertical-align: top;
+  color: gray;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 0 15px;
+}
+
+/* line 256, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-mesto > .field-content::before, .second-region .views-element-container .views-field-category > .field-content::before {
+  content: '';
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+
+/* line 265, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container::before {
+  background: url("../img/location-icon.svg") no-repeat;
+  background-size: contain;
+}
+
+/* line 275, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+body.user-logged-in .first-region .field--name-body > p:nth-child(3) {
+  top: 0;
+}
+
+/*# sourceMappingURL=../css/style.map */
