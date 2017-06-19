@@ -112,9 +112,14 @@ content:
   field_video:
     weight: 35
     settings:
-      file_directory: 'video-thumbnails/[date:custom:Y]-[date:custom:m]'
       allowed_providers:
+        dailymotion: dailymotion
+        facebook: facebook
+        instagram: instagram
+        vimeo: vimeo
+        vine: vine
         youtube: youtube
+      file_directory: 'video-thumbnails/[date:custom:Y]-[date:custom:m]'
       uri_scheme: public
     third_party_settings: {  }
     type: video_embed

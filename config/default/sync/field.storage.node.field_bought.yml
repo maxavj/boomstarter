@@ -1,16 +1,15 @@
-uuid: 340ad0a5-3581-4027-82ef-54794b228ae5
+uuid: 30ae45b4-57b6-4ee8-9ae6-ac14be01ced4
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - text
 id: node.field_bought
 field_name: field_bought
 entity_type: node
-type: text_long
+type: float
 settings: {  }
-module: text
+module: core
 locked: false
 cardinality: 1
 translatable: true

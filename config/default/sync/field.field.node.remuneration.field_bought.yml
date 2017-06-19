@@ -1,12 +1,10 @@
-uuid: 047ce45a-0a16-417c-9a61-7d92fb55b243
+uuid: 0c3a19f1-a5c3-4bfd-8835-55b4531e7d2d
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_bought
     - node.type.remuneration
-  module:
-    - text
 id: node.remuneration.field_bought
 field_name: field_bought
 entity_type: node
@@ -15,10 +13,11 @@ label: bought
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    value: "<p>Куплено&nbsp;</p>\r\n"
-    format: basic_html
+default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: text_long
+settings:
+  min: null
+  max: null
+  prefix: Куплено
+  suffix: ''
+field_type: float

@@ -1,12 +1,10 @@
-uuid: efcf5ddc-532e-45e0-abd4-dd36f030ef7e
+uuid: d421ab08-18ae-4bed-8ea8-65f059536f0e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_price
     - node.type.remuneration
-  module:
-    - text
 id: node.remuneration.field_price
 field_name: field_price
 entity_type: node
@@ -17,5 +15,9 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: text
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ₽
+field_type: float

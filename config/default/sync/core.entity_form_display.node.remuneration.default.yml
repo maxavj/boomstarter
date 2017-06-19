@@ -7,8 +7,7 @@ dependencies:
     - field.field.node.remuneration.field_bought
     - field.field.node.remuneration.field_buy
     - field.field.node.remuneration.field_delivery
-    - field.field.node.remuneration.field_imeage_remuneration
-    - field.field.node.remuneration.field_popular_remuneration
+    - field.field.node.remuneration.field_imgs
     - field.field.node.remuneration.field_price
     - image.style.thumbnail
     - node.type.remuneration
@@ -38,12 +37,11 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_bought:
-    weight: 35
+    weight: 39
     settings:
-      rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textarea
+    type: number
     region: content
   field_buy:
     weight: 37
@@ -61,28 +59,20 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
-  field_imeage_remuneration:
-    weight: 33
+  field_imgs:
+    weight: 41
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
     region: content
-  field_popular_remuneration:
-    weight: 32
-    settings:
-      display_label: true
-    third_party_settings: {  }
-    type: boolean_checkbox
-    region: content
   field_price:
-    weight: 36
+    weight: 38
     settings:
-      size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: text_textfield
+    type: number
     region: content
   path:
     type: path

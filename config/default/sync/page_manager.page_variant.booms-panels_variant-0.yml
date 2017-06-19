@@ -4,8 +4,13 @@ status: true
 dependencies:
   config:
     - page_manager.page.booms
+    - views.view.main_finish
     - views.view.main_page_view
+    - views.view.main_popular
+    - views.view.main_renumeration
   content:
+    - 'block_content:basic:69c40e3d-1bfe-498f-bf4f-268f2c7b3105'
+    - 'block_content:basic:acbcd834-3690-464b-9e80-b784332f2f86'
     - 'block_content:basic:ae2d69db-557c-44b9-a011-a8d42afd53b8'
   module:
     - block_content
@@ -60,6 +65,63 @@ variant_settings:
       region: four
       weight: 0
       uuid: 17e54fc2-e988-4a43-914b-11b3da02faee
+      context_mapping: {  }
+    b1c3fafe-deb2-4488-a628-5e71c40b2ffe:
+      id: 'views_block:main_renumeration-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: five
+      weight: 0
+      uuid: b1c3fafe-deb2-4488-a628-5e71c40b2ffe
+      context_mapping: {  }
+    8e6c663d-be44-4d48-8ea1-bb40e5c3ece4:
+      id: 'views_block:main_finish-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: six
+      weight: 0
+      uuid: 8e6c663d-be44-4d48-8ea1-bb40e5c3ece4
+      context_mapping: {  }
+    8f185ab6-3124-4c8e-ba48-55f10092b746:
+      id: 'block_content:acbcd834-3690-464b-9e80-b784332f2f86'
+      label: link_block
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: seven
+      weight: 0
+      uuid: 8f185ab6-3124-4c8e-ba48-55f10092b746
+      context_mapping: {  }
+    098898f2-0b1d-437f-8e27-3c41a9676bf5:
+      id: 'views_block:main_popular-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: seven
+      weight: 0
+      uuid: 098898f2-0b1d-437f-8e27-3c41a9676bf5
+      context_mapping: {  }
+    21a66349-3d20-4ff5-9d1d-942764cf4706:
+      id: 'block_content:69c40e3d-1bfe-498f-bf4f-268f2c7b3105'
+      label: 'Есть проект? Сделай первый шаг прямо сейчас!'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: eigth
+      weight: 0
+      uuid: 21a66349-3d20-4ff5-9d1d-942764cf4706
       context_mapping: {  }
   id: panels_variant
   uuid: 71068896-c00b-410e-b049-29ad49d4fa84

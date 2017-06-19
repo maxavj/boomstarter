@@ -109,14 +109,18 @@ content:
     type: text_default
     region: content
   field_video:
-    weight: 3
+    weight: 14
     label: above
     settings:
-      width: '480'
-      height: '480'
+      width: '500'
+      height: '500'
+      controls: true
+      preload: none
       autoplay: false
+      loop: false
+      muted: false
     third_party_settings: {  }
-    type: video_embed_player
+    type: video_player_list
     region: content
   field_vybor_redakcii:
     weight: 10
