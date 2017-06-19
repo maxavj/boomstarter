@@ -6,6 +6,13 @@
 /* line 1, /var/www/boomstarter/themes/drupalbook/scss/_global.scss */
 ::before {
   content: '';
+  position: absolute;
+  z-index: 9;
+}
+
+/* line 6, /var/www/boomstarter/themes/drupalbook/scss/_global.scss */
+a {
+  text-decoration: none;
 }
 
 /* line 6, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
@@ -84,7 +91,7 @@ header .menu .menu-item {
 /* line 67, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
 header .menu .menu-item a {
   text-decoration: none;
-  color: gray;
+  color: #808080;
   padding: 0;
   margin-left: 15px;
   display: inline-block;
@@ -162,7 +169,7 @@ header #block-drupalbook-searchform form:before {
   text-align: center;
   font-weight: 700;
   position: relative;
-  color: #ffffff;
+  color: #fff;
   padding-top: 115px;
 }
 
@@ -175,7 +182,7 @@ header #block-drupalbook-searchform form:before {
   text-align: center;
   font-weight: 700;
   position: relative;
-  color: #ffffff;
+  color: #fff;
   margin-top: 0;
 }
 
@@ -211,7 +218,7 @@ header #block-drupalbook-searchform form:before {
   margin: 0 auto;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   position: relative;
 }
 
@@ -219,7 +226,7 @@ header #block-drupalbook-searchform form:before {
 .field--name-body #buttonvid {
   position: relative;
   z-index: 2;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
@@ -239,19 +246,19 @@ header #block-drupalbook-searchform form:before {
   font-style: italic;
 }
 
-/* line 212, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
-.second-region {
+/* line 214, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region, .four-region {
   background: #f2f7f7;
 }
 
-/* line 215, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
-.second-region .views-element-container {
+/* line 217, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container, .four-region .views-element-container {
   margin: 0 auto;
   max-width: 980px;
 }
 
-/* line 219, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
-.second-region .views-element-container h2 {
+/* line 221, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container h2, .four-region .views-element-container h2 {
   color: #3c3c3b;
   font-size: 28px;
   line-height: 30px;
@@ -260,15 +267,15 @@ header #block-drupalbook-searchform form:before {
   padding: 55px 0 20px;
 }
 
-/* line 228, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
-.second-region .views-element-container .views-field-title {
-  margin: 30px 0 10px;
+/* line 230, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-title, .four-region .views-element-container .views-field-title {
+  margin: 30px 0 0;
   line-height: 40px;
   text-align: center;
 }
 
-/* line 233, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
-.second-region .views-element-container .views-field-title a {
+/* line 235, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-title a, .four-region .views-element-container .views-field-title a {
   color: #00aeef;
   font-size: 28px;
   line-height: 40px;
@@ -277,38 +284,206 @@ header #block-drupalbook-searchform form:before {
   text-decoration: none;
 }
 
-/* line 241, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
-.second-region .views-element-container .views-field-title a:hover {
+/* line 243, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-title a:hover, .four-region .views-element-container .views-field-title a:hover {
   text-decoration: underline;
   color: #0080b3;
 }
 
-/* line 248, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
-.second-region .views-element-container .views-field-mesto > .field-content, .second-region .views-element-container .views-field-category > .field-content {
+/* line 250, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-mesto, .second-region .views-element-container .views-field-field-categogy, .four-region .views-element-container .views-field-field-mesto, .four-region .views-element-container .views-field-field-categogy {
   display: inline-block;
-  vertical-align: top;
-  color: gray;
-  font-size: 14px;
-  line-height: 22px;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-  margin: 0 15px;
+  margin: 0 auto;
+  position: relative;
+  left: 35%;
 }
 
 /* line 256, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
-.second-region .views-element-container .views-field-mesto > .field-content::before, .second-region .views-element-container .views-field-category > .field-content::before {
-  content: '';
-  height: 20px;
-  width: 20px;
-  position: relative;
+.second-region .views-element-container .views-field-field-mesto .field-content, .second-region .views-element-container .views-field-field-categogy .field-content, .four-region .views-element-container .views-field-field-mesto .field-content, .four-region .views-element-container .views-field-field-categogy .field-content {
+  display: inline-block;
+  vertical-align: top;
+  color: #808080;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 0 20px;
 }
 
 /* line 265, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
-.second-region .views-element-container::before {
-  background: url("../img/location-icon.svg") no-repeat;
-  background-size: contain;
+.second-region .views-element-container .views-field-field-mesto .field-content a, .second-region .views-element-container .views-field-field-categogy .field-content a, .four-region .views-element-container .views-field-field-mesto .field-content a, .four-region .views-element-container .views-field-field-categogy .field-content a {
+  color: #808080;
+}
+
+/* line 269, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-mesto .field-content:hover, .second-region .views-element-container .views-field-field-categogy .field-content:hover, .four-region .views-element-container .views-field-field-mesto .field-content:hover, .four-region .views-element-container .views-field-field-categogy .field-content:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* line 275, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-mesto::before, .second-region .views-element-container .views-field-field-categogy::before, .four-region .views-element-container .views-field-field-mesto::before, .four-region .views-element-container .views-field-field-categogy::before {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 4px;
+}
+
+/* line 286, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-mesto::before, .four-region .views-element-container .views-field-field-mesto::before {
+  background-image: url("../img/location-icon.svg");
+}
+
+/* line 290, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-categogy::before, .four-region .views-element-container .views-field-field-categogy::before {
+  background-image: url("../img/event-icon.svg");
+}
+
+/* line 294, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-video, .four-region .views-element-container .views-field-field-video {
+  margin-top: 30px;
+  background: #fff;
+  height: 360px;
+}
+
+/* line 300, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-video .field-content iframe, .four-region .views-element-container .views-field-field-video .field-content iframe {
+  width: 600px;
+  height: 360px;
+}
+
+/* line 307, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-komentarii, .four-region .views-element-container .views-field-field-komentarii {
+  display: inline-block;
+  background: #fff;
+  border-radius: 0 0 10px 10px;
+  padding: 22px 25px 31px;
+  font-size: 18px;
+  margin-bottom: 35px;
+  line-height: 25px;
+  max-width: 600px;
+  color: #3c3c3b;
+  box-sizing: border-box;
+}
+
+/* line 322, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-social .field-content p, .four-region .views-element-container .views-field-field-social .field-content p {
+  margin: 0;
+}
+
+/* line 325, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-social .field-content p span, .four-region .views-element-container .views-field-field-social .field-content p span {
+  padding-left: 30px;
+}
+
+/* line 327, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-social .field-content p span a, .four-region .views-element-container .views-field-field-social .field-content p span a {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: transparent;
+  padding-left: 6px;
+  padding-right: 10px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  height: 30px;
+  line-height: 27px;
+  margin: 0 11px 15px 0;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  color: #808080;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* line 344, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-social .field-content p span a:hover, .four-region .views-element-container .views-field-field-social .field-content p span a:hover {
+  color: #000;
+}
+
+/* line 348, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-social .field-content p span::before, .four-region .views-element-container .views-field-field-social .field-content p span::before {
+  height: 15px;
+  width: 15px;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  position: relative;
+  top: -9px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/* line 363, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-social .field-content p .face::before, .four-region .views-element-container .views-field-field-social .field-content p .face::before {
+  background-image: url("../img/fb-icon.svg");
+}
+
+/* line 367, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-social .field-content p .vk::before, .four-region .views-element-container .views-field-field-social .field-content p .vk::before {
+  background-image: url("../img/vk-icon.svg");
+}
+
+/* line 371, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.second-region .views-element-container .views-field-field-social .field-content p .twitt::before, .four-region .views-element-container .views-field-field-social .field-content p .twitt::before {
+  background-image: url("../img/tw-icon.svg");
+}
+
+/* line 384, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.three-region {
+  background-color: #fff;
+}
+
+/* line 387, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.three-region .view-content {
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0 50px;
+}
+
+/* line 393, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.three-region .view-content .views-field {
+  margin: 0 23px;
+  display: inline-block;
+}
+
+/* line 398, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.three-region .view-content .views-field .field-content p {
+  margin: 0;
+  font-family: "PT Sans";
+}
+
+/* line 403, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.three-region .view-content .views-field .field-content p:nth-child(1) {
+  font-size: 90px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #00aef4;
+  padding-bottom: 12px;
+}
+
+/* line 411, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.three-region .view-content .views-field .field-content p:nth-child(2) {
+  font-size: 28px;
+  line-height: 27px;
+  margin: 5px 0 4px;
+  font-weight: 700;
+  color: #00aef4;
+}
+
+/* line 419, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
+.three-region .view-content .views-field .field-content p:nth-child(3) {
+  font-size: 21px;
+  line-height: 27px;
+  color: #3c3c3b;
+  font-weight: 400;
+}
+
+/* line 434, /var/www/boomstarter/themes/drupalbook/scss/style.scss */
 body.user-logged-in .first-region .field--name-body > p:nth-child(3) {
   top: 0;
 }

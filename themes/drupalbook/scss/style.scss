@@ -209,15 +209,17 @@ header {
   }
 }
 
-.second-region {
-  background: $block2-bg;
+// 2-nd region
+
+.second-region, .four-region {
+  background: $b2-background;
 
   .views-element-container {
     margin: 0 auto;
     max-width: $container-width;
 
     h2 {
-      color: $block-header;
+      color: $b2-header-color-gray;
       font-size: 28px;
       line-height: 30px;
       font-weight: 700;
@@ -226,12 +228,12 @@ header {
     }
 
     .views-field-title {
-      margin: 30px 0 10px;
+      margin: 30px 0 0;
       line-height: 40px;
       text-align: center;
 
       a {
-        color: $block2-link;
+        color: $b2-link-color-blue;
         font-size: 28px;
         line-height: 40px;
         font-family: $pt-sans, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -240,35 +242,192 @@ header {
 
         &:hover {
           text-decoration: underline;
-          color: $block2-link-hover;
+          color: $b2-link-color-hover;
         }
       }
     }
 
-    .views-field-mesto > .field-content, .views-field-category > .field-content{
+    .views-field-field-mesto, .views-field-field-categogy {
       display: inline-block;
-      vertical-align: top;
-      color: $gray;
-      font-size: 14px;
-      line-height: 22px;
-      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-      margin: 0 15px;
+      margin: 0 auto;
+      position: relative;
+      left: 35%;
+
+      .field-content {
+        display: inline-block;
+        vertical-align: top;
+        color: $gray;
+        font-size: 14px;
+        line-height: 22px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        margin: 0 20px;
+
+        a {
+          color: $gray;
+        }
+
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+
       &::before {
         content: '';
-        height: 20px;
-        width: 20px;
-        position: relative;
+        height: 14px;
+        width: 14px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 4px;
       }
     }
 
-    .views-field-mesto {}
-      &::before {
-        background: url('../img/location-icon.svg') no-repeat;
-        background-size: contain;
+    .views-field-field-mesto::before {
+      background-image: url("../img/location-icon.svg");
+    }
+
+    .views-field-field-categogy::before {
+      background-image: url("../img/event-icon.svg");
+    }
+
+    .views-field-field-video {
+      margin-top: 30px;
+      background: $background-white;
+      height: 360px;
+
+      .field-content {
+        iframe {
+          width: 600px;
+          height: 360px;
+        }
       }
-    .views-field-category {}
+    }
+
+    .views-field-field-komentarii {
+      display: inline-block;
+      background: $background-white;
+      border-radius: 0 0 10px 10px;
+      padding: 22px 25px 31px;
+      font-size: 18px;
+      margin-bottom: 35px;
+      line-height: 25px;
+      max-width: 600px;
+      color: $b3-text-color-gray;
+      box-sizing: border-box;
+    }
+
+    .views-field-field-social {
+      .field-content {
+        p {
+          margin: 0;
+
+          span {
+            padding-left: 30px;
+            a {
+              display: inline-block;
+              vertical-align: middle;
+              background-color: transparent;
+              padding-left: 6px;
+              padding-right: 10px;
+              border: 2px solid #fff;
+              border-radius: 3px;
+              height: 30px;
+              line-height: 27px;
+              margin: 0 11px 15px 0;
+              cursor: pointer;
+              text-align: center;
+              font-size: 14px;
+              color: $gray;
+              font-family: 'Helvetica Neue', Arial, sans-serif;
+
+              &:hover {
+                color: #000;
+              }
+            }
+            &::before {
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    margin-right: 4px;
+    position: relative;
+    top: -9px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+          }
+        }
+
+          .face::before {
+            background-image: url("../img/fb-icon.svg");
+          }
+
+          .vk::before {
+            background-image: url("../img/vk-icon.svg");
+          }
+
+          .twitt::before {
+            background-image: url("../img/tw-icon.svg");
+          }
+        }
+      }
+    }
   }
 }
+
+// END 2-nd region
+
+// 3-rd region - numbers
+
+.three-region {
+  background-color: $background-white;
+
+  .view-content {
+    width: $container-width;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0 50px;
+
+    .views-field {
+      margin: 0 23px;
+      display: inline-block;
+
+      .field-content {
+        p {
+          margin: 0;
+          font-family: $pt-sans;
+        }
+
+        p:nth-child(1) {
+          font-size: 90px;
+          line-height: 52px;
+          font-weight: 700;
+          color: $b3-text-color-blue;
+          padding-bottom: 12px;
+        }
+
+        p:nth-child(2) {
+          font-size: 28px;
+          line-height: 27px;
+          margin: 5px 0 4px;
+          font-weight: 700;
+          color: $b3-text-color-blue;
+        }
+
+        p:nth-child(3) {
+          font-size: 21px;
+          line-height: 27px;
+          color: $b3-text-color-gray;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+// END 3-rd region
 
 // user login
 

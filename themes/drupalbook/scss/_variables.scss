@@ -1,21 +1,31 @@
-$gray: gray;
+$gray: #808080;
 $login-color: #00aef4;
 $search-placeholder-color: #3c3c3b;
 $block-header: #3c3c3b;
-$header-color: #ffffff;
-$block2-bg: #f2f7f7;
-$block2-link: #00aeef;
-$block2-link-hover: #0080b3;
+$header-color: #fff;
+$background-white: #fff;
 
+// 2-nd region
+
+$b2-background: #f2f7f7;
+$b2-header-color-gray: #3c3c3b;
+$b2-link-color-blue: #00aeef;
+$b2-link-color-hover: #0080b3;
+
+// 3-rd region (numbers)
+
+$b3-text-color-blue: #00aef4;
+$b3-text-color-gray: #3c3c3b;
 
 $container-width: 980px;
 
 // img
 
-$logo: url('../img/logo.svg');
+$logo: url("../img/logo.svg");
 
-$pt-sans: 'PT Sans';
+$pt-sans: "PT Sans";
+
 @font-face {
   font-family: 'PT Sans';
-    src:url('../fonts/pt-sans/PTS55F.ttf');
+  src: url("../fonts/pt-sans/PTS55F.ttf");
 }
