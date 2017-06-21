@@ -1,4 +1,4 @@
-uuid: 954c3f93-cdac-444d-8205-3347fc0333ea
+uuid: f07f3e55-f0e3-437a-abbc-f76e53c3d3ad
 langcode: en
 status: true
 dependencies:
@@ -8,20 +8,20 @@ dependencies:
     - views.view.main_page_view
     - views.view.main_popular
     - views.view.main_renumeration
+    - views.view.users_in_site
   content:
     - 'block_content:basic:69c40e3d-1bfe-498f-bf4f-268f2c7b3105'
-    - 'block_content:basic:acbcd834-3690-464b-9e80-b784332f2f86'
     - 'block_content:basic:ae2d69db-557c-44b9-a011-a8d42afd53b8'
   module:
     - block_content
     - panels
     - views
 id: booms-panels_variant-0
-label: booms
+label: Promo
 variant: panels_variant
 variant_settings:
   blocks:
-    0f678840-d192-4d9d-9cfc-fdd94b1ec519:
+    86f588e0-cca2-4151-9634-2c6de6c889f7:
       id: 'block_content:ae2d69db-557c-44b9-a011-a8d42afd53b8'
       label: 'Boomstarter Российская краудфандинговая платформа'
       provider: block_content
@@ -31,9 +31,9 @@ variant_settings:
       view_mode: full
       region: first
       weight: 0
-      uuid: 0f678840-d192-4d9d-9cfc-fdd94b1ec519
+      uuid: 86f588e0-cca2-4151-9634-2c6de6c889f7
       context_mapping: {  }
-    cab99225-c67a-4eee-a3b7-f08c11a4993e:
+    1d374f51-e554-44cf-83c9-2b42a18b4832:
       id: 'views_block:main_page_view-block_1'
       label: ''
       provider: views
@@ -42,9 +42,9 @@ variant_settings:
       items_per_page: none
       region: second
       weight: 0
-      uuid: cab99225-c67a-4eee-a3b7-f08c11a4993e
+      uuid: 1d374f51-e554-44cf-83c9-2b42a18b4832
       context_mapping: {  }
-    8ba6fd8a-de52-45f0-9395-3ada62708da2:
+    cc267f62-6670-4f64-8196-9aae0f9bd744:
       id: 'views_block:main_page_view-block_3'
       label: ''
       provider: views
@@ -53,9 +53,9 @@ variant_settings:
       items_per_page: none
       region: three
       weight: 0
-      uuid: 8ba6fd8a-de52-45f0-9395-3ada62708da2
+      uuid: cc267f62-6670-4f64-8196-9aae0f9bd744
       context_mapping: {  }
-    17e54fc2-e988-4a43-914b-11b3da02faee:
+    6e3e8478-8b2e-4871-8f40-3f9a6b97d75b:
       id: 'views_block:main_page_view-block_2'
       label: ''
       provider: views
@@ -64,9 +64,9 @@ variant_settings:
       items_per_page: none
       region: four
       weight: 0
-      uuid: 17e54fc2-e988-4a43-914b-11b3da02faee
+      uuid: 6e3e8478-8b2e-4871-8f40-3f9a6b97d75b
       context_mapping: {  }
-    b1c3fafe-deb2-4488-a628-5e71c40b2ffe:
+    cf397bee-6ea9-40d6-b0a1-e9d170ef51d0:
       id: 'views_block:main_renumeration-block_1'
       label: ''
       provider: views
@@ -75,9 +75,9 @@ variant_settings:
       items_per_page: none
       region: five
       weight: 0
-      uuid: b1c3fafe-deb2-4488-a628-5e71c40b2ffe
+      uuid: cf397bee-6ea9-40d6-b0a1-e9d170ef51d0
       context_mapping: {  }
-    8e6c663d-be44-4d48-8ea1-bb40e5c3ece4:
+    c1b43aeb-139a-4d7c-a9fb-02960e6804b3:
       id: 'views_block:main_finish-block_1'
       label: ''
       provider: views
@@ -86,21 +86,9 @@ variant_settings:
       items_per_page: none
       region: six
       weight: 0
-      uuid: 8e6c663d-be44-4d48-8ea1-bb40e5c3ece4
+      uuid: c1b43aeb-139a-4d7c-a9fb-02960e6804b3
       context_mapping: {  }
-    8f185ab6-3124-4c8e-ba48-55f10092b746:
-      id: 'block_content:acbcd834-3690-464b-9e80-b784332f2f86'
-      label: link_block
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      region: seven
-      weight: 0
-      uuid: 8f185ab6-3124-4c8e-ba48-55f10092b746
-      context_mapping: {  }
-    098898f2-0b1d-437f-8e27-3c41a9676bf5:
+    674c0d27-1b91-40df-b49e-f93e29fc4168:
       id: 'views_block:main_popular-block_1'
       label: ''
       provider: views
@@ -109,9 +97,9 @@ variant_settings:
       items_per_page: none
       region: seven
       weight: 0
-      uuid: 098898f2-0b1d-437f-8e27-3c41a9676bf5
+      uuid: 674c0d27-1b91-40df-b49e-f93e29fc4168
       context_mapping: {  }
-    21a66349-3d20-4ff5-9d1d-942764cf4706:
+    cb5a8220-a86b-41d3-aca0-43f63ceed286:
       id: 'block_content:69c40e3d-1bfe-498f-bf4f-268f2c7b3105'
       label: 'Есть проект? Сделай первый шаг прямо сейчас!'
       provider: block_content
@@ -121,10 +109,32 @@ variant_settings:
       view_mode: full
       region: eigth
       weight: 0
-      uuid: 21a66349-3d20-4ff5-9d1d-942764cf4706
+      uuid: cb5a8220-a86b-41d3-aca0-43f63ceed286
+      context_mapping: {  }
+    a2f1b50c-e280-4b4e-b3de-8966783c8e09:
+      id: 'views_block:main_page_view-block_4'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: nine
+      weight: 0
+      uuid: a2f1b50c-e280-4b4e-b3de-8966783c8e09
+      context_mapping: {  }
+    5b217cc8-c41d-4c8b-9b43-ca3b371b2641:
+      id: 'views_block:users_in_site-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: ten
+      weight: 0
+      uuid: 5b217cc8-c41d-4c8b-9b43-ca3b371b2641
       context_mapping: {  }
   id: panels_variant
-  uuid: 71068896-c00b-410e-b049-29ad49d4fa84
+  uuid: 354c9266-1e6d-437a-8e8a-f4136dcda7d1
   label: null
   weight: 0
   layout: main_page

@@ -1,9 +1,10 @@
-name: promotion_list
+name: views_view_fields_user_in_site
 description: Create my template
 package: Custom
 dependencies:
   - node
   - block
+  - view
 type: module
 core: 8.x
 package: Examples

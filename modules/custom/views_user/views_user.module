@@ -1,0 +1,11 @@
+<?php  
+	/**
+ 	* Implements hook_theme().
+	*/
+function promotion_list_theme($variables) {
+   $theme['views-view-fields--user-in-site'] = array(
+     'variables' => array('user' => array()),
+     'template' => 'views-view-fields--user-in-site',
+   );
+   return $theme;
+}
