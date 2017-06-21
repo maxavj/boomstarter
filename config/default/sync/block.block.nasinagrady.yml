@@ -1,0 +1,24 @@
+uuid: 566d33d1-e320-4497-ab54-27450f6fce1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.nasi-nagrady
+  module:
+    - system
+  theme:
+    - drupalbook
+id: nasinagrady
+theme: drupalbook
+region: footer
+weight: -2
+provider: null
+plugin: 'system_menu_block:nasi-nagrady'
+settings:
+  id: 'system_menu_block:nasi-nagrady'
+  label: 'Наши награды'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

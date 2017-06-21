@@ -1,0 +1,25 @@
+uuid: 2030261a-a4f6-4398-baf2-cd2d73617d5e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8af50c4b-9121-4647-b241-c8967e064f8a'
+  module:
+    - block_content
+  theme:
+    - drupalbook
+id: c20122017boomstarteroookraudfanding
+theme: drupalbook
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:8af50c4b-9121-4647-b241-c8967e064f8a'
+settings:
+  id: 'block_content:8af50c4b-9121-4647-b241-c8967e064f8a'
+  label: '© 2012-2017 Boomstarter — ООО «Краудфандинг»'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

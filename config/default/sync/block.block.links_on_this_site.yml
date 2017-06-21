@@ -1,0 +1,24 @@
+uuid: cc374a91-0af2-4e74-890b-f2b95bef8a63
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.links-on-this-site
+  module:
+    - system
+  theme:
+    - drupalbook
+id: links_on_this_site
+theme: drupalbook
+region: footer
+weight: -1
+provider: null
+plugin: 'system_menu_block:links-on-this-site'
+settings:
+  id: 'system_menu_block:links-on-this-site'
+  label: links_on_this_site
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

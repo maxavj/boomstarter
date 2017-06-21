@@ -1,0 +1,7 @@
+name: connect_face
+description: Create my block
+package: Custom
+type: module
+core: 8.x
+version: 1.0
+package: Examples

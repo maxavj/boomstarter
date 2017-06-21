@@ -1,0 +1,24 @@
+uuid: 7dc4dc07-7f68-4278-87a9-3cee89db22f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.sledui-vmeste-s-nami
+  module:
+    - system
+  theme:
+    - drupalbook
+id: sleduivmestesnami
+theme: drupalbook
+region: footer
+weight: -3
+provider: null
+plugin: 'system_menu_block:sledui-vmeste-s-nami'
+settings:
+  id: 'system_menu_block:sledui-vmeste-s-nami'
+  label: 'Следуй вместе с нами'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

@@ -9,6 +9,8 @@ module:
   color: 0
   comment: 0
   config: 0
+  connect_face: 0
+  connect_vk: 0
   contact: 0
   contextual: 0
   ctools: 0

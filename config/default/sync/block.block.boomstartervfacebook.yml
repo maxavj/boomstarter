@@ -1,0 +1,25 @@
+uuid: 884517a9-27b8-47a3-987b-8ae1772dea39
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1aa2d136-834e-4a0f-b4fc-25099c3050aa'
+  module:
+    - block_content
+  theme:
+    - drupalbook
+id: boomstartervfacebook
+theme: drupalbook
+region: footer
+weight: -4
+provider: null
+plugin: 'block_content:1aa2d136-834e-4a0f-b4fc-25099c3050aa'
+settings:
+  id: 'block_content:1aa2d136-834e-4a0f-b4fc-25099c3050aa'
+  label: 'Boomstarter в Facebook'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
