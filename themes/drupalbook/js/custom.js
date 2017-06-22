@@ -1,10 +1,7 @@
 document.getElementsByName('keys')[0].placeholder='Название проекта';
-(function ($, Drupal) {
+(function ($) {
 
-  $(document).ready(function () {
-      if(!$('body').hasClass('user-logged-in')) {
-    $('body').addClass('user-not-logged-in');
-  }
+      $( "#buttonvid" ).on( "click", function() {
+        $(".videocon").css("filter", "none");
 });
-
-})(jQuery, Drupal);
+})(jQuery);
