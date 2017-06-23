@@ -8,13 +8,49 @@
 function drupalbook_preprocess_views_view__users_in_site(&$variables) {
   $view = $variables['view'];
   $id = $view->storage->id();
-  $variables['id'] = $id;
-  $variables['display_id'] = $view->current_display;
-  $variables['title'] = '';
-  $variables['view_array'] = $variables['view']->element;
-
   $users = db_query("SELECT count(uid) FROM {users}")->fetchField();
-  
   $variables['users'] = $users;
   
+}
+
+
+/**
+ * @file
+ * Hooks and documentation related to the theme and render system.
+ *
+ */
+function drupalbook_preprocess_views_view_field__field_finish_project(&$variables) {
+  if ($variables['theme_hook_original'] == 'views_view_field__field_finish_project') {
+    $rd_one = new DateTime('now');
+    $mytime = new DateTime($variables['row']->_entity->get('field_finish_project')->getString(
+    )); 
+  if ($rd_one > $mytime) {
+    $variables['time_finish'] = $mytime->format('d-m-Y');
+  }
+    else {
+    $rd_two = $mytime;
+    $rd_diff = $rd_one->diff($rd_two);
+    $rd_diff->format('%d');
+    $variables['time_end'] = $rd_diff;
+    }
+  }
+}
+  
+/**
+ * @file
+ * Hooks and documentation related to the theme and render system.
+ *
+ */
+function drupalbook_preprocess_views_view_field__name(&$variables) {
+  $uid = $variables['row']->_entity->get('uid')->getString();
+  $sql = 'SELECT count(nid) FROM {node_field_data} WHERE uid = ' . $uid . '';
+  $result = db_query($sql)->fetchField();
+  $variables['name'] = $result;
+}
+
+function drupalbook_preprocess_views_view_field__field_complete(&$variables) {
+	$var1 = $variables['row']->_entity->get('field_complete')->getString();
+	$var2 = $variables['row']->_entity->get('field_price_project')->getString();
+	$var3 = ($var2 / $var1 * '100' );
+	$variables['procent'] = $var3;
 }
