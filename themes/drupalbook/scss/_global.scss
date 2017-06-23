@@ -177,3 +177,160 @@ h2, .users {
             background-color: #00bef9;
           }
 }
+
+.views-field-field-mesto, .views-field-field-categogy {
+      display: inline-block;
+      margin: 0 auto;
+      position: relative;
+      left: 35%;
+
+      .field-content {
+        display: inline-block;
+        vertical-align: top;
+        color: $gray;
+        font-size: 14px;
+        line-height: 22px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        margin: 0 20px;
+
+        a {
+          color: $gray;
+        }
+
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+
+      &::before {
+        content: '';
+        height: 14px;
+        width: 14px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 4px;
+      }
+    }
+
+    .views-field-field-mesto::before {
+      background-image: url("../img/location-icon.svg");
+    }
+
+    .views-field-field-categogy::before {
+      background-image: url("../img/event-icon.svg");
+    }
+
+
+.views-field-field-social {
+  .field-content {
+        p {
+          margin: 0;
+
+          span {
+            padding-left: 30px;
+
+            a {
+              display: inline-block;
+              vertical-align: middle;
+              background-color: transparent;
+              padding-left: 6px;
+              padding-right: 10px;
+              border: 2px solid #fff;
+              border-radius: 3px;
+              height: 30px;
+              line-height: 27px;
+              margin: 0 11px 15px 0;
+              cursor: pointer;
+              text-align: center;
+              font-size: 14px;
+              color: $gray;
+              font-family: 'Helvetica Neue', Arial, sans-serif;
+
+              &:hover {
+                color: #000;
+              }
+}
+}
+}
+}
+}
+
+.face a::before, .vk a::before, .twitt a::before {
+                height: 15px;
+                width: 15px;
+                background-repeat: no-repeat;
+                margin-right: 8px;
+                position: relative;
+                top: -1px;
+                text-align: left;
+                display: inline-block;
+                vertical-align: middle;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+}
+
+              .face {
+            a::before {
+              background-image: url("../img/fb-icon.svg");
+            }
+
+            a:hover::before {
+              background-image: url("../img/fb-icon-hover.svg");
+            }
+          }
+
+          .vk {
+            a::before {
+              background-image: url("../img/vk-icon.svg");
+            }
+
+            a:hover::before {
+              background-image: url("../img/vk-icon-hover.svg");
+            }
+          }
+
+          .twitt {
+            a::before {
+              background-image: url("../img/tw-icon.svg");
+            }
+
+            a:hover::before {
+              background-image: url("../img/tw-icon-hover.svg");
+            }
+          }
+.fifteen-region, .seventeen-region {
+  .views-field-nothing {
+      position: relative;
+    display: inline-block;
+    left: 220%;
+    top: -400px;
+  #butt_share {
+      width: 130px;
+    height: 30px;
+    font-size: 14px;
+    color: gray;
+    border: 2px solid #f4f4f4;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+        background: #fff;
+    padding: 5px 10px 5px 30px;
+
+    &:hover {
+          background: #f4f4f4;
+    color: #3c3c3b;
+    }
+    &:before {
+      background-image: url("../img/share.svg");
+      position: absolute;
+          height: 12px;
+    width: 12px;
+    margin-top: 3px;
+    left: 8%;
+    }
+}
+}
+}
+
