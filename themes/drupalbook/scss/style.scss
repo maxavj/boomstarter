@@ -228,6 +228,9 @@ header {
 }
 
 // 2-nd region
+.second-region .views-field-field-complete {
+  left: -110px !important;
+}
 
 .second-region, .four-region, .six-region, .nine-region,
 .thirteen-region {
@@ -256,13 +259,58 @@ header {
         }
       }
     }
+
     .views-field-field-complete {
-              display: inline-block;
-    top: -380px;
-    position: relative;
-    left: -110px;
+      display: inline-block;
+      top: -380px;
+      position: relative;
+      left: -160px;
+      line-height: 30px;
+      font-size: 14px;
+      color: #3c3c3b;
+
+      &:after {
+        position: absolute;
+        content: " \B7 ";
+        left: 105%;
+        top: 0;
+        z-index: 99;
+      }
     }
 
+    .views-field-name {
+      color: #3c3c3b;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .views-field-view-user {
+      a {
+        color: $b2-link-color-blue;
+        font-weight: 700;
+        font-size: 14px;
+        &:hover {
+          text-decoration: underline;
+          color: $b2-link-color-hover;
+        }
+      }
+    }
+    .views-field-user-picture {
+      display: inline-block;
+      border-radius: 50%;
+      img {
+        border-radius: 50%;
+      }
+    }
+
+    .views-field-field-sponsored {
+      line-height: 30px;
+      font-size: 14px;
+      color: #3c3c3b;
+      position: relative;
+      left: -90px;
+      top: -380px;
+      display: inline-block;
+    }
 
     .views-field-field-video {
       margin-top: 30px;
@@ -1002,17 +1050,20 @@ header {
       text-align: left !important;
       width: 500px;
     }
+
     .views-field-field-categogy,
-    .views-field-field-mesto  {
+    .views-field-field-mesto {
       top: -400px !important;
     }
 
     .views-field-field-komentarii {
       top: -370px !important;
     }
+
     .views-field-uid {
       top: -370px !important;
     }
+
     .views-field-nothing {
       top: -370px !important;
     }
