@@ -8,7 +8,7 @@ document.getElementsByName('keys')[0].placeholder='Название проект
 
 });
       $("#butt_share").on("click", function() {
-        $(".fifteen-region .views-field-field-social").css("display", "block");
+        $(".fifteen-region .views-field-field-social, .seventeen-region .views-field-field-social").css("display", "block");
       });
       $("a[href='#']").removeAttr("href");
 
