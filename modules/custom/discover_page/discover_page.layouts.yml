@@ -1,0 +1,15 @@
+discover_page:
+  label: discover_page
+  category: My Layouts
+  template: templates/discover_page
+  css: css/discover_page.css
+  regions:
+    first:
+      label: first
+    second:
+      label: second
+    third: 
+      label: third
+    right:
+      label: right_sidebar
+      
