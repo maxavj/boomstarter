@@ -199,6 +199,17 @@ variant_settings:
       weight: 0
       uuid: a14bba71-be6c-4b19-bc58-c11f527dc961
       context_mapping: {  }
+    7f686452-c8c9-4e1b-8fb0-53e8adf9c5ab:
+      id: 'views_block:main_renumeration-block_3'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: seventeen
+      weight: 0
+      uuid: 7f686452-c8c9-4e1b-8fb0-53e8adf9c5ab
+      context_mapping: {  }
   id: panels_variant
   uuid: 354c9266-1e6d-437a-8e8a-f4136dcda7d1
   label: null

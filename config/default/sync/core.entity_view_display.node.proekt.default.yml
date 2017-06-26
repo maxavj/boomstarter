@@ -4,19 +4,24 @@ status: true
 dependencies:
   config:
     - field.field.node.proekt.field_categogy
+    - field.field.node.proekt.field_complete
     - field.field.node.proekt.field_ends
+    - field.field.node.proekt.field_finish_project
     - field.field.node.proekt.field_komentarii
     - field.field.node.proekt.field_links
     - field.field.node.proekt.field_mesto
     - field.field.node.proekt.field_price_project
     - field.field.node.proekt.field_reward
     - field.field.node.proekt.field_social
+    - field.field.node.proekt.field_sponsored
+    - field.field.node.proekt.field_start_project
     - field.field.node.proekt.field_status
     - field.field.node.proekt.field_sum_sponsors
     - field.field.node.proekt.field_video
     - field.field.node.proekt.field_vybor_redakcii
     - node.type.proekt
   module:
+    - datetime
     - datetime_range
     - text
     - user
@@ -34,6 +39,17 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
+  field_complete:
+    weight: 17
+    label: above
+    settings:
+      thousand_separator: ' '
+      decimal_separator: .
+      scale: 0
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
   field_ends:
     weight: 9
     label: above
@@ -43,6 +59,15 @@ content:
       separator: '-'
     third_party_settings: {  }
     type: daterange_default
+    region: content
+  field_finish_project:
+    weight: 16
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: html_date
+    third_party_settings: {  }
+    type: datetime_default
     region: content
   field_komentarii:
     weight: 4
@@ -91,6 +116,26 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
+  field_sponsored:
+    weight: 18
+    label: above
+    settings:
+      thousand_separator: ' '
+      decimal_separator: .
+      scale: 0
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_start_project:
+    weight: 15
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
   field_status:
     weight: 11
     label: above
@@ -103,7 +148,7 @@ content:
     region: content
   field_sum_sponsors:
     weight: 6
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
@@ -114,13 +159,9 @@ content:
     settings:
       width: '500'
       height: '500'
-      controls: true
-      preload: none
       autoplay: false
-      loop: false
-      muted: false
     third_party_settings: {  }
-    type: video_player_list
+    type: video_embed_player
     region: content
   field_vybor_redakcii:
     weight: 10

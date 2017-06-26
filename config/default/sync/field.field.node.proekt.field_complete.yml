@@ -1,0 +1,23 @@
+uuid: 8ca4ed6a-7794-406b-9ca3-52008479a421
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_complete
+    - node.type.proekt
+id: node.proekt.field_complete
+field_name: field_complete
+entity_type: node
+bundle: proekt
+label: complete
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: 'собрано из '
+  suffix: ' ₽'
+field_type: float

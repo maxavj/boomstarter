@@ -1,0 +1,21 @@
+uuid: 82d857bd-7032-4599-b5b6-e51ef8bf1c43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_start_project
+    - node.type.proekt
+  module:
+    - datetime
+id: node.proekt.field_start_project
+field_name: field_start_project
+entity_type: node
+bundle: proekt
+label: start_project
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

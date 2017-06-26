@@ -1,0 +1,21 @@
+uuid: b9b80efb-2d1b-4cd9-a7a0-78325ea9c77b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_finish_project
+    - node.type.proekt
+  module:
+    - datetime
+id: node.proekt.field_finish_project
+field_name: field_finish_project
+entity_type: node
+bundle: proekt
+label: finish_project
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

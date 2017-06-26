@@ -1,0 +1,23 @@
+uuid: 4ba7aacd-c65b-44bf-96cd-f93fea33a647
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sponsored
+    - node.type.proekt
+id: node.proekt.field_sponsored
+field_name: field_sponsored
+entity_type: node
+bundle: proekt
+label: sponsors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' спонсоров'
+field_type: float

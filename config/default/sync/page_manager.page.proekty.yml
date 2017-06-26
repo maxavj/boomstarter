@@ -1,0 +1,12 @@
+uuid: 578846a0-b706-4673-aec7-6f7eec02163b
+langcode: en
+status: true
+dependencies: {  }
+id: proekty
+label: Проекты
+description: ''
+use_admin_theme: false
+path: /discover
+access_logic: and
+access_conditions: {  }
+parameters: {  }

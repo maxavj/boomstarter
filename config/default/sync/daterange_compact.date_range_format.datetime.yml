@@ -1,0 +1,18 @@
+uuid: f222fb3e-fe80-47de-b369-25720e3d177d
+langcode: en
+status: true
+dependencies: {  }
+id: datetime
+label: datetime
+date_settings:
+  default_pattern: date
+  separator: ''
+  same_month_start_pattern: ''
+  same_month_end_pattern: ''
+  same_year_start_pattern: ''
+  same_year_end_pattern: ''
+datetime_settings:
+  default_pattern: date
+  separator: ''
+  same_day_start_pattern: date
+  same_day_end_pattern: date

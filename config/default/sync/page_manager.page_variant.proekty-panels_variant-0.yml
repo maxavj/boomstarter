@@ -1,0 +1,28 @@
+uuid: 20ce395f-a3d9-4988-8d9f-ecde7a520bba
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.proekty
+  module:
+    - panels
+id: proekty-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: f112fd66-94f0-4d8b-bf76-3e3b0bb9a767
+  label: null
+  weight: 0
+  layout: discover_page
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: proekty-panels_variant-0
+  builder: standard
+page: proekty
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }
