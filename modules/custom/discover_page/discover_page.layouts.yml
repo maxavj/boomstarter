@@ -4,12 +4,16 @@ discover_page:
   template: templates/discover_page
   css: css/discover_page.css
   regions:
-    first:
-      label: first
-    second:
-      label: second
-    third: 
-      label: third
+    recommend:
+      label: recommend
+    popular:
+      label: popular
+    end: 
+      label: end
+    records:
+      label: records
+    update:
+      label: update
     right:
       label: right_sidebar
       

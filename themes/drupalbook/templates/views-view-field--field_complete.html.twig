@@ -26,9 +26,14 @@
  *   - element_attributes: List of attributes for HTML element for field content.
  * - row: The raw result from the query, with all data it fetched.
  *
- * @see template_preprocess_views_view_fields()
+ * @see template_preprocess_views_view_field()
  */
 #}
-<div class="completely">{{ output }}<div>
-<div class="counter"><div class="left_size"></div><div class="right_size"></div></div>
-<div class="proc"><p>{{ procent|number_format() }} %</p><div>
+{{ output -}}
+<div class="counter">
+	<div class="left_size"></div>
+	<div class="right_size"></div>
+</div>
+<div class="proc">
+	<p>{{ procent|number_format() }} %</p>
+</div>

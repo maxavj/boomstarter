@@ -1,0 +1,20 @@
+discover_page:
+  label: start_page
+  category: My Layouts
+  template: templates/start_page
+  css: css/start_page.css
+  regions:
+    video:
+      label: video
+    changes:
+      label: changes
+    boomst: 
+      label: boomst
+    author:
+      label: author
+    category:
+      label: category
+    how_work:
+      label: how_work
+    create: 
+      label: create

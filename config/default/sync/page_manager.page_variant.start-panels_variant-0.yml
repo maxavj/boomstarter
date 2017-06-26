@@ -1,0 +1,56 @@
+uuid: b2e2b088-f293-4503-93c8-d3997dec0ce0
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.start
+  content:
+    - 'block_content:basic:502e1160-4a93-4525-8caf-6907e24da9dd'
+    - 'block_content:basic:94eddcff-eb92-4dec-83cb-5a5eb68aba45'
+  module:
+    - block_content
+    - panels
+id: start-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    813b55dd-87d2-41a0-a5ae-012bc847478a:
+      id: 'block_content:502e1160-4a93-4525-8caf-6907e24da9dd'
+      label: video_start
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: video
+      weight: 0
+      uuid: 813b55dd-87d2-41a0-a5ae-012bc847478a
+      context_mapping: {  }
+    df38c68e-5bb3-4dff-aacd-6f7fcea567dc:
+      id: 'block_content:94eddcff-eb92-4dec-83cb-5a5eb68aba45'
+      label: 'Для каждой идеи на Boomstarter есть своё решение'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: changes
+      weight: 0
+      uuid: df38c68e-5bb3-4dff-aacd-6f7fcea567dc
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 75877e6f-9cf1-49ec-8841-425ee826187e
+  label: null
+  weight: 0
+  layout: discover_page
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: start-panels_variant-0
+  builder: standard
+page: start
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

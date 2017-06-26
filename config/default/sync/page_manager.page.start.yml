@@ -1,0 +1,12 @@
+uuid: d3fa2295-6e16-4b87-add3-d41f99888645
+langcode: en
+status: true
+dependencies: {  }
+id: start
+label: start
+description: ''
+use_admin_theme: false
+path: /start
+access_logic: and
+access_conditions: {  }
+parameters: {  }

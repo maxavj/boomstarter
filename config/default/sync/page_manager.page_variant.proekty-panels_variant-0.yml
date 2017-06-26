@@ -4,13 +4,26 @@ status: true
 dependencies:
   config:
     - page_manager.page.proekty
+    - views.view.recommend_project
   module:
     - panels
+    - views
 id: proekty-panels_variant-0
 label: Panels
 variant: panels_variant
 variant_settings:
-  blocks: {  }
+  blocks:
+    e0fe281d-44f2-4247-94f4-75ac47805885:
+      id: 'views_block:recommend_project-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: first
+      weight: 0
+      uuid: e0fe281d-44f2-4247-94f4-75ac47805885
+      context_mapping: {  }
   id: panels_variant
   uuid: f112fd66-94f0-4d8b-bf76-3e3b0bb9a767
   label: null
