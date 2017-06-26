@@ -1,0 +1,21 @@
+uuid: 39b3f7f7-1d0d-4708-9d34-830f0ee85d04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_quote
+  module:
+    - text
+    - user
+id: user.user.field_quote
+field_name: field_quote
+entity_type: user
+bundle: user
+label: quote
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

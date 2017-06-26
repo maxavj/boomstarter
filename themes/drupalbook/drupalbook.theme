@@ -6,6 +6,7 @@
  *
  */
 function drupalbook_preprocess_views_view__users_in_site(&$variables) {
+  
   $view = $variables['view'];
   $id = $view->storage->id();
   $users = db_query("SELECT count(uid) FROM {users}")->fetchField();
@@ -46,6 +47,7 @@ function drupalbook_preprocess_views_view_field__name(&$variables) {
   $sql = 'SELECT count(nid) FROM {node_field_data} WHERE uid = ' . $uid . '';
   $result = db_query($sql)->fetchField();
   $variables['name'] = $result;
+  
 }
 
 function drupalbook_preprocess_views_view_field__field_complete(&$variables) {

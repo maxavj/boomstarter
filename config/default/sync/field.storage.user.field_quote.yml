@@ -1,0 +1,19 @@
+uuid: 9442cedf-6679-4124-b192-70382aaed16c
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.field_quote
+field_name: field_quote
+entity_type: user
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

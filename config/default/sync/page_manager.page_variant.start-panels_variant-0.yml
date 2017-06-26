@@ -4,12 +4,15 @@ status: true
 dependencies:
   config:
     - page_manager.page.start
+    - views.view.users_comments
   content:
+    - 'block_content:basic:1958cb86-f47e-4aec-91b2-f5d509a50bf4'
     - 'block_content:basic:502e1160-4a93-4525-8caf-6907e24da9dd'
     - 'block_content:basic:94eddcff-eb92-4dec-83cb-5a5eb68aba45'
   module:
     - block_content
     - panels
+    - views
 id: start-panels_variant-0
 label: Panels
 variant: panels_variant
@@ -38,6 +41,29 @@ variant_settings:
       region: changes
       weight: 0
       uuid: df38c68e-5bb3-4dff-aacd-6f7fcea567dc
+      context_mapping: {  }
+    df2ca5ac-8b07-43eb-89dd-cd39eb94a5c6:
+      id: 'block_content:1958cb86-f47e-4aec-91b2-f5d509a50bf4'
+      label: 'Boomstarter — место, где вы можете  объединить людей вокруг вашей идеи.'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: boomst
+      weight: 0
+      uuid: df2ca5ac-8b07-43eb-89dd-cd39eb94a5c6
+      context_mapping: {  }
+    ff818185-0ea0-4399-b239-2d20dfbc36aa:
+      id: 'views_block:users_comments-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: author
+      weight: 0
+      uuid: ff818185-0ea0-4399-b239-2d20dfbc36aa
       context_mapping: {  }
   id: panels_variant
   uuid: 75877e6f-9cf1-49ec-8841-425ee826187e
