@@ -12,4 +12,7 @@ document.getElementsByName('keys')[0].placeholder='Название проект
       });
       $("a[href='#']").removeAttr("href");
 
+
+      
+
 })(jQuery);

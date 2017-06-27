@@ -2,6 +2,7 @@
 @import "global";
 @import "mixins";
 @import "footer";
+@import "start";
 
 // @import 'compass/reset';
 #block-drupalbook-headmenu {
@@ -188,43 +189,9 @@ header {
     }
   }
 
-  .podvideo {
-    font-size: 18px;
-    line-height: 29px;
-    margin: 0 auto;
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    text-align: center;
-    color: $header-color;
-    position: relative;
-  }
+  
 
-  #buttonvid {
-    position: relative;
-    z-index: 2;
-    color: $header-color;
-    text-align: center;
-    display: inline-block;
-    opacity: .8;
-
-    &:hover {
-      opacity: 1;
-    }
-
-    #playvideo {
-      background: transparent;
-      background-image: url("../img/play-icon.svg");
-      height: 42px;
-      width: 42px;
-      border: none;
-      padding: 0;
-      outline: none;
-    }
-
-    p {
-      font-size: 13px;
-      font-style: italic;
-    }
-  }
+  
 }
 
 // 2-nd region

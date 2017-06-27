@@ -4,6 +4,10 @@
   z-index: 9;
 }
 
+*::before, *::after {
+  box-sizing: inherit;
+}
+
 a {
   text-decoration: none;
 }
@@ -356,39 +360,82 @@ h2, .users {
   }
 }
 
-// complete 
+// complete
 
 .views-field-field-complete {
-      display: inline-block;
-      position: relative;
-      line-height: 30px;
-      font-size: 14px;
-      color: #3c3c3b;
+  display: inline-block;
+  position: relative;
+  line-height: 30px;
+  font-size: 14px;
+  color: #3c3c3b;
 
-      .counter {
-        background: #f2f7f7;
-        border-radius: 2px;
-        border: 0;
-        height: 5px;
-        overflow: hidden;
-        margin: 0 0 13px;
-        width: 300px;
-        margin-top: 20px;
+  .counter {
+    background: #f2f7f7;
+    border-radius: 2px;
+    border: 0;
+    height: 5px;
+    overflow: hidden;
+    margin: 0 0 13px;
+    width: 300px;
+    margin-top: 20px;
 
-        .left_size {
-          background: #00aef4;
-          border-radius: 2px;
-          border: 0;
-          height: 100%;
-          width: 45%;
-        }
-      }
-
-      &:after {
-        position: absolute;
-        content: " \B7 ";
-        left: 50%;
-        top: 0;
-        z-index: 99;
-      }
+    .left_size {
+      background: #00aef4;
+      border-radius: 2px;
+      border: 0;
+      height: 100%;
+      width: 45%;
     }
+  }
+
+  &:after {
+    position: absolute;
+    content: " \B7 ";
+    left: 50%;
+    top: 0;
+    z-index: 99;
+  }
+}
+
+// HEADER -> description
+
+.podvideo {
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0 auto;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: $header-color;
+    position: relative;
+  }
+
+// HEADER -> BUTTON 'Посмотреть видео'
+
+#buttonvid {
+    position: relative;
+    z-index: 2;
+    color: $header-color;
+    text-align: center;
+    display: inline-block;
+    opacity: .8;
+    margin: 0 auto;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    #playvideo {
+      background: transparent;
+      background-image: url("../img/play-icon.svg");
+      height: 42px;
+      width: 42px;
+      border: none;
+      padding: 0;
+      outline: none;
+    }
+
+    p {
+      font-size: 13px;
+      font-style: italic;
+    }
+  }
