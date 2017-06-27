@@ -7,8 +7,10 @@ dependencies:
     - views.view.users_comments
   content:
     - 'block_content:basic:1958cb86-f47e-4aec-91b2-f5d509a50bf4'
+    - 'block_content:basic:1e101bc7-ab3c-4134-ac30-462b93f2432f'
     - 'block_content:basic:502e1160-4a93-4525-8caf-6907e24da9dd'
     - 'block_content:basic:94eddcff-eb92-4dec-83cb-5a5eb68aba45'
+    - 'block_content:basic:e49c1a5c-fb26-485a-922a-49bde884eb38'
   module:
     - block_content
     - panels
@@ -64,6 +66,41 @@ variant_settings:
       region: author
       weight: 0
       uuid: ff818185-0ea0-4399-b239-2d20dfbc36aa
+      context_mapping: {  }
+    ed39d89b-9b12-45d6-b5b8-781277198171:
+      id: 'block_content:e49c1a5c-fb26-485a-922a-49bde884eb38'
+      label: 'Категории проектов на Boomstarter'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: category
+      weight: 0
+      uuid: ed39d89b-9b12-45d6-b5b8-781277198171
+      context_mapping: {  }
+    deae1337-436d-4a0f-b985-0020f4fca3bc:
+      id: 'block_content:1e101bc7-ab3c-4134-ac30-462b93f2432f'
+      label: 'Как работает Boomstarter'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: how_work
+      weight: 0
+      uuid: deae1337-436d-4a0f-b985-0020f4fca3bc
+      context_mapping: {  }
+    d4f5574b-f493-4050-be83-c134f10dce23:
+      id: 'views_block:users_comments-block_2'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: create
+      weight: 0
+      uuid: d4f5574b-f493-4050-be83-c134f10dce23
       context_mapping: {  }
   id: panels_variant
   uuid: 75877e6f-9cf1-49ec-8841-425ee826187e

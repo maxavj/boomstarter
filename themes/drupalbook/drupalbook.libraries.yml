@@ -5,6 +5,7 @@ global-styling:
       css/style.css: {}
   js:
     js/custom.js: {}
+    js/slide_start.js: {}
   dependencies:
     - core/jquery
   template: template.html.twig

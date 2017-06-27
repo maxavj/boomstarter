@@ -19,7 +19,8 @@
  */
 #}
 {{ output }}
-
+{% if view.storage.label == "Main_page_view" or view.storage.label == "main_finish" %}
 <div class="count_project">Автор {{ name }} проектов</div>
- 
+{% endif %}
+
 	 

@@ -11,7 +11,6 @@ function drupalbook_preprocess_views_view__users_in_site(&$variables) {
   $id = $view->storage->id();
   $users = db_query("SELECT count(uid) FROM {users}")->fetchField();
   $variables['users'] = $users;
-  
 }
 
 
@@ -47,7 +46,6 @@ function drupalbook_preprocess_views_view_field__name(&$variables) {
   $sql = 'SELECT count(nid) FROM {node_field_data} WHERE uid = ' . $uid . '';
   $result = db_query($sql)->fetchField();
   $variables['name'] = $result;
-  
 }
 
 function drupalbook_preprocess_views_view_field__field_complete(&$variables) {
@@ -56,3 +54,4 @@ function drupalbook_preprocess_views_view_field__field_complete(&$variables) {
 	$var3 = ($var2 / $var1 * '100' );
 	$variables['procent'] = $var3;
 }
+
