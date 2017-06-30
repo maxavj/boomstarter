@@ -8,4 +8,5 @@ global-styling:
     js/slide_start.js: {}
   dependencies:
     - core/jquery
+    - core/drupal
   template: template.html.twig

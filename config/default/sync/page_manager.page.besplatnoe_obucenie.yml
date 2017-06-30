@@ -1,0 +1,12 @@
+uuid: 2b3d41f6-1406-4739-a27d-84c6c70a1941
+langcode: en
+status: true
+dependencies: {  }
+id: besplatnoe_obucenie
+label: 'Бесплатное обучение'
+description: ''
+use_admin_theme: false
+path: /crowd_learning
+access_logic: and
+access_conditions: {  }
+parameters: {  }

@@ -1,0 +1,43 @@
+uuid: 83bcf2d2-2c65-445f-84bb-1d56733de2e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.besplatnoe_obucenie
+  content:
+    - 'block_content:basic:9687446d-1e0b-455c-b50b-744c35d358e1'
+  module:
+    - block_content
+    - panels
+id: besplatnoe_obucenie-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    ef1f704d-ce11-45bb-b930-2897326482f9:
+      id: 'block_content:9687446d-1e0b-455c-b50b-744c35d358e1'
+      label: 'Бесплатный обучающий онлайн-курс  «Мастер краудфандинга»'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: middle
+      weight: 0
+      uuid: ef1f704d-ce11-45bb-b930-2897326482f9
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 49e921ec-4740-42a9-b7a6-5ee06695ab4f
+  label: null
+  weight: 0
+  layout: onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: besplatnoe_obucenie-panels_variant-0
+  builder: standard
+page: besplatnoe_obucenie
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }
