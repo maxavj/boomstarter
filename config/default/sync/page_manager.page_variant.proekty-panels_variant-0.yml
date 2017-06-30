@@ -5,11 +5,12 @@ dependencies:
   config:
     - page_manager.page.proekty
     - views.view.recommend_project
+    - views.view.sidebar_discover
   module:
     - panels
     - views
 id: proekty-panels_variant-0
-label: Panels
+label: disc
 variant: panels_variant
 variant_settings:
   blocks:
@@ -17,18 +18,73 @@ variant_settings:
       id: 'views_block:recommend_project-block_1'
       label: ''
       provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: left
+      weight: 0
+      uuid: e0fe281d-44f2-4247-94f4-75ac47805885
+      context_mapping: {  }
+    797678b7-a8a9-4ab5-a3ac-6bc7829315fd:
+      id: 'views_block:recommend_project-block_2'
+      label: ''
+      provider: views
       label_display: visible
       views_label: ''
       items_per_page: none
-      region: first
+      region: left
       weight: 0
-      uuid: e0fe281d-44f2-4247-94f4-75ac47805885
+      uuid: 797678b7-a8a9-4ab5-a3ac-6bc7829315fd
+      context_mapping: {  }
+    c61b8685-c9d5-441d-8cf2-03fd23892149:
+      id: 'views_block:recommend_project-block_3'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: left
+      weight: 0
+      uuid: c61b8685-c9d5-441d-8cf2-03fd23892149
+      context_mapping: {  }
+    550fcca6-c07b-435b-8d77-9ee8eb663567:
+      id: 'views_block:recommend_project-block_4'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: left
+      weight: 0
+      uuid: 550fcca6-c07b-435b-8d77-9ee8eb663567
+      context_mapping: {  }
+    a4d83ea1-8876-4717-9b50-362a2a968379:
+      id: 'views_block:recommend_project-block_5'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: left
+      weight: 0
+      uuid: a4d83ea1-8876-4717-9b50-362a2a968379
+      context_mapping: {  }
+    6c25fafc-e1a6-44c3-9dc3-677db242d0c6:
+      id: 'views_block:sidebar_discover-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: right
+      weight: 0
+      uuid: 6c25fafc-e1a6-44c3-9dc3-677db242d0c6
       context_mapping: {  }
   id: panels_variant
   uuid: f112fd66-94f0-4d8b-bf76-3e3b0bb9a767
   label: null
   weight: 0
-  layout: discover_page
+  layout: twocol
   layout_settings: {  }
   page_title: ''
   storage_type: page_manager

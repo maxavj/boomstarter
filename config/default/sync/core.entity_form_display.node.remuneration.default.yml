@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.remuneration.body
     - field.field.node.remuneration.field_bought
     - field.field.node.remuneration.field_buy
+    - field.field.node.remuneration.field_choose_project
     - field.field.node.remuneration.field_delivery
     - field.field.node.remuneration.field_imgs
     - field.field.node.remuneration.field_price
@@ -50,6 +51,12 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
+  field_choose_project:
+    weight: 42
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   field_delivery:
     weight: 34

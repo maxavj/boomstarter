@@ -18,19 +18,8 @@
  * @see template_preprocess_views_view_field()
  */
 #}
-{% if view.storage.label == "Main_page_view" or view.storage.label == "main_finish" or view.storage.label == "main_end" or view.storage.label == "main_popular" or view.storage.label == "main_renumeration" %}
-{% if time_end > 0 %}
-	<p class="time_end">{{ time_end|date('%d') }} дней до завершения</p>
-{% endif %}
-{% if time_finish %}
-	<p class="time_end">Завершен {{ time_finish|date('d.m.Y') }} года</p>
-{% endif %}
-{% endif %}
 {% if view.storage.label == "recommend_project" %}
-	{% if time_end > 0 %}
-		<p class="time_end">Осталось</p><p> {{ time_end|date('%d') }} дня</p>
-	{% endif %}
-	{% if time_finish %}
-	<p class="time_end">{{ time_finish|date('d.m.Y') }}</p>
-	{% endif %}
+	<p>Cобрано</p><p>{{ output }}</p>
+	{% else %}
+		{{ output }}
 {% endif %}

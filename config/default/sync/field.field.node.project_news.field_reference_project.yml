@@ -1,19 +1,18 @@
-uuid: dca5f08c-6250-4be2-a9ff-3dccb7774f87
+uuid: c2984143-06c2-4f16-8598-8658f8f8271b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_reward
+    - field.storage.node.field_reference_project
     - node.type.proekt
     - node.type.project_news
-    - node.type.remuneration
-id: node.proekt.field_reward
-field_name: field_reward
+id: node.project_news.field_reference_project
+field_name: field_reference_project
 entity_type: node
-bundle: proekt
-label: reward
+bundle: project_news
+label: reference_project
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -21,10 +20,9 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      remuneration: remuneration
-      project_news: project_news
+      proekt: proekt
     sort:
       field: _none
     auto_create: false
-    auto_create_bundle: remuneration
+    auto_create_bundle: ''
 field_type: entity_reference
