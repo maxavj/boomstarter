@@ -1,3 +1,5 @@
+// COLORS
+
 $gray: #808080;
 $login-color: #00aef4;
 $search-placeholder-color: #3c3c3b;
@@ -17,6 +19,9 @@ $b2-link-color-hover: #0080b3;
 $b3-text-color-blue: #00aef4;
 $b3-text-color-gray: #3c3c3b;
 
+$text-color-blue: #00aef4;
+$text-color-gray: #3c3c3b;
+
 $container-width: 980px;
 $b5-width: 1060px;
 
@@ -31,6 +36,8 @@ $pt-sans: "PT Sans";
   src: url("../fonts/pt-sans/PTS55F.ttf");
 }
 
+$base-font: $pt-sans;
+
 // FOOTER
 
 $footer-background-color: #1a1a1a;
@@ -41,4 +48,8 @@ $footer-link-hover-color: #ccc;
 $facebook-button-text-color: #fff;
 $facebook-button-background-color: #4267b2;
 $facebook-button-hover-background-color: #365899;
- 
+
+// discover
+
+$sidebar-link-color: #55a4f2;
+$sidebar-link-hover-color: #127ee9;

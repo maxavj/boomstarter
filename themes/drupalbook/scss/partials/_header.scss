@@ -1,0 +1,21 @@
+.path-discover, .path-start {
+  .menu {
+    li::before {
+      display: none !important;
+    }
+  }
+
+  #block-drupalbook-boomlogo {
+    display: inline-block;
+    float: left;
+    line-height: 55px;
+    padding-top: 5px;
+  }
+}
+
+.path-frontpage {
+    #block-drupalbook-boomlogo {
+    display: none;
+
+  }
+}

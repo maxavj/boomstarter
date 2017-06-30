@@ -1,4 +1,4 @@
-// boomstarter/start
+
 
 .path-start {
   // header
@@ -46,8 +46,7 @@
           z-index: 999;
           height: 100%;
           position: absolute;
-          left: 50%;
-          transform: translate(-50%);
+          @include position-left;
           top: 0;
         }
       }
@@ -159,13 +158,13 @@
           font-size: 20px;
           line-height: 23px;
           font-weight: bold;
-          color: #00aef4;
+          color: $text-color-blue;
           margin: 0 0 10px;
         }
 
         p {
           font-size: 14px;
-          color: #3c3c3b;
+          color: $text-color-gray;
           line-height: 17px;
           margin-bottom: 9px;
         }
@@ -176,7 +175,7 @@
             position: absolute;
             bottom: 28px;
             font-size: 16px;
-            background: #00aef4;
+            background: $text-color-blue;
             color: #fff;
             font-weight: bold;
             width: 230px;
@@ -195,7 +194,7 @@
           }
         }
         &:hover {
-          background: #00aef4;
+          background: $text-color-blue;
           border: 1px solid transparent;
           cursor: pointer;
           p {
@@ -298,7 +297,7 @@
           font-size: 90px;
           line-height: 52px;
           font-weight: 700;
-          color: $b3-text-color-blue;
+          color: $text-color-blue;
           padding-bottom: 12px;
         }
 
@@ -307,7 +306,7 @@
           line-height: 27px;
           margin: 5px 0 4px;
           font-weight: 700;
-          color: $b3-text-color-blue;
+          color: $text-color-blue;
         }
 
         h5:last-child {
