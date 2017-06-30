@@ -138,7 +138,7 @@ display:
               - admin_label
             custom_label: 0
             label: ''
-            element_label_colon: 1
+            element_label_colon: 0
             exclude: 0
             element_type_enable: 0
             element_type: ''
@@ -189,7 +189,7 @@ display:
             field_api_classes: 0
             autoplay: false
             width: 100%
-            height: '200'
+            height: 120px
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -1035,7 +1035,7 @@ display:
               - admin_label
             custom_label: 0
             label: ''
-            element_label_colon: 1
+            element_label_colon: 0
             exclude: 0
             element_type_enable: 0
             element_type: ''
@@ -1086,7 +1086,7 @@ display:
             field_api_classes: 0
             autoplay: false
             width: 100%
-            height: '200'
+            height: 120px
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -1750,7 +1750,7 @@ display:
               - admin_label
             custom_label: 0
             label: ''
-            element_label_colon: 1
+            element_label_colon: 0
             exclude: 0
             element_type_enable: 0
             element_type: ''
@@ -1801,7 +1801,7 @@ display:
             field_api_classes: 0
             autoplay: false
             width: 100%
-            height: '200'
+            height: 120px
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -2355,7 +2355,7 @@ display:
               - admin_label
             custom_label: 0
             label: ''
-            element_label_colon: 1
+            element_label_colon: 0
             exclude: 0
             element_type_enable: 0
             element_type: ''
@@ -2406,7 +2406,7 @@ display:
             field_api_classes: 0
             autoplay: false
             width: 100%
-            height: '200'
+            height: 120px
           group_column: ''
           group_columns: {  }
           group_rows: true
