@@ -1,0 +1,111 @@
+.path-crowd-learning {
+	main .region {
+		background: url("../img/crowd-learning/bg.jpg") center center;
+		background-size: cover;
+
+		.block-region-middle {
+			max-width: 960px;
+			margin: 0 auto;
+
+			h2 {
+				font-size: 44px;
+				line-height: 53px;
+				font-weight: bold;
+				color: #fff;
+				margin: 0;
+
+				&::after {
+					content: "";
+					width: 70px;
+					height: 3px;
+					background: #00adf4;
+					display: block;
+					margin-top: 29px;
+					margin-bottom: 31px;
+				}
+			}
+
+			.field--name-body {
+				p {
+					font-size: 24px;
+					line-height: 30px;
+					font-weight: bold;
+					color: #fff;
+					margin-top: 0;
+					margin-bottom: 40px;
+
+					a {
+						font-size: 21px;
+						line-height: 47px;
+						font-weight: normal;
+						width: 290px;
+						height: 50px;
+						color: #fff;
+						margin-top: 30px;
+						margin-bottom: 88px;
+						background-color: #00bef9;
+						background: #00aef4;
+						border-radius: 6px;
+						border: 2px solid transparent;
+						display: inline-block;
+						text-align: center;
+
+						&:hover {
+							background-color: #00bef9;
+						}
+					}
+				}
+
+				ul {
+					margin: 0;
+					padding: 0;
+
+					li {
+						font-size: 17px;
+						line-height: 20px;
+						color: #fff;
+						padding: 2px 0 21px 45px;
+						list-style-type: none;
+						position: relative;
+
+						&::before {
+							content: url("../img/crowd-learning/list.svg");
+							width: 33px;
+							height: 33px;
+							display: block;
+							position: absolute;
+							top: 0;
+							left: 0;
+							background: #fff;
+							border-radius: 50%;
+							padding: 7px 0 0 9px;
+							box-sizing: border-box;
+						}
+					}
+
+					li:first-child {
+						padding-top: 5px;
+					}
+				}
+
+				> p:nth-child(4) {
+					margin: 0 0 15px;
+					font-size: 14px;
+					line-height: 17px;
+					color: #fff;
+					text-align: right;
+					font-weight: 100;
+				}
+
+				> p:nth-child(5) {
+					display: none;
+				}
+
+				> p:nth-child(6) {
+					margin: 0 0 20px;
+					text-align: right;
+				}
+			}
+		}
+	}
+}

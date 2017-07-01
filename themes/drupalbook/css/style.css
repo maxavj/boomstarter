@@ -2,21 +2,24 @@
   font-family: 'PT Sans';
   src: url("../fonts/pt-sans/PTS55F.ttf");
 }
-
+/* line 1, ../scss/utils/_global.scss */
 ::before {
   content: '';
   position: absolute;
   z-index: 9;
 }
 
+/* line 7, ../scss/utils/_global.scss */
 *::before, *::after {
   box-sizing: inherit;
 }
 
+/* line 11, ../scss/utils/_global.scss */
 a {
   text-decoration: none;
 }
 
+/* line 15, ../scss/utils/_global.scss */
 h2, .users {
   color: #3c3c3b;
   font-size: 28px;
@@ -27,87 +30,91 @@ h2, .users {
   padding: 55px 0 20px;
 }
 
+/* line 25, ../scss/utils/_global.scss */
 .open {
   display: block;
 }
 
+/* line 32, ../scss/utils/_global.scss */
 .view-main-page-view .views-field-field-links, .thirteen-region .view-main-finish .views-field-field-links {
   display: inline-block;
 }
-
+/* line 36, ../scss/utils/_global.scss */
 .view-main-page-view .views-row, .thirteen-region .view-main-finish .views-row {
   max-height: 690px;
 }
-
+/* line 40, ../scss/utils/_global.scss */
 .view-main-page-view .views-field-field-price-project, .thirteen-region .view-main-finish .views-field-field-price-project {
   left: 35px;
   top: -420px;
 }
-
+/* line 45, ../scss/utils/_global.scss */
 .view-main-page-view .views-field-field-sum-sponsors, .thirteen-region .view-main-finish .views-field-field-sum-sponsors {
   left: 640px;
   top: -420px;
   width: 280px;
 }
-
+/* line 51, ../scss/utils/_global.scss */
 .view-main-page-view .views-field-field-ends, .thirteen-region .view-main-finish .views-field-field-ends {
   left: 780px;
   top: -405px;
 }
-
+/* line 56, ../scss/utils/_global.scss */
 .view-main-page-view .views-field-field-social, .thirteen-region .view-main-finish .views-field-field-social {
   left: -30px;
   top: -160px;
 }
-
+/* line 61, ../scss/utils/_global.scss */
 .view-main-page-view .views-field-uid, .thirteen-region .view-main-finish .views-field-uid {
   left: -40px;
   top: -240px;
 }
-
+/* line 66, ../scss/utils/_global.scss */
 .view-main-page-view .views-field-field-links, .thirteen-region .view-main-finish .views-field-field-links {
   left: 110px;
   top: -290px;
 }
 
+/* line 73, ../scss/utils/_global.scss */
 .thirteen-region .view-main-finish .views-field-field-links {
   top: -300px;
 }
-
+/* line 77, ../scss/utils/_global.scss */
 .thirteen-region .view-main-finish .views-field-uid {
   top: -200px;
 }
 
+/* line 88, ../scss/utils/_global.scss */
 .six-region .view-main-finish {
   max-height: 690px;
 }
-
+/* line 91, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-field-price-project {
   left: 35px;
   top: -420px;
 }
-
+/* line 96, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-field-sum-sponsors {
   left: 640px;
   top: -420px;
   width: 280px;
 }
-
+/* line 102, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-field-ends {
   left: 780px;
   top: -405px;
 }
-
+/* line 107, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-field-social {
   left: -30px;
   top: -210px;
 }
-
+/* line 112, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-uid {
   left: -50px;
   top: -340px;
 }
-
+/* line 117, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-nothing {
   position: relative;
   left: 81px;
@@ -118,7 +125,7 @@ h2, .users {
   line-height: 23px;
   color: #3c3c3b;
 }
-
+/* line 127, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-nothing .succes {
   margin: 29px 0 22px -40px;
   padding: 16px 0 18px 40px;
@@ -133,7 +140,7 @@ h2, .users {
   display: inline-block;
   width: 300px;
 }
-
+/* line 141, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-nothing .succes:after {
   content: "";
   background: url("../img/success.svg") 0 0 no-repeat;
@@ -144,31 +151,32 @@ h2, .users {
   width: 26px;
   height: 18px;
 }
-
+/* line 153, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-nothing a {
   color: #00aeef;
 }
-
+/* line 156, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-nothing a:hover {
   text-decoration: underline;
 }
-
+/* line 162, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-field-links {
   display: none;
 }
-
+/* line 166, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-user-picture {
   top: -270px !important;
 }
-
+/* line 170, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-name {
   top: -300px !important;
 }
-
+/* line 174, ../scss/utils/_global.scss */
 .six-region .view-main-finish .views-field-view-user {
   top: -281px !important;
 }
 
+/* line 179, ../scss/utils/_global.scss */
 #connect_face, #connect_vk {
   background: #00aef4;
   border-radius: 6px;
@@ -190,18 +198,19 @@ h2, .users {
   padding: 0 15px;
   margin-bottom: 5px;
 }
-
+/* line 200, ../scss/utils/_global.scss */
 #connect_face:hover, #connect_vk:hover {
   background-color: #00bef9;
 }
 
+/* line 205, ../scss/utils/_global.scss */
 .views-field-field-mesto, .views-field-field-categogy {
   display: inline-block;
   margin: 0 auto;
   position: relative;
   left: 35%;
 }
-
+/* line 211, ../scss/utils/_global.scss */
 .views-field-field-mesto .field-content, .views-field-field-categogy .field-content {
   display: inline-block;
   vertical-align: top;
@@ -211,16 +220,16 @@ h2, .users {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   margin: 0 20px;
 }
-
+/* line 220, ../scss/utils/_global.scss */
 .views-field-field-mesto .field-content a, .views-field-field-categogy .field-content a {
   color: #808080;
 }
-
+/* line 224, ../scss/utils/_global.scss */
 .views-field-field-mesto .field-content:hover, .views-field-field-categogy .field-content:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-
+/* line 230, ../scss/utils/_global.scss */
 .views-field-field-mesto::before, .views-field-field-categogy::before {
   content: '';
   height: 14px;
@@ -231,22 +240,25 @@ h2, .users {
   margin-top: 4px;
 }
 
+/* line 241, ../scss/utils/_global.scss */
 .views-field-field-mesto::before {
   background-image: url("../img/location-icon.svg");
 }
 
+/* line 245, ../scss/utils/_global.scss */
 .views-field-field-categogy::before {
   background-image: url("../img/event-icon.svg");
 }
 
+/* line 251, ../scss/utils/_global.scss */
 .views-field-field-social .field-content p {
   margin: 0;
 }
-
+/* line 254, ../scss/utils/_global.scss */
 .views-field-field-social .field-content p span {
   padding-left: 30px;
 }
-
+/* line 257, ../scss/utils/_global.scss */
 .views-field-field-social .field-content p span a {
   display: inline-block;
   vertical-align: middle;
@@ -264,11 +276,12 @@ h2, .users {
   color: #808080;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
+/* line 274, ../scss/utils/_global.scss */
 .views-field-field-social .field-content p span a:hover {
   color: #000;
 }
 
+/* line 283, ../scss/utils/_global.scss */
 .face a::before, .vk a::before, .twitt a::before {
   height: 15px;
   width: 15px;
@@ -283,37 +296,41 @@ h2, .users {
   background-position: 50% 50%;
 }
 
+/* line 298, ../scss/utils/_global.scss */
 .face a::before {
   background-image: url("../img/fb-icon.svg");
 }
-
+/* line 302, ../scss/utils/_global.scss */
 .face a:hover::before {
   background-image: url("../img/fb-icon-hover.svg");
 }
 
+/* line 308, ../scss/utils/_global.scss */
 .vk a::before {
   background-image: url("../img/vk-icon.svg");
 }
-
+/* line 312, ../scss/utils/_global.scss */
 .vk a:hover::before {
   background-image: url("../img/vk-icon-hover.svg");
 }
 
+/* line 318, ../scss/utils/_global.scss */
 .twitt a::before {
   background-image: url("../img/tw-icon.svg");
 }
-
+/* line 322, ../scss/utils/_global.scss */
 .twitt a:hover::before {
   background-image: url("../img/tw-icon-hover.svg");
 }
 
+/* line 328, ../scss/utils/_global.scss */
 .fifteen-region .views-field-nothing, .seventeen-region .views-field-nothing {
   position: relative;
   display: inline-block;
   left: 220%;
   top: -400px;
 }
-
+/* line 334, ../scss/utils/_global.scss */
 .fifteen-region .views-field-nothing #butt_share, .seventeen-region .views-field-nothing #butt_share {
   width: 130px;
   height: 30px;
@@ -326,12 +343,12 @@ h2, .users {
   background: #fff;
   padding: 5px 10px 5px 30px;
 }
-
+/* line 346, ../scss/utils/_global.scss */
 .fifteen-region .views-field-nothing #butt_share:hover, .seventeen-region .views-field-nothing #butt_share:hover {
   background: #f4f4f4;
   color: #3c3c3b;
 }
-
+/* line 351, ../scss/utils/_global.scss */
 .fifteen-region .views-field-nothing #butt_share:before, .seventeen-region .views-field-nothing #butt_share:before {
   background-image: url("../img/share.svg");
   position: absolute;
@@ -341,6 +358,7 @@ h2, .users {
   left: 8%;
 }
 
+/* line 365, ../scss/utils/_global.scss */
 .views-field-field-complete {
   display: inline-block;
   position: relative;
@@ -348,7 +366,7 @@ h2, .users {
   font-size: 14px;
   color: #3c3c3b;
 }
-
+/* line 372, ../scss/utils/_global.scss */
 .views-field-field-complete .counter, .views-field-field-complete .counter_discover {
   background: #f2f7f7;
   border-radius: 2px;
@@ -359,7 +377,7 @@ h2, .users {
   width: 300px;
   margin-top: 20px;
 }
-
+/* line 382, ../scss/utils/_global.scss */
 .views-field-field-complete .counter .left_size, .views-field-field-complete .counter_discover .left_size {
   background: #00aef4;
   border-radius: 2px;
@@ -367,7 +385,7 @@ h2, .users {
   height: 100%;
   width: 45%;
 }
-
+/* line 391, ../scss/utils/_global.scss */
 .views-field-field-complete:after {
   position: absolute;
   content: " \B7 ";
@@ -376,6 +394,7 @@ h2, .users {
   z-index: 99;
 }
 
+/* line 402, ../scss/utils/_global.scss */
 .podvideo {
   font-size: 18px;
   line-height: 29px;
@@ -386,6 +405,7 @@ h2, .users {
   position: relative;
 }
 
+/* line 414, ../scss/utils/_global.scss */
 #buttonvid {
   position: relative;
   z-index: 2;
@@ -395,11 +415,11 @@ h2, .users {
   opacity: .8;
   margin: 0 auto;
 }
-
+/* line 423, ../scss/utils/_global.scss */
 #buttonvid:hover {
   opacity: 1;
 }
-
+/* line 427, ../scss/utils/_global.scss */
 #buttonvid #playvideo {
   background: transparent;
   background-image: url("../img/play-icon.svg");
@@ -409,42 +429,45 @@ h2, .users {
   padding: 0;
   outline: none;
 }
-
+/* line 437, ../scss/utils/_global.scss */
 #buttonvid p {
   font-size: 13px;
   font-style: italic;
 }
 
-.path-discover .menu li::before, .path-start .menu li::before {
+/* line 3, ../scss/partials/_header.scss */
+.path-discover header .menu li::before, .path-start header .menu li::before, .path-crowd-learning header .menu li::before {
   display: none !important;
 }
-
-.path-discover #block-drupalbook-boomlogo, .path-start #block-drupalbook-boomlogo {
+/* line 8, ../scss/partials/_header.scss */
+.path-discover #block-drupalbook-boomlogo, .path-start #block-drupalbook-boomlogo, .path-crowd-learning #block-drupalbook-boomlogo {
   display: inline-block;
   float: left;
   line-height: 55px;
   padding-top: 5px;
 }
 
+/* line 17, ../scss/partials/_header.scss */
 .path-frontpage #block-drupalbook-boomlogo {
   display: none;
 }
 
+/* line 1, ../scss/partials/_footer.scss */
 footer {
   background-color: #1a1a1a;
   padding: 0px 0 50px;
   margin-bottom: -1px;
 }
-
+/* line 6, ../scss/partials/_footer.scss */
 footer a {
   color: #999;
 }
-
+/* line 9, ../scss/partials/_footer.scss */
 footer a:hover {
   color: #ccc;
   text-decoration: underline;
 }
-
+/* line 15, ../scss/partials/_footer.scss */
 footer h2 {
   margin: 0 0 22px;
   font-size: 18px;
@@ -455,18 +478,18 @@ footer h2 {
   padding-top: 40px;
   margin-bottom: 20px;
 }
-
+/* line 26, ../scss/partials/_footer.scss */
 footer .region-footer {
   width: 980px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
-
+/* line 34, ../scss/partials/_footer.scss */
 footer .region-footer #block-boomstartervfacebook {
   flex: 1.5;
 }
-
+/* line 37, ../scss/partials/_footer.scss */
 footer .region-footer #block-boomstartervfacebook button {
   border-radius: 3px;
   font-size: 11px;
@@ -483,7 +506,7 @@ footer .region-footer #block-boomstartervfacebook button {
   padding: 4px;
   padding-left: 25px;
 }
-
+/* line 53, ../scss/partials/_footer.scss */
 footer .region-footer #block-boomstartervfacebook button::before {
   background-image: url("../img/footer-facebook-icon.svg");
   width: 16px;
@@ -491,145 +514,146 @@ footer .region-footer #block-boomstartervfacebook button::before {
   margin-left: -20px;
   margin-top: -3px;
 }
-
+/* line 61, ../scss/partials/_footer.scss */
 footer .region-footer #block-boomstartervfacebook button:hover {
   background: #365899;
   border: 1px solid #365899;
 }
-
+/* line 72, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami {
   flex: 2;
 }
-
+/* line 75, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami h2 {
   padding-left: 15px;
 }
-
+/* line 79, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami .menu {
   display: flex;
   flex-wrap: wrap;
   flex: 1;
   width: 420px;
 }
-
+/* line 85, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami .menu li {
   flex: 1 0 50%;
   margin: 0 0 22px;
 }
-
+/* line 89, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami .menu li::before {
   height: 23px;
   width: 23px;
 }
-
+/* line 94, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami .menu li a {
   padding-left: 27px;
   font-size: 14px;
   vertical-align: middle;
 }
-
+/* line 103, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami li:nth-child(1)::before {
   background-image: url("../img/footer-icon-1.svg");
 }
-
+/* line 103, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami li:nth-child(2)::before {
   background-image: url("../img/footer-icon-2.svg");
 }
-
+/* line 103, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami li:nth-child(3)::before {
   background-image: url("../img/footer-icon-3.svg");
 }
-
+/* line 103, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami li:nth-child(4)::before {
   background-image: url("../img/footer-icon-4.svg");
 }
-
+/* line 103, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami li:nth-child(5)::before {
   background-image: url("../img/footer-icon-5.svg");
 }
-
+/* line 103, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami li:nth-child(6)::before {
   background-image: url("../img/footer-icon-6.svg");
 }
-
+/* line 103, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami li:nth-child(7)::before {
   background-image: url("../img/footer-icon-7.svg");
 }
-
+/* line 103, ../scss/partials/_footer.scss */
 footer .region-footer #block-sleduivmestesnami li:nth-child(8)::before {
   background-image: url("../img/footer-icon-8.svg");
 }
-
+/* line 113, ../scss/partials/_footer.scss */
 footer .region-footer #block-nasinagrady {
   flex: 1;
 }
-
+/* line 116, ../scss/partials/_footer.scss */
 footer .region-footer #block-nasinagrady .menu {
   margin: 0;
 }
-
+/* line 120, ../scss/partials/_footer.scss */
 footer .region-footer #block-nasinagrady .menu li::before {
   background-image: url("../img/footer-apple.png");
   width: 116px;
   height: 50px;
   background-size: contain;
 }
-
+/* line 127, ../scss/partials/_footer.scss */
 footer .region-footer #block-nasinagrady .menu li a {
   display: none;
 }
-
+/* line 138, ../scss/partials/_footer.scss */
 footer .region-footer #block-links-on-this-site {
   padding: 20px 0;
 }
-
+/* line 141, ../scss/partials/_footer.scss */
 footer .region-footer #block-links-on-this-site .menu {
   margin: 0 0 20px;
   padding: 0;
 }
-
+/* line 145, ../scss/partials/_footer.scss */
 footer .region-footer #block-links-on-this-site .menu li {
   font-size: 14px;
   display: inline-block;
   margin: 0 14px 10px 0;
 }
-
+/* line 150, ../scss/partials/_footer.scss */
 footer .region-footer #block-links-on-this-site .menu li a.is-active {
   color: #999;
 }
-
+/* line 153, ../scss/partials/_footer.scss */
 footer .region-footer #block-links-on-this-site .menu li a.is-active:hover {
   color: #ccc;
 }
-
+/* line 165, ../scss/partials/_footer.scss */
 footer .region-footer #block-c20122017boomstarteroookraudfanding {
   width: 100%;
 }
-
+/* line 168, ../scss/partials/_footer.scss */
 footer .region-footer #block-c20122017boomstarteroookraudfanding .field--name-body {
   display: flex;
   justify-content: space-between;
 }
-
+/* line 172, ../scss/partials/_footer.scss */
 footer .region-footer #block-c20122017boomstarteroookraudfanding .field--name-body p {
   font-size: 12px;
   color: #999;
   flex: 3;
 }
-
+/* line 178, ../scss/partials/_footer.scss */
 footer .region-footer #block-c20122017boomstarteroookraudfanding .field--name-body a {
   flex: 1;
 }
 
+/* line 1, ../scss/pages/_home.scss */
 #block-drupalbook-headmenu {
   max-width: 600px;
   float: left;
 }
-
+/* line 6, ../scss/pages/_home.scss */
 #block-drupalbook-headmenu .menu-item:first-child a {
   margin-left: 40px;
 }
-
+/* line 10, ../scss/pages/_home.scss */
 #block-drupalbook-headmenu .menu-item:first-child:before {
   content: '';
   display: inline-block;
@@ -641,48 +665,51 @@ footer .region-footer #block-c20122017boomstarteroookraudfanding .field--name-bo
   background-size: contain;
 }
 
+/* line 23, ../scss/pages/_home.scss */
 #block-drupalbook-login-menu {
   float: right;
   max-width: 70px;
 }
-
+/* line 27, ../scss/pages/_home.scss */
 #block-drupalbook-login-menu a {
   color: #00aef4;
 }
-
+/* line 30, ../scss/pages/_home.scss */
 #block-drupalbook-login-menu a:hover {
   text-decoration: none;
   cursor: pointer;
 }
 
+/* line 37, ../scss/pages/_home.scss */
 nav {
   display: inline-block;
   vertical-align: top;
   width: inherit;
 }
 
+/* line 43, ../scss/pages/_home.scss */
 header {
   z-index: 9;
   margin: 0;
   height: 60px;
 }
-
+/* line 48, ../scss/pages/_home.scss */
 header .region-header {
   max-width: 980px;
   margin: 0 auto;
   height: 60px;
 }
-
+/* line 54, ../scss/pages/_home.scss */
 header .menu {
   margin: 0 auto;
 }
-
+/* line 57, ../scss/pages/_home.scss */
 header .menu .menu-item {
   display: inline-block;
   line-height: 60px;
   padding-top: 0;
 }
-
+/* line 62, ../scss/pages/_home.scss */
 header .menu .menu-item a {
   text-decoration: none;
   color: #808080;
@@ -693,12 +720,12 @@ header .menu .menu-item a {
   font-weight: 700;
   font-size: 14px;
 }
-
+/* line 72, ../scss/pages/_home.scss */
 header .menu .menu-item a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-
+/* line 80, ../scss/pages/_home.scss */
 header #block-drupalbook-searchform {
   position: relative;
   display: inline-block;
@@ -709,23 +736,23 @@ header #block-drupalbook-searchform {
   line-height: 60px;
   margin-left: 24px;
 }
-
+/* line 90, ../scss/pages/_home.scss */
 header #block-drupalbook-searchform input[type="search"] {
   border: none;
   outline: none;
   color: #3c3c3b;
   margin-top: 21px;
 }
-
+/* line 96, ../scss/pages/_home.scss */
 header #block-drupalbook-searchform input[type="search"]::placeholder {
   color: #3c3c3b;
   opacity: .6;
 }
-
+/* line 102, ../scss/pages/_home.scss */
 header #block-drupalbook-searchform input[type="submit"] {
   display: none;
 }
-
+/* line 107, ../scss/pages/_home.scss */
 header #block-drupalbook-searchform form:before {
   content: '';
   display: inline-block;
@@ -740,11 +767,12 @@ header #block-drupalbook-searchform form:before {
   left: 0;
 }
 
+/* line 124, ../scss/pages/_home.scss */
 .first-region .field--name-body {
   height: 530px;
   text-align: center;
 }
-
+/* line 128, ../scss/pages/_home.scss */
 .first-region .field--name-body > p:first-child {
   margin: 0;
   clear: both;
@@ -759,7 +787,7 @@ header #block-drupalbook-searchform form:before {
   color: #fff;
   padding-top: 115px;
 }
-
+/* line 140, ../scss/pages/_home.scss */
 .first-region .field--name-body > p:nth-child(2) {
   font-family: "PT Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 35px;
@@ -771,7 +799,7 @@ header #block-drupalbook-searchform form:before {
   color: #fff;
   margin-top: 0;
 }
-
+/* line 149, ../scss/pages/_home.scss */
 .first-region .field--name-body > p:nth-child(3) {
   position: absolute;
   top: 60px;
@@ -783,7 +811,7 @@ header #block-drupalbook-searchform form:before {
   filter: blur(0px);
   overflow: hidden;
 }
-
+/* line 160, ../scss/pages/_home.scss */
 .first-region .field--name-body > p:nth-child(3):before {
   content: '';
   position: absolute;
@@ -793,7 +821,7 @@ header #block-drupalbook-searchform form:before {
   left: 0px;
   background: rgba(0, 24, 51, 0.6);
 }
-
+/* line 170, ../scss/pages/_home.scss */
 .first-region .field--name-body > p:nth-child(3) video {
   width: 100%;
   height: auto;
@@ -801,29 +829,30 @@ header #block-drupalbook-searchform form:before {
   filter: blur(5px);
   margin: -10px;
 }
-
+/* line 180, ../scss/pages/_home.scss */
 .first-region .field--name-body .clicked:before {
   background: none !important;
 }
 
+/* line 192, ../scss/pages/_home.scss */
 .second-region, .four-region, .six-region, .nine-region,
 .thirteen-region {
   background: #f2f7f7;
 }
-
+/* line 196, ../scss/pages/_home.scss */
 .second-region .views-element-container, .four-region .views-element-container, .six-region .views-element-container, .nine-region .views-element-container,
 .thirteen-region .views-element-container {
   margin: 0 auto;
   max-width: 980px;
 }
-
+/* line 200, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-title, .four-region .views-element-container .views-field-title, .six-region .views-element-container .views-field-title, .nine-region .views-element-container .views-field-title,
 .thirteen-region .views-element-container .views-field-title {
   margin: 30px 0 0;
   line-height: 40px;
   text-align: center;
 }
-
+/* line 205, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-title a, .four-region .views-element-container .views-field-title a, .six-region .views-element-container .views-field-title a, .nine-region .views-element-container .views-field-title a,
 .thirteen-region .views-element-container .views-field-title a {
   color: #00aeef;
@@ -833,19 +862,19 @@ header #block-drupalbook-searchform form:before {
   font-weight: 700;
   text-decoration: none;
 }
-
+/* line 213, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-title a:hover, .four-region .views-element-container .views-field-title a:hover, .six-region .views-element-container .views-field-title a:hover, .nine-region .views-element-container .views-field-title a:hover,
 .thirteen-region .views-element-container .views-field-title a:hover {
   text-decoration: underline;
   color: #0080b3;
 }
-
+/* line 220, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-field-complete, .four-region .views-element-container .views-field-field-complete, .six-region .views-element-container .views-field-field-complete, .nine-region .views-element-container .views-field-field-complete,
 .thirteen-region .views-element-container .views-field-field-complete {
   top: -415px;
   left: 65%;
 }
-
+/* line 225, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-name, .four-region .views-element-container .views-field-name, .six-region .views-element-container .views-field-name, .nine-region .views-element-container .views-field-name,
 .thirteen-region .views-element-container .views-field-name {
   color: #3c3c3b;
@@ -856,14 +885,14 @@ header #block-drupalbook-searchform form:before {
   left: 180px;
   top: -250px;
 }
-
+/* line 234, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-name .count_project, .four-region .views-element-container .views-field-name .count_project, .six-region .views-element-container .views-field-name .count_project, .nine-region .views-element-container .views-field-name .count_project,
 .thirteen-region .views-element-container .views-field-name .count_project {
   color: gray;
   font-weight: 300;
   font-size: 14px;
 }
-
+/* line 241, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-view-user, .four-region .views-element-container .views-field-view-user, .six-region .views-element-container .views-field-view-user, .nine-region .views-element-container .views-field-view-user,
 .thirteen-region .views-element-container .views-field-view-user {
   display: inline-block;
@@ -871,20 +900,20 @@ header #block-drupalbook-searchform form:before {
   top: -231px;
   left: 68px;
 }
-
+/* line 247, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-view-user a, .four-region .views-element-container .views-field-view-user a, .six-region .views-element-container .views-field-view-user a, .nine-region .views-element-container .views-field-view-user a,
 .thirteen-region .views-element-container .views-field-view-user a {
   color: #00aeef;
   font-weight: 700;
   font-size: 14px;
 }
-
+/* line 252, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-view-user a:hover, .four-region .views-element-container .views-field-view-user a:hover, .six-region .views-element-container .views-field-view-user a:hover, .nine-region .views-element-container .views-field-view-user a:hover,
 .thirteen-region .views-element-container .views-field-view-user a:hover {
   text-decoration: underline;
   color: #0080b3;
 }
-
+/* line 259, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-user-picture, .four-region .views-element-container .views-field-user-picture, .six-region .views-element-container .views-field-user-picture, .nine-region .views-element-container .views-field-user-picture,
 .thirteen-region .views-element-container .views-field-user-picture {
   display: inline-block;
@@ -893,12 +922,12 @@ header #block-drupalbook-searchform form:before {
   left: 170px;
   top: -220px;
 }
-
+/* line 266, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-user-picture img, .four-region .views-element-container .views-field-user-picture img, .six-region .views-element-container .views-field-user-picture img, .nine-region .views-element-container .views-field-user-picture img,
 .thirteen-region .views-element-container .views-field-user-picture img {
   border-radius: 50%;
 }
-
+/* line 271, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-field-sponsored, .four-region .views-element-container .views-field-field-sponsored, .six-region .views-element-container .views-field-field-sponsored, .nine-region .views-element-container .views-field-field-sponsored,
 .thirteen-region .views-element-container .views-field-field-sponsored {
   line-height: 30px;
@@ -909,7 +938,7 @@ header #block-drupalbook-searchform form:before {
   top: -485px;
   display: inline-block;
 }
-
+/* line 281, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-field-video, .four-region .views-element-container .views-field-field-video, .six-region .views-element-container .views-field-field-video, .nine-region .views-element-container .views-field-field-video,
 .thirteen-region .views-element-container .views-field-field-video {
   margin-top: 30px;
@@ -917,13 +946,13 @@ header #block-drupalbook-searchform form:before {
   height: 360px;
   border-radius: 0 10px 10px 0;
 }
-
+/* line 288, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-field-video .field-content iframe, .four-region .views-element-container .views-field-field-video .field-content iframe, .six-region .views-element-container .views-field-field-video .field-content iframe, .nine-region .views-element-container .views-field-field-video .field-content iframe,
 .thirteen-region .views-element-container .views-field-field-video .field-content iframe {
   width: 600px;
   height: 360px;
 }
-
+/* line 295, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-field-komentarii, .four-region .views-element-container .views-field-field-komentarii, .six-region .views-element-container .views-field-field-komentarii, .nine-region .views-element-container .views-field-field-komentarii,
 .thirteen-region .views-element-container .views-field-field-komentarii {
   display: inline-block;
@@ -938,13 +967,13 @@ header #block-drupalbook-searchform form:before {
   box-sizing: border-box;
   overflow: hidden;
 }
-
+/* line 309, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-field-social, .four-region .views-element-container .views-field-field-social, .six-region .views-element-container .views-field-field-social, .nine-region .views-element-container .views-field-field-social,
 .thirteen-region .views-element-container .views-field-field-social {
   position: relative;
   display: inline-block;
 }
-
+/* line 313, ../scss/pages/_home.scss */
 .second-region .views-element-container .views-field-field-social::before, .four-region .views-element-container .views-field-field-social::before, .six-region .views-element-container .views-field-field-social::before, .nine-region .views-element-container .views-field-field-social::before,
 .thirteen-region .views-element-container .views-field-field-social::before {
   height: 15px;
@@ -959,24 +988,24 @@ header #block-drupalbook-searchform form:before {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-
+/* line 329, ../scss/pages/_home.scss */
 .second-region .views-field-uid, .four-region .views-field-uid, .six-region .views-field-uid, .nine-region .views-field-uid,
 .thirteen-region .views-field-uid {
   position: relative;
   display: inline-block;
 }
-
+/* line 334, ../scss/pages/_home.scss */
 .second-region .views-field-uid .field-content a, .four-region .views-field-uid .field-content a, .six-region .views-field-uid .field-content a, .nine-region .views-field-uid .field-content a,
 .thirteen-region .views-field-uid .field-content a {
   color: #3c3c3b;
   font-weight: 700;
 }
-
+/* line 341, ../scss/pages/_home.scss */
 .second-region .views-field-field-links, .four-region .views-field-field-links, .six-region .views-field-field-links, .nine-region .views-field-field-links,
 .thirteen-region .views-field-field-links {
   position: relative;
 }
-
+/* line 344, ../scss/pages/_home.scss */
 .second-region .views-field-field-links .project_up, .four-region .views-field-field-links .project_up, .six-region .views-field-field-links .project_up, .nine-region .views-field-field-links .project_up,
 .thirteen-region .views-field-field-links .project_up {
   font-size: 18px;
@@ -996,12 +1025,12 @@ header #block-drupalbook-searchform form:before {
   font-weight: 700;
   cursor: pointer;
 }
-
+/* line 362, ../scss/pages/_home.scss */
 .second-region .views-field-field-links .project_up:hover, .four-region .views-field-field-links .project_up:hover, .six-region .views-field-field-links .project_up:hover, .nine-region .views-field-field-links .project_up:hover,
 .thirteen-region .views-field-field-links .project_up:hover {
   background-color: #00bef9;
 }
-
+/* line 367, ../scss/pages/_home.scss */
 .second-region .views-field-field-links .foll, .four-region .views-field-field-links .foll, .six-region .views-field-field-links .foll, .nine-region .views-field-field-links .foll,
 .thirteen-region .views-field-field-links .foll {
   display: inline-block;
@@ -1014,7 +1043,7 @@ header #block-drupalbook-searchform form:before {
   margin: -3px 0 0 -5px;
   cursor: pointer;
 }
-
+/* line 378, ../scss/pages/_home.scss */
 .second-region .views-field-field-links .foll .follow, .four-region .views-field-field-links .foll .follow, .six-region .views-field-field-links .foll .follow, .nine-region .views-field-field-links .foll .follow,
 .thirteen-region .views-field-field-links .foll .follow {
   background: transparent;
@@ -1022,13 +1051,13 @@ header #block-drupalbook-searchform form:before {
   color: #808080;
   padding-left: 25px;
 }
-
+/* line 384, ../scss/pages/_home.scss */
 .second-region .views-field-field-links .foll .follow:hover, .four-region .views-field-field-links .foll .follow:hover, .six-region .views-field-field-links .foll .follow:hover, .nine-region .views-field-field-links .foll .follow:hover,
 .thirteen-region .views-field-field-links .foll .follow:hover {
   color: #3c3c3b;
   text-decoration: underline;
 }
-
+/* line 390, ../scss/pages/_home.scss */
 .second-region .views-field-field-links .foll::before, .four-region .views-field-field-links .foll::before, .six-region .views-field-field-links .foll::before, .nine-region .views-field-field-links .foll::before,
 .thirteen-region .views-field-field-links .foll::before {
   background-image: url("../img/follow-button-icon.svg");
@@ -1037,7 +1066,7 @@ header #block-drupalbook-searchform form:before {
   width: 18px;
   margin-top: 2px;
 }
-
+/* line 400, ../scss/pages/_home.scss */
 .second-region .views-field-field-finish-project, .four-region .views-field-field-finish-project, .six-region .views-field-field-finish-project, .nine-region .views-field-field-finish-project,
 .thirteen-region .views-field-field-finish-project {
   position: relative;
@@ -1047,12 +1076,12 @@ header #block-drupalbook-searchform form:before {
   left: 40%;
   vertical-align: top;
 }
-
+/* line 408, ../scss/pages/_home.scss */
 .second-region .views-field-field-finish-project p, .four-region .views-field-field-finish-project p, .six-region .views-field-field-finish-project p, .nine-region .views-field-field-finish-project p,
 .thirteen-region .views-field-field-finish-project p {
   margin: 0;
 }
-
+/* line 412, ../scss/pages/_home.scss */
 .second-region .views-field-field-finish-project:before, .four-region .views-field-field-finish-project:before, .six-region .views-field-field-finish-project:before, .nine-region .views-field-field-finish-project:before,
 .thirteen-region .views-field-field-finish-project:before {
   background-image: url("../img/clock-icon.svg");
@@ -1069,20 +1098,20 @@ header #block-drupalbook-searchform form:before {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-
+/* line 428, ../scss/pages/_home.scss */
 .second-region .views-field-field-finish-project .field-content, .four-region .views-field-field-finish-project .field-content, .six-region .views-field-field-finish-project .field-content, .nine-region .views-field-field-finish-project .field-content,
 .thirteen-region .views-field-field-finish-project .field-content {
   font-size: 14px;
   line-height: 1.5;
   color: #3c3c3b;
 }
-
+/* line 435, ../scss/pages/_home.scss */
 .second-region .views-field-field-price-project, .four-region .views-field-field-price-project, .six-region .views-field-field-price-project, .nine-region .views-field-field-price-project,
 .thirteen-region .views-field-field-price-project {
   display: inline-block;
   position: relative;
 }
-
+/* line 439, ../scss/pages/_home.scss */
 .second-region .views-field-field-price-project .field-content, .four-region .views-field-field-price-project .field-content, .six-region .views-field-field-price-project .field-content, .nine-region .views-field-field-price-project .field-content,
 .thirteen-region .views-field-field-price-project .field-content {
   font-family: "PT Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -1092,13 +1121,13 @@ header #block-drupalbook-searchform form:before {
   font-weight: 700;
   color: #3c3c3b;
 }
-
+/* line 449, ../scss/pages/_home.scss */
 .second-region .views-field-field-sum-sponsors, .four-region .views-field-field-sum-sponsors, .six-region .views-field-field-sum-sponsors, .nine-region .views-field-field-sum-sponsors,
 .thirteen-region .views-field-field-sum-sponsors {
   display: inline-block;
   position: relative;
 }
-
+/* line 454, ../scss/pages/_home.scss */
 .second-region .views-field-field-sum-sponsors .field-content p, .four-region .views-field-field-sum-sponsors .field-content p, .six-region .views-field-field-sum-sponsors .field-content p, .nine-region .views-field-field-sum-sponsors .field-content p,
 .thirteen-region .views-field-field-sum-sponsors .field-content p {
   margin: 7px 0 14px;
@@ -1108,33 +1137,34 @@ header #block-drupalbook-searchform form:before {
   font-weight: 300;
   color: #3c3c3b;
 }
-
+/* line 462, ../scss/pages/_home.scss */
 .second-region .views-field-field-sum-sponsors .field-content p strong, .four-region .views-field-field-sum-sponsors .field-content p strong, .six-region .views-field-field-sum-sponsors .field-content p strong, .nine-region .views-field-field-sum-sponsors .field-content p strong,
 .thirteen-region .views-field-field-sum-sponsors .field-content p strong {
   font-weight: 300;
 }
 
+/* line 474, ../scss/pages/_home.scss */
 .three-region {
   background-color: #fff;
 }
-
+/* line 477, ../scss/pages/_home.scss */
 .three-region .view-content {
   width: 980px;
   margin: 0 auto;
   text-align: center;
   padding: 60px 0 50px;
 }
-
+/* line 483, ../scss/pages/_home.scss */
 .three-region .view-content .views-field {
   margin: 0 23px;
   display: inline-block;
 }
-
+/* line 488, ../scss/pages/_home.scss */
 .three-region .view-content .views-field .field-content p {
   margin: 0;
   font-family: "PT Sans";
 }
-
+/* line 493, ../scss/pages/_home.scss */
 .three-region .view-content .views-field .field-content p:nth-child(1) {
   font-size: 90px;
   line-height: 52px;
@@ -1142,7 +1172,7 @@ header #block-drupalbook-searchform form:before {
   color: #00aef4;
   padding-bottom: 12px;
 }
-
+/* line 501, ../scss/pages/_home.scss */
 .three-region .view-content .views-field .field-content p:nth-child(2) {
   font-size: 28px;
   line-height: 27px;
@@ -1150,7 +1180,7 @@ header #block-drupalbook-searchform form:before {
   font-weight: 700;
   color: #00aef4;
 }
-
+/* line 509, ../scss/pages/_home.scss */
 .three-region .view-content .views-field .field-content p:nth-child(3) {
   font-size: 21px;
   line-height: 27px;
@@ -1158,61 +1188,64 @@ header #block-drupalbook-searchform form:before {
   font-weight: 400;
 }
 
+/* line 523, ../scss/pages/_home.scss */
 .four-region .views-field-field-price-project {
   margin-bottom: 30px;
 }
-
+/* line 527, ../scss/pages/_home.scss */
 .four-region .views-field-field-links {
   left: 80px;
   top: -320px;
 }
-
+/* line 532, ../scss/pages/_home.scss */
 .four-region .views-field-field-social {
   top: -190px;
 }
-
+/* line 536, ../scss/pages/_home.scss */
 .four-region .views-field-user-picture {
   top: -250px !important;
 }
-
+/* line 540, ../scss/pages/_home.scss */
 .four-region .views-field-name {
   top: -280px !important;
 }
-
+/* line 544, ../scss/pages/_home.scss */
 .four-region .views-field-view-user {
   top: -258px !important;
 }
 
+/* line 550, ../scss/pages/_home.scss */
 .six-region .views-field-field-complete {
   top: -465px !important;
 }
-
+/* line 554, ../scss/pages/_home.scss */
 .six-region .views-field-field-sponsored {
   top: -535px !important;
 }
-
+/* line 558, ../scss/pages/_home.scss */
 .six-region .views-field-field-finish-project {
   top: -350px !important;
 }
 
+/* line 565, ../scss/pages/_home.scss */
 .five-region, .fifteen-region, .seventeen-region {
   width: 1060px;
   background: #fff;
   margin: 0 auto;
 }
-
+/* line 570, ../scss/pages/_home.scss */
 .five-region .view-content, .fifteen-region .view-content, .seventeen-region .view-content {
   display: flex;
 }
-
+/* line 573, ../scss/pages/_home.scss */
 .five-region .view-content .views-row:nth-child(1), .fifteen-region .view-content .views-row:nth-child(1), .seventeen-region .view-content .views-row:nth-child(1) {
   margin-left: 0;
 }
-
+/* line 577, ../scss/pages/_home.scss */
 .five-region .view-content .views-row:nth-child(3), .fifteen-region .view-content .views-row:nth-child(3), .seventeen-region .view-content .views-row:nth-child(3) {
   margin-right: 0;
 }
-
+/* line 581, ../scss/pages/_home.scss */
 .five-region .view-content .views-row, .fifteen-region .view-content .views-row, .seventeen-region .view-content .views-row {
   border-radius: 10px;
   width: 340px;
@@ -1220,7 +1253,7 @@ header #block-drupalbook-searchform form:before {
   margin: 20px 10px 80px;
   background: #f2f7f7;
 }
-
+/* line 588, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-title, .fifteen-region .view-content .views-row .views-field-title, .seventeen-region .view-content .views-row .views-field-title {
   padding: 0 32px;
   margin-bottom: 10px;
@@ -1231,7 +1264,7 @@ header #block-drupalbook-searchform form:before {
   margin-left: -20px;
   margin-right: -20px;
 }
-
+/* line 598, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-title .field-content a, .fifteen-region .view-content .views-row .views-field-title .field-content a, .seventeen-region .view-content .views-row .views-field-title .field-content a {
   font-family: "PT Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -1239,24 +1272,24 @@ header #block-drupalbook-searchform form:before {
   font-weight: 700;
   color: #00aeef;
 }
-
+/* line 605, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-title .field-content a:hover, .fifteen-region .view-content .views-row .views-field-title .field-content a:hover, .seventeen-region .view-content .views-row .views-field-title .field-content a:hover {
   color: #0080b3;
 }
-
+/* line 611, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-field-video, .fifteen-region .view-content .views-row .views-field-field-video, .seventeen-region .view-content .views-row .views-field-field-video {
   padding-top: 25px;
 }
-
+/* line 614, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-field-video .field-content, .fifteen-region .view-content .views-row .views-field-field-video .field-content, .seventeen-region .view-content .views-row .views-field-field-video .field-content {
   height: 225px;
   overflow: hidden;
 }
-
+/* line 618, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-field-video .field-content iframe, .fifteen-region .view-content .views-row .views-field-field-video .field-content iframe, .seventeen-region .view-content .views-row .views-field-field-video .field-content iframe {
   margin-top: -35px;
 }
-
+/* line 624, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-body, .fifteen-region .view-content .views-row .views-field-body, .seventeen-region .view-content .views-row .views-field-body {
   text-align: left;
   font-size: 14px;
@@ -1265,41 +1298,41 @@ header #block-drupalbook-searchform form:before {
   overflow: hidden;
   height: 100px;
 }
-
+/* line 633, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-field-delivery, .fifteen-region .view-content .views-row .views-field-field-delivery, .seventeen-region .view-content .views-row .views-field-field-delivery {
   margin: 0;
   margin-top: 14px;
   font-size: 12px;
 }
-
+/* line 638, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-field-delivery p, .fifteen-region .view-content .views-row .views-field-field-delivery p, .seventeen-region .view-content .views-row .views-field-field-delivery p {
   margin: 5px 0;
 }
-
+/* line 643, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-field-bought, .fifteen-region .view-content .views-row .views-field-field-bought, .seventeen-region .view-content .views-row .views-field-field-bought {
   margin: 0;
   font-size: 12px;
   font-weight: bolder;
 }
-
+/* line 649, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-field-price, .fifteen-region .view-content .views-row .views-field-field-price, .seventeen-region .view-content .views-row .views-field-field-price {
   float: left;
   display: inline-block;
   margin-top: 15px;
 }
-
+/* line 654, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-field-price .field-content, .fifteen-region .view-content .views-row .views-field-field-price .field-content, .seventeen-region .view-content .views-row .views-field-field-price .field-content {
   font-size: 18px;
   line-height: 25px;
   font-weight: 700;
   color: #3c3c3b;
 }
-
+/* line 662, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-field-buy, .fifteen-region .view-content .views-row .views-field-field-buy, .seventeen-region .view-content .views-row .views-field-field-buy {
   display: inline-block;
   float: right;
 }
-
+/* line 667, ../scss/pages/_home.scss */
 .five-region .view-content .views-row .views-field-field-buy .field-content a, .fifteen-region .view-content .views-row .views-field-field-buy .field-content a, .seventeen-region .view-content .views-row .views-field-field-buy .field-content a {
   background: #00aef4;
   border-radius: 6px;
@@ -1321,19 +1354,20 @@ header #block-drupalbook-searchform form:before {
   margin-top: 12px;
 }
 
+/* line 693, ../scss/pages/_home.scss */
 .seven-region, .twelw-region {
   padding-bottom: 60px;
 }
-
+/* line 696, ../scss/pages/_home.scss */
 .seven-region .views-element-container, .twelw-region .views-element-container {
   width: 980px;
   margin: 0 auto;
 }
-
+/* line 700, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content, .twelw-region .views-element-container .view-content {
   display: flex;
 }
-
+/* line 703, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row, .twelw-region .views-element-container .view-content .views-row {
   width: 310px;
   height: 550px;
@@ -1342,7 +1376,7 @@ header #block-drupalbook-searchform form:before {
   border: 1px solid #ddd;
   border-radius: 8px;
 }
-
+/* line 711, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-title, .twelw-region .views-element-container .view-content .views-row .views-field-title {
   padding: 15px;
   text-decoration: none;
@@ -1352,23 +1386,23 @@ header #block-drupalbook-searchform form:before {
   font-size: 18px;
   height: 40px;
 }
-
+/* line 720, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-title a, .twelw-region .views-element-container .view-content .views-row .views-field-title a {
   color: #00aef4;
 }
-
+/* line 725, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row iframe, .twelw-region .views-element-container .view-content .views-row iframe {
   border-radius: 7px 7px 0 0;
 }
-
+/* line 729, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-uid, .twelw-region .views-element-container .view-content .views-row .views-field-uid {
   margin-bottom: 30px;
 }
-
+/* line 732, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-uid a, .twelw-region .views-element-container .view-content .views-row .views-field-uid a {
   padding: 0 !important;
 }
-
+/* line 737, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-field-sponsored, .twelw-region .views-element-container .view-content .views-row .views-field-field-sponsored {
   display: inline-block;
   position: relative;
@@ -1376,43 +1410,43 @@ header #block-drupalbook-searchform form:before {
   top: -37px;
   color: #808080;
 }
-
+/* line 745, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-field-complete, .twelw-region .views-element-container .view-content .views-row .views-field-field-complete {
   padding: 0 15px;
   color: #808080;
 }
-
+/* line 748, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-field-complete .counter, .twelw-region .views-element-container .view-content .views-row .views-field-field-complete .counter {
   width: 280px;
   background: #ddd;
   height: 6px;
 }
-
+/* line 753, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-field-complete:after, .twelw-region .views-element-container .view-content .views-row .views-field-field-complete:after {
   display: none;
 }
-
+/* line 758, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-field-finish-project, .twelw-region .views-element-container .view-content .views-row .views-field-field-finish-project {
   display: none;
 }
-
+/* line 762, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-uid a, .seven-region .views-element-container .view-content .views-row .views-field-uid span, .seven-region .views-element-container .view-content .views-row .views-field-field-komentarii, .seven-region .views-element-container .view-content .views-row .views-field-field-mesto, .seven-region .views-element-container .view-content .views-row .views-field-field-sum-sponsors, .seven-region .views-element-container .view-content .views-row .views-field-field-ends, .twelw-region .views-element-container .view-content .views-row .views-field-uid a, .twelw-region .views-element-container .view-content .views-row .views-field-uid span, .twelw-region .views-element-container .view-content .views-row .views-field-field-komentarii, .twelw-region .views-element-container .view-content .views-row .views-field-field-mesto, .twelw-region .views-element-container .view-content .views-row .views-field-field-sum-sponsors, .twelw-region .views-element-container .view-content .views-row .views-field-field-ends {
   padding: 0 15px;
   font-size: 14px;
   color: #808080;
   margin: 7px 0;
 }
-
+/* line 769, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-field-komentarii, .twelw-region .views-element-container .view-content .views-row .views-field-field-komentarii {
   height: 50px;
   overflow: hidden;
 }
-
+/* line 774, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-field-mesto, .twelw-region .views-element-container .view-content .views-row .views-field-field-mesto {
   left: 0;
   margin-top: 40px;
 }
-
+/* line 782, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-field-mesto::before, .twelw-region .views-element-container .view-content .views-row .views-field-field-mesto::before {
   content: '';
   height: 14px;
@@ -1422,19 +1456,20 @@ header #block-drupalbook-searchform form:before {
   background-size: contain;
   background-image: url("../img/location-icon.svg");
 }
-
+/* line 793, ../scss/pages/_home.scss */
 .seven-region .views-element-container .view-content .views-row .views-field-field-ends, .twelw-region .views-element-container .view-content .views-row .views-field-field-ends {
   text-align: right;
   margin-top: 20px;
 }
 
+/* line 802, ../scss/pages/_home.scss */
 .eigth-region, .sixteen-region {
   background: #1a3048;
   text-align: center;
   padding: 50px 0 43px;
   width: 100%;
 }
-
+/* line 808, ../scss/pages/_home.scss */
 .eigth-region h2, .sixteen-region h2 {
   font-size: 35px;
   line-height: 39px;
@@ -1444,7 +1479,7 @@ header #block-drupalbook-searchform form:before {
   padding: 0;
   margin-bottom: 25px;
 }
-
+/* line 818, ../scss/pages/_home.scss */
 .eigth-region p a, .sixteen-region p a {
   font-size: 18px;
   height: 50px;
@@ -1464,36 +1499,37 @@ header #block-drupalbook-searchform form:before {
   padding: 0 70px;
   box-sizing: border-box;
 }
-
+/* line 837, ../scss/pages/_home.scss */
 .eigth-region p a:hover, .sixteen-region p a:hover {
   background-color: #00bef9;
 }
 
+/* line 843, ../scss/pages/_home.scss */
 .ten-region {
   padding: 40px 0 70px;
 }
-
+/* line 846, ../scss/pages/_home.scss */
 .ten-region .views-element-container {
   width: 980px;
   margin: 0 auto;
 }
-
+/* line 850, ../scss/pages/_home.scss */
 .ten-region .views-element-container .users {
   margin-bottom: 60px;
 }
-
+/* line 855, ../scss/pages/_home.scss */
 .ten-region .views-element-container #users_in:hover {
   text-decoration: underline;
 }
-
+/* line 859, ../scss/pages/_home.scss */
 .ten-region .views-element-container #users_in:visited {
   color: #00aef4;
 }
-
+/* line 864, ../scss/pages/_home.scss */
 .ten-region .views-element-container .js-view-dom-id-65650d203f0ed5c5a76e3b1e5adb16a691f71faa6cf17b0855e1b125be415fe3 {
   display: flex;
 }
-
+/* line 868, ../scss/pages/_home.scss */
 .ten-region .views-element-container .views-row {
   position: relative;
   display: inline-block;
@@ -1502,7 +1538,7 @@ header #block-drupalbook-searchform form:before {
   text-align: center;
   margin-bottom: 10px;
 }
-
+/* line 877, ../scss/pages/_home.scss */
 .ten-region .views-element-container .views-field-user-picture {
   width: 100px;
   height: 100px;
@@ -1510,7 +1546,7 @@ header #block-drupalbook-searchform form:before {
   margin: 0 auto;
   border-radius: 50%;
 }
-
+/* line 884, ../scss/pages/_home.scss */
 .ten-region .views-element-container .views-field-user-picture:before {
   background-image: url("../img/avatar.svg");
   z-index: 1;
@@ -1521,7 +1557,7 @@ header #block-drupalbook-searchform form:before {
   border-radius: 50%;
   left: 40px;
 }
-
+/* line 895, ../scss/pages/_home.scss */
 .ten-region .views-element-container .views-field-user-picture img {
   border-radius: 50%;
   width: 100px;
@@ -1530,11 +1566,11 @@ header #block-drupalbook-searchform form:before {
   position: absolute;
   left: 40px;
 }
-
+/* line 905, ../scss/pages/_home.scss */
 .ten-region .views-element-container .views-field-name {
   margin-top: 20px;
 }
-
+/* line 908, ../scss/pages/_home.scss */
 .ten-region .views-element-container .views-field-name a {
   font-size: 14px;
   line-height: 17px;
@@ -1543,25 +1579,26 @@ header #block-drupalbook-searchform form:before {
   color: #3c3c3b;
 }
 
+/* line 919, ../scss/pages/_home.scss */
 .eleven-region, .fourteen-region {
   background-color: #1a3048;
 }
-
+/* line 922, ../scss/pages/_home.scss */
 .eleven-region .block-connect-face, .fourteen-region .block-connect-face {
   background-image: url("../img/facebook-bg.svg");
 }
-
+/* line 926, ../scss/pages/_home.scss */
 .eleven-region .block-connect-vk, .fourteen-region .block-connect-vk {
   background-image: url("../img/vk-bg.svg");
 }
-
+/* line 930, ../scss/pages/_home.scss */
 .eleven-region .block, .fourteen-region .block {
   width: 980px;
   margin: 0 auto;
   color: #fff;
   background-repeat: no-repeat;
 }
-
+/* line 936, ../scss/pages/_home.scss */
 .eleven-region .block h3, .fourteen-region .block h3 {
   font-family: "PT Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 35px;
@@ -1574,7 +1611,7 @@ header #block-drupalbook-searchform form:before {
   display: inline-block;
   margin-top: 0;
 }
-
+/* line 949, ../scss/pages/_home.scss */
 .eleven-region .block p, .fourteen-region .block p {
   position: relative;
   top: 75px;
@@ -1582,28 +1619,30 @@ header #block-drupalbook-searchform form:before {
   line-height: 25px;
   margin: 0;
 }
-
+/* line 957, ../scss/pages/_home.scss */
 .eleven-region .block #after_butt, .eleven-region .block #after_butt_vk, .fourteen-region .block #after_butt, .fourteen-region .block #after_butt_vk {
   font-size: 13px;
   line-height: 25px;
   max-width: 300px;
 }
-
+/* line 963, ../scss/pages/_home.scss */
 .eleven-region .block #after_butt, .eleven-region .block #after_butt_vk, .eleven-region .block #connect_face, .eleven-region .block #connect_vk, .fourteen-region .block #after_butt, .fourteen-region .block #after_butt_vk, .fourteen-region .block #connect_face, .fourteen-region .block #connect_vk {
   position: relative;
   left: 680px;
   top: -70px;
 }
 
+/* line 972, ../scss/pages/_home.scss */
 .fifteen-region .views-element-container, .seventeen-region .views-element-container {
   width: 980px;
   margin: 0 auto;
 }
 
+/* line 986, ../scss/pages/_home.scss */
 .fifteen-region .views-element-container .view .view-content .views-row, .seventeen-region .views-element-container .view .view-content .views-row {
   height: 440px;
 }
-
+/* line 990, ../scss/pages/_home.scss */
 .fifteen-region .views-element-container .view .view-content .views-field-title, .seventeen-region .views-element-container .view .view-content .views-field-title {
   line-height: 30px;
   font-weight: 700;
@@ -1615,18 +1654,18 @@ header #block-drupalbook-searchform form:before {
   top: -410px;
   left: 115%;
 }
-
+/* line 1001, ../scss/pages/_home.scss */
 .fifteen-region .views-element-container .view .view-content .views-field-title a, .seventeen-region .views-element-container .view .view-content .views-field-title a {
   font-size: 28px;
 }
-
+/* line 1006, ../scss/pages/_home.scss */
 .fifteen-region .views-element-container .view .view-content .views-field-field-mesto, .fifteen-region .views-element-container .view .view-content .views-field-field-categogy, .seventeen-region .views-element-container .view .view-content .views-field-field-mesto, .seventeen-region .views-element-container .view .view-content .views-field-field-categogy {
   left: 120%;
   position: relative;
   overflow: hidden;
   top: -440px;
 }
-
+/* line 1013, ../scss/pages/_home.scss */
 .fifteen-region .views-element-container .view .view-content .views-field-field-komentarii, .seventeen-region .views-element-container .view .view-content .views-field-field-komentarii {
   position: relative;
   left: 120%;
@@ -1637,21 +1676,21 @@ header #block-drupalbook-searchform form:before {
   margin-bottom: 40px;
   color: #3c3c3b;
 }
-
+/* line 1024, ../scss/pages/_home.scss */
 .fifteen-region .views-element-container .view .view-content .views-field-uid, .seventeen-region .views-element-container .view .view-content .views-field-uid {
   display: inline-block;
   position: relative;
   left: 150%;
   top: -400px;
 }
-
+/* line 1030, ../scss/pages/_home.scss */
 .fifteen-region .views-element-container .view .view-content .views-field-uid a, .seventeen-region .views-element-container .view .view-content .views-field-uid a {
   font-size: 14px;
   line-height: 16px;
   color: #3c3c3b;
   font-weight: 700;
 }
-
+/* line 1038, ../scss/pages/_home.scss */
 .fifteen-region .views-element-container .view .view-content .views-field-field-social, .seventeen-region .views-element-container .view .view-content .views-field-field-social {
   position: relative;
   border: 1px solid #ddd;
@@ -1670,16 +1709,16 @@ header #block-drupalbook-searchform form:before {
   left: 180%;
   top: -380px;
 }
-
+/* line 1039, ../scss/pages/_home.scss */
 .fifteen-region .views-element-container .view .view-content .views-field-field-social span, .seventeen-region .views-element-container .view .view-content .views-field-field-social span {
   padding-left: 10px;
 }
-
+/* line 1042, ../scss/pages/_home.scss */
 .fifteen-region .views-element-container .view .view-content .views-field-field-social span a, .seventeen-region .views-element-container .view .view-content .views-field-field-social span a {
   border: none;
   margin-top: 15px;
 }
-
+/* line 1065, ../scss/pages/_home.scss */
 .fifteen-region .views-element-container .view .view-content .views-field-field-social::before, .seventeen-region .views-element-container .view .view-content .views-field-field-social::before {
   width: 20px;
   height: 20px;
@@ -1692,48 +1731,52 @@ header #block-drupalbook-searchform form:before {
   display: block;
 }
 
+/* line 1083, ../scss/pages/_home.scss */
 .seventeen-region .view-content {
   display: block;
 }
-
+/* line 1084, ../scss/pages/_home.scss */
 .seventeen-region .view-content .views-row {
   margin: 50px 0;
 }
-
+/* line 1090, ../scss/pages/_home.scss */
 .seventeen-region .view-content .views-field-title {
   text-align: left !important;
   width: 500px;
 }
-
+/* line 1095, ../scss/pages/_home.scss */
 .seventeen-region .view-content .views-field-field-categogy,
 .seventeen-region .view-content .views-field-field-mesto {
   top: -400px !important;
 }
-
+/* line 1100, ../scss/pages/_home.scss */
 .seventeen-region .view-content .views-field-field-komentarii {
   top: -370px !important;
 }
-
+/* line 1104, ../scss/pages/_home.scss */
 .seventeen-region .view-content .views-field-uid {
   top: -370px !important;
 }
-
+/* line 1108, ../scss/pages/_home.scss */
 .seventeen-region .view-content .views-field-nothing {
   top: -370px !important;
 }
 
+/* line 1116, ../scss/pages/_home.scss */
 body.user-logged-in .first-region .field--name-body > p:nth-child(3) {
   top: 0;
 }
 
+/* line 1120, ../scss/pages/_home.scss */
 body {
   overflow-x: hidden;
 }
 
+/* line 5, ../scss/pages/_start.scss */
 .path-start .video-region {
   text-align: center;
 }
-
+/* line 8, ../scss/pages/_start.scss */
 .path-start .video-region::before {
   position: absolute;
   background: url("../img/start/down-button.svg") center top no-repeat;
@@ -1748,11 +1791,11 @@ body {
   margin-top: 485px;
   cursor: pointer;
 }
-
+/* line 24, ../scss/pages/_start.scss */
 .path-start .video-region video {
   display: none;
 }
-
+/* line 28, ../scss/pages/_start.scss */
 .path-start .video-region .field--name-body {
   height: 530px;
   background: center top;
@@ -1760,7 +1803,7 @@ body {
   background-image: url("../img/start/header-bg.jpg");
   background-size: cover;
 }
-
+/* line 35, ../scss/pages/_start.scss */
 .path-start .video-region .field--name-body > p:nth-child(2) {
   height: 530px;
   position: absolute;
@@ -1770,7 +1813,7 @@ body {
   right: 0;
   bottom: 0;
 }
-
+/* line 44, ../scss/pages/_start.scss */
 .path-start .video-region .field--name-body > p:nth-child(2) video {
   filter: none;
   z-index: 999;
@@ -1780,7 +1823,7 @@ body {
   transform: translate(-50%);
   top: 0;
 }
-
+/* line 55, ../scss/pages/_start.scss */
 .path-start .video-region h3 {
   margin: 0 auto;
   clear: both;
@@ -1796,25 +1839,25 @@ body {
   padding-top: 115px;
   max-width: 700px;
 }
-
+/* line 71, ../scss/pages/_start.scss */
 .path-start .changes-region {
   background: #f2f7f7;
   padding-bottom: 60px;
 }
-
+/* line 75, ../scss/pages/_start.scss */
 .path-start .changes-region h2 {
   padding-top: 52px;
   padding-bottom: 0;
   text-align: center;
   margin-bottom: 10px;
 }
-
+/* line 82, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
+/* line 87, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body > p:first-child {
   font-size: 18px;
   line-height: 21px;
@@ -1823,7 +1866,7 @@ body {
   margin-top: 0;
   flex: 1 100%;
 }
-
+/* line 96, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #left-block, .path-start .changes-region .field--name-body #central-block, .path-start .changes-region .field--name-body #right-block {
   box-sizing: border-box;
   width: 280px;
@@ -1834,7 +1877,7 @@ body {
   text-align: left;
   position: relative;
 }
-
+/* line 107, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #central-block::before, .path-start .changes-region .field--name-body #right-block::before {
   width: 104px;
   height: 104px;
@@ -1843,36 +1886,36 @@ body {
   right: -11px;
   z-index: 3;
 }
-
+/* line 116, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #central-block::before {
   background-image: url("../img/start/2-block.svg");
 }
-
+/* line 120, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #right-block {
   background: url("../img/start/coming-soon-bg.png");
   padding: 90px 50px 0;
   text-align: center;
   color: #fff;
 }
-
+/* line 126, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #right-block:before {
   background-image: url("../img/start/3-block.svg");
 }
-
+/* line 130, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #right-block p {
   font-size: 20px;
   line-height: 24px;
   font-weight: bold;
   margin-bottom: 58px;
 }
-
+/* line 137, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #right-block p:nth-child(2) {
   font-size: 14px;
   line-height: 17px;
   margin-bottom: 20px;
   font-weight: 100;
 }
-
+/* line 145, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #left-block, .path-start .changes-region .field--name-body #central-block {
   display: block;
   text-decoration: none;
@@ -1883,7 +1926,7 @@ body {
   position: relative;
   z-index: 1;
 }
-
+/* line 157, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #left-block p:first-child, .path-start .changes-region .field--name-body #central-block p:first-child {
   font-size: 20px;
   line-height: 23px;
@@ -1891,14 +1934,14 @@ body {
   color: #00aef4;
   margin: 0 0 10px;
 }
-
+/* line 165, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #left-block p, .path-start .changes-region .field--name-body #central-block p {
   font-size: 14px;
   color: #3c3c3b;
   line-height: 17px;
   margin-bottom: 9px;
 }
-
+/* line 173, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #left-block p:last-child a, .path-start .changes-region .field--name-body #central-block p:last-child a {
   width: 230px;
   position: absolute;
@@ -1921,42 +1964,42 @@ body {
   border: 2px solid transparent;
   text-align: center;
 }
-
+/* line 196, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #left-block:hover, .path-start .changes-region .field--name-body #central-block:hover {
   background: #00aef4;
   border: 1px solid transparent;
   cursor: pointer;
 }
-
+/* line 200, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #left-block:hover p, .path-start .changes-region .field--name-body #central-block:hover p {
   color: #fff;
 }
-
+/* line 204, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body #left-block:hover a, .path-start .changes-region .field--name-body #central-block:hover a {
   background: #fff !important;
   color: #414042 !important;
   font-weight: normal !important;
 }
-
+/* line 212, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body .link_soc {
   position: absolute;
 }
-
+/* line 215, ../scss/pages/_start.scss */
 .path-start .changes-region .field--name-body .link_soc a {
   margin: 0 10px;
 }
-
+/* line 225, ../scss/pages/_start.scss */
 .path-start .boomst-region .block-region-boomst {
   box-sizing: border-box;
   width: 960px;
   margin: 0 auto;
   padding: 55px 30px 59px;
 }
-
+/* line 226, ../scss/pages/_start.scss */
 .path-start .boomst-region .block-region-boomst div > div > div > div:nth-child(4) {
   margin-top: -120px;
 }
-
+/* line 235, ../scss/pages/_start.scss */
 .path-start .boomst-region .block-region-boomst h2 {
   font-weight: bold;
   font-size: 28px;
@@ -1965,14 +2008,14 @@ body {
   max-width: 610px;
   padding: 0;
 }
-
+/* line 244, ../scss/pages/_start.scss */
 .path-start .boomst-region .block-region-boomst p {
   font-size: 19px;
   line-height: 25px;
   margin-bottom: 23px;
   max-width: 610px;
 }
-
+/* line 251, ../scss/pages/_start.scss */
 .path-start .boomst-region .block-region-boomst #near-link {
   border-radius: 10px;
   overflow: hidden;
@@ -1983,7 +2026,7 @@ body {
   background-size: cover;
   box-sizing: border-box;
 }
-
+/* line 261, ../scss/pages/_start.scss */
 .path-start .boomst-region .block-region-boomst #near-link #study-link {
   font-weight: normal;
   font-size: 14px;
@@ -2003,22 +2046,22 @@ body {
   text-decoration: none;
   margin-top: 10px;
 }
-
+/* line 282, ../scss/pages/_start.scss */
 .path-start .boomst-region .block-region-boomst .members_project {
   position: absolute;
   left: 63%;
   margin-top: -280px;
 }
-
+/* line 287, ../scss/pages/_start.scss */
 .path-start .boomst-region .block-region-boomst .members_project p, .path-start .boomst-region .block-region-boomst .members_project h2, .path-start .boomst-region .block-region-boomst .members_project h5 {
   margin: 0;
   font-family: "PT Sans";
 }
-
+/* line 292, ../scss/pages/_start.scss */
 .path-start .boomst-region .block-region-boomst .members_project p {
   margin-bottom: 30px;
 }
-
+/* line 296, ../scss/pages/_start.scss */
 .path-start .boomst-region .block-region-boomst .members_project h2 {
   font-size: 90px;
   line-height: 52px;
@@ -2026,7 +2069,7 @@ body {
   color: #00aef4;
   padding-bottom: 12px;
 }
-
+/* line 304, ../scss/pages/_start.scss */
 .path-start .boomst-region .block-region-boomst .members_project h5:nth-child(2) {
   font-size: 28px;
   line-height: 27px;
@@ -2034,25 +2077,25 @@ body {
   font-weight: 700;
   color: #00aef4;
 }
-
+/* line 312, ../scss/pages/_start.scss */
 .path-start .boomst-region .block-region-boomst .members_project h5:last-child {
   font-size: 21px;
   line-height: 27px;
   color: #3c3c3b;
   font-weight: 400;
 }
-
+/* line 324, ../scss/pages/_start.scss */
 .path-start .author-region {
   background: #00aef4;
   height: 970px;
 }
-
+/* line 328, ../scss/pages/_start.scss */
 .path-start .author-region .block-region-author {
   padding: 65px 10px 83px;
   width: 960px;
   margin: 0 auto;
 }
-
+/* line 334, ../scss/pages/_start.scss */
 .path-start .author-region h2 {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -2064,7 +2107,7 @@ body {
   margin-bottom: 29px;
   max-width: 370px;
 }
-
+/* line 347, ../scss/pages/_start.scss */
 .path-start .author-region .view-content .views-row {
   width: 100%;
   background: #fff;
@@ -2077,7 +2120,7 @@ body {
   z-index: 1;
   margin: 30px 10px;
 }
-
+/* line 359, ../scss/pages/_start.scss */
 .path-start .author-region .view-content .views-row:after {
   content: "";
   width: 0;
@@ -2092,45 +2135,45 @@ body {
   border-radius: 5px;
   box-shadow: -7px 2px 0 -1px #dadada;
 }
-
+/* line 375, ../scss/pages/_start.scss */
 .path-start .author-region .view-content .views-row .views-field-field-quote p {
   font-size: 23px;
   line-height: 30px;
   margin: 0;
   margin-bottom: 15px;
 }
-
+/* line 383, ../scss/pages/_start.scss */
 .path-start .author-region .view-content .views-row .views-field-user-picture {
   display: inline-block;
   float: left;
   margin: 0 10px 10px 0;
   border-radius: 50%;
 }
-
+/* line 389, ../scss/pages/_start.scss */
 .path-start .author-region .view-content .views-row .views-field-user-picture img {
   border-radius: 50%;
   height: 80px;
   width: 80px;
 }
-
+/* line 396, ../scss/pages/_start.scss */
 .path-start .author-region .view-content .views-row .views-field-name {
   font-size: 16px;
   line-height: 21px;
   font-weight: bold;
   margin-bottom: 5px;
 }
-
+/* line 403, ../scss/pages/_start.scss */
 .path-start .author-region .view-content .views-row .views-field-nothing-1, .path-start .author-region .view-content .views-row .views-field-title {
   font-size: 14px;
   color: #3c3c3b;
 }
-
+/* line 408, ../scss/pages/_start.scss */
 .path-start .author-region .view-content .views-row .views-field-nothing, .path-start .author-region .view-content .views-row .views-field-field-price-project, .path-start .author-region .view-content .views-row .views-field-field-sponsored {
   font-size: 12px;
   color: #3c3c3b;
   margin-top: 5px;
 }
-
+/* line 415, ../scss/pages/_start.scss */
 .path-start .author-region .view-content > div:nth-child(1) {
   width: 500px;
   height: 300px;
@@ -2138,67 +2181,67 @@ body {
   float: right;
   margin-top: -230px;
 }
-
+/* line 423, ../scss/pages/_start.scss */
 .path-start .author-region .view-content > div:nth-child(2) {
   width: 380px;
   height: 300px;
   box-sizing: border-box;
 }
-
+/* line 429, ../scss/pages/_start.scss */
 .path-start .author-region .view-content > div:nth-child(3) {
   width: 530px;
   height: 270px;
   box-sizing: border-box;
   margin-top: -220px;
 }
-
+/* line 436, ../scss/pages/_start.scss */
 .path-start .author-region .view-content > div:nth-child(4) {
   width: 380px;
   height: 200px;
   box-sizing: border-box;
   float: left;
 }
-
+/* line 442, ../scss/pages/_start.scss */
 .path-start .author-region .view-content > div:nth-child(4) .views-field-nothing-1, .path-start .author-region .view-content > div:nth-child(4) .views-field-title, .path-start .author-region .view-content > div:nth-child(4) .views-field-nothing, .path-start .author-region .view-content > div:nth-child(4) .views-field-field-price-project, .path-start .author-region .view-content > div:nth-child(4) .views-field-field-sponsored {
   display: inline-block;
   margin-right: 9px;
 }
-
+/* line 452, ../scss/pages/_start.scss */
 .path-start .category-region {
   background: #f2f7f7;
   padding: 70px 0 63px;
 }
-
+/* line 456, ../scss/pages/_start.scss */
 .path-start .category-region .block-region-category {
   width: 960px;
   margin: 0 auto;
 }
-
+/* line 460, ../scss/pages/_start.scss */
 .path-start .category-region .block-region-category .field--name-body {
   display: flex;
 }
-
+/* line 464, ../scss/pages/_start.scss */
 .path-start .category-region .block-region-category h2 {
   color: #00aef4;
   padding: 0;
   margin: 12px 0 10px;
 }
-
+/* line 470, ../scss/pages/_start.scss */
 .path-start .category-region .block-region-category .categor_proj {
   font-size: 18px;
   line-height: 28px;
   color: #3c3c3b;
   max-width: 685px;
 }
-
+/* line 476, ../scss/pages/_start.scss */
 .path-start .category-region .block-region-category .categor_proj p {
   margin: 0;
 }
-
+/* line 480, ../scss/pages/_start.scss */
 .path-start .category-region .block-region-category .categor_proj p:last-child {
   font-weight: bold;
 }
-
+/* line 485, ../scss/pages/_start.scss */
 .path-start .category-region .block-region-category .categor_link {
   box-sizing: border-box;
   width: 275px;
@@ -2213,7 +2256,7 @@ body {
   color: #3c3c3b;
   font-weight: 400;
 }
-
+/* line 499, ../scss/pages/_start.scss */
 .path-start .category-region .block-region-category .categor_link button {
   background: #00aef4;
   border-radius: 6px;
@@ -2233,26 +2276,26 @@ body {
   line-height: 45px;
   margin-top: 15px;
 }
-
+/* line 524, ../scss/pages/_start.scss */
 .path-start .how_work-region {
   padding-bottom: 55px;
 }
-
+/* line 527, ../scss/pages/_start.scss */
 .path-start .how_work-region .block-region-how-work {
   max-width: 960px;
   margin: 0 auto;
 }
-
+/* line 531, ../scss/pages/_start.scss */
 .path-start .how_work-region .block-region-how-work h2 {
   text-align: center;
   margin-bottom: 20px;
 }
-
+/* line 536, ../scss/pages/_start.scss */
 .path-start .how_work-region .block-region-how-work .field--name-body {
   display: flex;
   flex-wrap: wrap;
 }
-
+/* line 540, ../scss/pages/_start.scss */
 .path-start .how_work-region .block-region-how-work .field--name-body h5 {
   font-size: 18px;
   font-weight: bold;
@@ -2260,31 +2303,31 @@ body {
   color: #3c3c3b;
   margin-top: 10px;
 }
-
+/* line 549, ../scss/pages/_start.scss */
 .path-start .how_work-region .block-region-how-work .field--name-body .row1 p, .path-start .how_work-region .block-region-how-work .field--name-body .row2 p {
   font-size: 16px;
   color: #3c3c3b;
   line-height: 1.5;
 }
-
+/* line 556, ../scss/pages/_start.scss */
 .path-start .how_work-region .block-region-how-work .field--name-body .question1, .path-start .how_work-region .block-region-how-work .field--name-body .question2 {
   flex: 50%;
   padding-right: 40px;
   box-sizing: border-box;
   margin-top: 15px;
 }
-
+/* line 562, ../scss/pages/_start.scss */
 .path-start .how_work-region .block-region-how-work .field--name-body .question1 h5, .path-start .how_work-region .block-region-how-work .field--name-body .question2 h5 {
   font-size: 18px;
   color: #00aeef;
   font-weight: 100;
   padding-left: 5px;
 }
-
+/* line 568, ../scss/pages/_start.scss */
 .path-start .how_work-region .block-region-how-work .field--name-body .question1 h5:hover, .path-start .how_work-region .block-region-how-work .field--name-body .question2 h5:hover {
   cursor: pointer;
 }
-
+/* line 572, ../scss/pages/_start.scss */
 .path-start .how_work-region .block-region-how-work .field--name-body .question1 h5:before, .path-start .how_work-region .block-region-how-work .field--name-body .question2 h5:before {
   position: relative;
   left: -5px;
@@ -2296,14 +2339,14 @@ body {
   height: 11px;
   font-size: 0;
 }
-
+/* line 586, ../scss/pages/_start.scss */
 .path-start .how_work-region .block-region-how-work .field--name-body .question1 h5.q-clicked:before, .path-start .how_work-region .block-region-how-work .field--name-body .question2 h5.q-clicked:before {
   transform: rotate(90deg);
   transform-origin: 50% 50%;
   transform-style: flat;
   transition: all 0.3s ease;
 }
-
+/* line 594, ../scss/pages/_start.scss */
 .path-start .how_work-region .block-region-how-work .field--name-body .question1 p, .path-start .how_work-region .block-region-how-work .field--name-body .question2 p {
   font-size: 14px;
   color: #3c3c3b;
@@ -2312,7 +2355,7 @@ body {
   font-family: "Helvetica Neue",Helvetica,Arial,"Liberation Sans",FreeSans,sans-serif;
   display: none;
 }
-
+/* line 604, ../scss/pages/_start.scss */
 .path-start .how_work-region .block-region-how-work .field--name-body .column1, .path-start .how_work-region .block-region-how-work .field--name-body .column2 {
   display: inline-block;
   flex: 50%;
@@ -2320,15 +2363,15 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
+/* line 611, ../scss/pages/_start.scss */
 .path-start .how_work-region .block-region-how-work .field--name-body .column1 div, .path-start .how_work-region .block-region-how-work .field--name-body .column2 div {
   max-width: 90%;
 }
-
+/* line 623, ../scss/pages/_start.scss */
 .path-start .create-region .view-content h3 {
   display: none;
 }
-
+/* line 628, ../scss/pages/_start.scss */
 .path-start .create-region .views-row {
   padding: 60px 0;
   width: 100%;
@@ -2336,11 +2379,11 @@ body {
   box-sizing: border-box;
   text-align: center;
 }
-
+/* line 635, ../scss/pages/_start.scss */
 .path-start .create-region .views-row .views-field-user-picture {
   border-radius: 50%;
 }
-
+/* line 638, ../scss/pages/_start.scss */
 .path-start .create-region .views-row .views-field-user-picture img {
   border-radius: 50%;
   border: 3px solid #fff;
@@ -2348,29 +2391,29 @@ body {
   width: 80px;
   box-sizing: border-box;
 }
-
+/* line 647, ../scss/pages/_start.scss */
 .path-start .create-region .views-row .views-field-name {
   margin: 8px 0 4px;
 }
-
+/* line 650, ../scss/pages/_start.scss */
 .path-start .create-region .views-row .views-field-name span {
   font-size: 18px;
   font-weight: bold;
   color: #fff;
 }
-
+/* line 657, ../scss/pages/_start.scss */
 .path-start .create-region .views-row .views-field-nothing-1 {
   font-size: 14px;
   color: #fff;
   margin-bottom: 5px;
 }
-
+/* line 663, ../scss/pages/_start.scss */
 .path-start .create-region .views-row .views-field-nothing {
   font-size: 14px;
   color: #f4ce31;
   margin-bottom: 27px;
 }
-
+/* line 669, ../scss/pages/_start.scss */
 .path-start .create-region .views-row .views-field-field-quote {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 28px;
@@ -2380,80 +2423,82 @@ body {
   max-width: 905px;
   margin: 0 auto 33px;
 }
-
+/* line 681, ../scss/pages/_start.scss */
 .path-start .create-region .views-row:nth-child(2) {
   background-image: url("../img/start/slide1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+/* line 681, ../scss/pages/_start.scss */
 .path-start .create-region .views-row:nth-child(3) {
   background-image: url("../img/start/slide2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+/* line 681, ../scss/pages/_start.scss */
 .path-start .create-region .views-row:nth-child(4) {
   background-image: url("../img/start/slide3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+/* line 691, ../scss/pages/_start.scss */
 body.user-logged-in.path-start .video-region .field--name-body > p:nth-child(2) {
   top: 0;
 }
-
+/* line 695, ../scss/pages/_start.scss */
 body.user-logged-in.path-start .members_project {
   left: 73% !important;
 }
 
+/* line 2, ../scss/pages/_discover.scss */
 .path-discover header {
   border-bottom: 1px solid #dadada;
 }
-
+/* line 6, ../scss/pages/_discover.scss */
 .path-discover .region {
   margin: 0 auto;
   max-width: 960px;
 }
-
+/* line 10, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
 }
-
+/* line 16, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .panel-panel:nth-child(1) {
   flex: 0 1 80%;
 }
-
+/* line 20, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .panel-panel:nth-child(2) {
   flex: 0 1 20%;
 }
-
+/* line 26, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content {
   display: block;
 }
-
+/* line 28, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row {
   width: 100%;
 }
-
+/* line 34, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left h2 {
   font-size: 18px;
   padding: 0;
   margin: 20px 0 30px;
 }
-
+/* line 40, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .views-element-container {
   margin: 0;
 }
-
+/* line 44, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content {
   display: flex;
   flex-wrap: wrap;
 }
-
+/* line 48, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content h3 {
   font-size: 24px;
   margin: 20px 0 1em;
@@ -2461,15 +2506,15 @@ body.user-logged-in.path-start .members_project {
   font-weight: bold;
   flex: 100%;
 }
-
+/* line 55, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content h3 a {
   color: #222;
 }
-
+/* line 58, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content h3 a:visited, .path-discover .region .panel-2col .block-region-left .view-content h3 a:hover {
   color: #222;
 }
-
+/* line 63, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content h3 p {
   color: #999;
   font-weight: normal;
@@ -2478,7 +2523,7 @@ body.user-logged-in.path-start .members_project {
   margin: 10px 0 1em;
   line-height: 1.2;
 }
-
+/* line 73, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row {
   width: 210px;
   height: 390px;
@@ -2487,7 +2532,7 @@ body.user-logged-in.path-start .members_project {
   border: 1px solid #ddd;
   border-radius: 8px;
 }
-
+/* line 82, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-title {
   padding: 8px;
   text-decoration: none;
@@ -2498,25 +2543,25 @@ body.user-logged-in.path-start .members_project {
   height: 24px;
   font-size: 12px;
 }
-
+/* line 92, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-title a {
   color: #00aef4;
 }
-
+/* line 95, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-title a:hover {
   color: #0080b3;
   text-decoration: none;
   border-bottom: 1px solid rgba(0, 128, 179, 0.35);
 }
-
+/* line 103, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row iframe {
   border-radius: 7px 7px 0 0;
 }
-
+/* line 108, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-uid a {
   padding: 0 !important;
 }
-
+/* line 113, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-sponsored {
   display: inline-block;
   position: relative;
@@ -2524,77 +2569,77 @@ body.user-logged-in.path-start .members_project {
   top: -37px;
   color: #808080;
 }
-
+/* line 121, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-complete {
   padding: 0 8px;
   color: #808080;
 }
-
+/* line 125, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-complete .counter_discover {
   width: 190px;
   background: #ddd;
   height: 6px;
   margin-top: 0;
 }
-
+/* line 132, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-complete:after {
   display: none;
 }
-
+/* line 138, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .proc p, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-price-project p, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-finish-project p {
   margin: 0;
   line-height: 14px;
 }
-
+/* line 143, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .proc p:first-child, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-price-project p:first-child, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-finish-project p:first-child {
   color: #808080;
   font-size: 12px;
   font-weight: normal;
   text-transform: lowercase;
 }
-
+/* line 150, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .proc p:last-child, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-price-project p:last-child, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-finish-project p:last-child {
   font-weight: bold;
   margin: 0;
   font-size: 11px;
   color: #4c4c4c;
 }
-
+/* line 158, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-price-project {
   position: relative;
   left: 74px;
   top: -28px;
   display: inline-block;
 }
-
+/* line 165, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-finish-project {
   position: relative;
   left: 91px;
   top: -28px;
   display: inline-block;
 }
-
+/* line 172, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-uid a, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-uid span, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-komentarii, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-mesto, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-sum-sponsors, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-ends {
   padding: 0 8px;
   font-size: 12px;
   color: #808080;
   margin: 4px 0;
 }
-
+/* line 179, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-komentarii {
   height: 110px;
   overflow: hidden;
 }
-
+/* line 184, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-mesto {
   left: 0;
 }
-
+/* line 191, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-mesto .field-content {
   font-size: 12px !important;
   margin: 0 15px;
 }
-
+/* line 196, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-mesto::before {
   content: '';
   height: 14px;
@@ -2604,17 +2649,17 @@ body.user-logged-in.path-start .members_project {
   background-size: contain;
   background-image: url("../img/location-icon.svg");
 }
-
+/* line 207, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-ends {
   text-align: right;
   margin-top: 20px;
 }
-
+/* line 214, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-footer {
   text-align: right;
   width: 90%;
 }
-
+/* line 218, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-footer a {
   color: #55A4F2;
   text-decoration: none;
@@ -2622,12 +2667,12 @@ body.user-logged-in.path-start .members_project {
   font-size: 12px;
   text-align: right;
 }
-
+/* line 225, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-footer a:hover {
   color: #127ee9;
   text-decoration: underline;
 }
-
+/* line 230, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-left .view-footer a:before {
   display: block;
   border-bottom: 1px solid #ddd;
@@ -2635,11 +2680,11 @@ body.user-logged-in.path-start .members_project {
   width: 510px;
   margin-top: 9px;
 }
-
+/* line 241, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-right {
   margin-top: 100px;
 }
-
+/* line 244, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-right .views-element-container > h2::before {
   background-image: url("../img/event-icon-black.svg");
   height: 12px;
@@ -2647,7 +2692,7 @@ body.user-logged-in.path-start .members_project {
   background-repeat: no-repeat;
   margin-left: -15px;
 }
-
+/* line 252, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-right h2 {
   margin: 0 0 10px 15px;
   line-height: 1;
@@ -2657,7 +2702,7 @@ body.user-logged-in.path-start .members_project {
   color: #222;
   padding: 0;
 }
-
+/* line 263, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-right .view-sidebar-discover h2 {
   display: block;
   padding: 4px 10px;
@@ -2668,11 +2713,122 @@ body.user-logged-in.path-start .members_project {
   text-transform: none;
   font-size: 15px;
 }
-
+/* line 273, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-right .view-sidebar-discover h2 a {
   color: #55a4f2;
 }
-
+/* line 276, ../scss/pages/_discover.scss */
 .path-discover .region .panel-2col .block-region-right .view-sidebar-discover h2 a:hover {
   color: #127ee9;
 }
+
+/* line 2, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region {
+  background: url("../img/crowd-learning/bg.jpg") center center;
+  background-size: cover;
+}
+/* line 6, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region .block-region-middle {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* line 10, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region .block-region-middle h2 {
+  font-size: 44px;
+  line-height: 53px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+/* line 17, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region .block-region-middle h2::after {
+  content: "";
+  width: 70px;
+  height: 3px;
+  background: #00adf4;
+  display: block;
+  margin-top: 29px;
+  margin-bottom: 31px;
+}
+/* line 29, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region .block-region-middle .field--name-body p {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+/* line 37, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region .block-region-middle .field--name-body p a {
+  font-size: 21px;
+  line-height: 47px;
+  font-weight: normal;
+  width: 290px;
+  height: 50px;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 88px;
+  background-color: #00bef9;
+  background: #00aef4;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  display: inline-block;
+  text-align: center;
+}
+/* line 53, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region .block-region-middle .field--name-body p a:hover {
+  background-color: #00bef9;
+}
+/* line 59, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region .block-region-middle .field--name-body ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 63, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region .block-region-middle .field--name-body ul li {
+  font-size: 17px;
+  line-height: 20px;
+  color: #fff;
+  padding: 2px 0 21px 45px;
+  list-style-type: none;
+  position: relative;
+}
+/* line 71, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region .block-region-middle .field--name-body ul li::before {
+  content: url("../img/crowd-learning/list.svg");
+  width: 33px;
+  height: 33px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 50%;
+  padding: 7px 0 0 9px;
+  box-sizing: border-box;
+}
+/* line 86, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region .block-region-middle .field--name-body ul li:first-child {
+  padding-top: 5px;
+}
+/* line 91, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region .block-region-middle .field--name-body > p:nth-child(4) {
+  margin: 0 0 15px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  text-align: right;
+  font-weight: 100;
+}
+/* line 100, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region .block-region-middle .field--name-body > p:nth-child(5) {
+  display: none;
+}
+/* line 104, ../scss/pages/_crown-learning.scss */
+.path-crowd-learning main .region .block-region-middle .field--name-body > p:nth-child(6) {
+  margin: 0 0 20px;
+  text-align: right;
+}
+
+/*# sourceMappingURL=style.css.map */
