@@ -28,3 +28,26 @@
   padding: 0;
   cursor: pointer;
 }
+
+@mixin button {
+    background: $button-bg-color;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    color: $button-text-color;
+    display: inline-block;
+    height: 40px;
+    line-height: 36px;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
+    &:hover {
+      text-decoration: none;
+      background-color: $button-hover-bg-color;
+      color: $button-text-hover-color;
+    }
+}

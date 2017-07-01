@@ -1,4 +1,4 @@
-// COLORS
+// colors
 
 $gray: #808080;
 $login-color: #00aef4;
@@ -6,6 +6,13 @@ $search-placeholder-color: #3c3c3b;
 $block-header: #3c3c3b;
 $header-color: #fff;
 $background-white: #fff;
+
+// button
+
+$button-bg-color: #00aef4;
+$button-hover-bg-color: #00bef9;
+$button-text-color: #fff;
+$button-text-hover-color: #fff;
 
 // 2-nd region
 
@@ -29,6 +36,8 @@ $b5-width: 1060px;
 
 $logo: url("../img/logo.svg");
 
+// fonts
+
 $pt-sans: "PT Sans";
 
 @font-face {
@@ -38,7 +47,7 @@ $pt-sans: "PT Sans";
 
 $base-font: $pt-sans;
 
-// FOOTER
+// footer
 
 $footer-background-color: #1a1a1a;
 $footer-header-color: #ccc;
