@@ -598,7 +598,33 @@
   .create-region {
     .view-content {
       h3 {
-        display: none;
+        display: inline-block;
+        position: absolute;
+        @include position-left;
+        margin-top: 250px;
+        .prev, .next {
+          display: inline-block;
+          width: 13px;
+          height: 23px;
+          opacity: 0.5;
+          margin-top: 25px;
+          z-index: 1;
+          outline: 0;
+          cursor: pointer;
+          background-size: cover;
+          &:hover {
+            opacity: 1;
+          }
+        }
+        .prev {
+          background: url("../img/start/left-arrow.svg");
+          margin-left: -500px;
+        }
+        .next {
+          background: url("../img/start/right-arrow.svg");
+          position: relative;
+          left: 970px;
+        }
       }
     }
 
