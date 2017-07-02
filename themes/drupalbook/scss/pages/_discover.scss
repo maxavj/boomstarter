@@ -3,9 +3,10 @@
     border-bottom: 1px solid #dadada;
   }
 
-  .region {
+  .region-content {
     margin: 0 auto;
     max-width: 960px;
+    padding-bottom: 50px;
 
     .panel-2col {
       display: flex;
@@ -27,6 +28,86 @@
             display: block;
             .views-row {
               width: 100%;
+              border: 0;
+              border-radius: 0;
+              max-height: 210px;
+              .views-field-field-video {
+                display: inline-block;
+                &:after {
+                  content: "";
+    border-left: 1px solid #e6e6e6;
+    height: 180px;
+    width: 1px;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: -88px;
+                }
+                iframe {
+                  border-radius: 0;
+                }
+              }
+              .views-field-title {
+                padding: 5px 0;
+                width: 140px;
+                height: auto;
+              }
+              .views-field-field-mesto, .views-field-field-categogy {
+                padding: 0;
+                margin: 0;
+                display: block;
+                left: 0;
+                .field-content {
+                  font-size: 12px;
+                  margin: 0 14px;
+                }
+                a {
+                  font-size: 12px;
+                }
+                &:before {
+                  height: 11px;
+                  width: 11px;
+                }
+              }
+              .views-field-title-1 {
+                margin-bottom: 1.5em;
+                position: relative;
+    left: 200px;
+    top: -170px;
+                a {
+                  color: #55A4F2;
+                  text-decoration: none;
+                  font-size: 18px;
+                  line-height: 1.2;
+                  font-weight: bold;
+                  &:hover {
+                    color: #127ee9;
+                    text-decoration: underline;
+                  }
+                }
+              }
+              .views-field-body {
+                position: relative;
+    left: 200px;
+    top: -170px;
+    max-width: 500px;
+                margin-bottom: 1.5em;
+                display: inline-block;
+    max-height: 110px;
+    overflow: hidden;
+                p {
+                  font-size: 14px;
+                  color: #444;
+                  line-height: 1.5;
+                  margin: 0 0 10px;
+                }
+                a {
+                  color: #55A4F2;
+                  text-decoration: none;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                }
+              }
             }
           }
         }

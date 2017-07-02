@@ -2650,12 +2650,13 @@ body.user-logged-in.path-start .members_project {
   border-bottom: 1px solid #dadada;
 }
 /* line 6, ../scss/pages/_discover.scss */
-.path-discover .region {
+.path-discover .region-content {
   margin: 0 auto;
   max-width: 960px;
+  padding-bottom: 50px;
 }
-/* line 10, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col {
+/* line 11, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2669,40 +2670,135 @@ body.user-logged-in.path-start .members_project {
           justify-content: space-between;
   width: 100%;
 }
-/* line 16, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .panel-panel:nth-child(1) {
+/* line 17, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .panel-panel:nth-child(1) {
   -webkit-box-flex: 0;
   -webkit-flex: 0 1 80%;
       -ms-flex: 0 1 80%;
           flex: 0 1 80%;
 }
-/* line 20, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .panel-panel:nth-child(2) {
+/* line 21, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .panel-panel:nth-child(2) {
   -webkit-box-flex: 0;
   -webkit-flex: 0 1 20%;
       -ms-flex: 0 1 20%;
           flex: 0 1 20%;
 }
-/* line 26, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content {
+/* line 27, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content {
   display: block;
 }
-/* line 28, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row {
+/* line 29, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row {
   width: 100%;
+  border: 0;
+  border-radius: 0;
+  max-height: 210px;
 }
 /* line 34, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left h2 {
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-field-video {
+  display: inline-block;
+}
+/* line 36, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-field-video:after {
+  content: "";
+  border-left: 1px solid #e6e6e6;
+  height: 180px;
+  width: 1px;
+  position: absolute;
+  margin-left: 170px;
+  margin-top: -88px;
+}
+/* line 45, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-field-video iframe {
+  border-radius: 0;
+}
+/* line 49, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-title {
+  padding: 5px 0;
+  width: 140px;
+  height: auto;
+}
+/* line 54, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-field-mesto, .path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-field-categogy {
+  padding: 0;
+  margin: 0;
+  display: block;
+  left: 0;
+}
+/* line 59, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-field-mesto .field-content, .path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-field-categogy .field-content {
+  font-size: 12px;
+  margin: 0 14px;
+}
+/* line 63, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-field-mesto a, .path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-field-categogy a {
+  font-size: 12px;
+}
+/* line 66, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-field-mesto:before, .path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-field-categogy:before {
+  height: 11px;
+  width: 11px;
+}
+/* line 71, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-title-1 {
+  margin-bottom: 1.5em;
+  position: relative;
+  left: 200px;
+  top: -170px;
+}
+/* line 76, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-title-1 a {
+  color: #55A4F2;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+/* line 82, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-title-1 a:hover {
+  color: #127ee9;
+  text-decoration: underline;
+}
+/* line 88, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-body {
+  position: relative;
+  left: 200px;
+  top: -170px;
+  max-width: 500px;
+  margin-bottom: 1.5em;
+  display: inline-block;
+  max-height: 110px;
+  overflow: hidden;
+}
+/* line 97, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-body p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+/* line 103, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-body a {
+  color: #55A4F2;
+  text-decoration: none;
+}
+/* line 106, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .block-views-blockrecommend-project-block-5 .view-content .views-row .views-field-body a:hover {
+  text-decoration: underline;
+}
+/* line 115, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left h2 {
   font-size: 18px;
   padding: 0;
   margin: 20px 0 30px;
 }
-/* line 40, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .views-element-container {
+/* line 121, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .views-element-container {
   margin: 0;
 }
-/* line 44, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content {
+/* line 125, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2711,8 +2807,8 @@ body.user-logged-in.path-start .members_project {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
 }
-/* line 48, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content h3 {
+/* line 129, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content h3 {
   font-size: 24px;
   margin: 20px 0 1em;
   line-height: 1.2;
@@ -2722,16 +2818,16 @@ body.user-logged-in.path-start .members_project {
       -ms-flex: 100%;
           flex: 100%;
 }
-/* line 55, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content h3 a {
+/* line 136, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content h3 a {
   color: #222;
 }
-/* line 58, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content h3 a:visited, .path-discover .region .panel-2col .block-region-left .view-content h3 a:hover {
+/* line 139, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content h3 a:visited, .path-discover .region-content .panel-2col .block-region-left .view-content h3 a:hover {
   color: #222;
 }
-/* line 63, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content h3 p {
+/* line 144, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content h3 p {
   color: #999;
   font-weight: normal;
   margin-top: -1em;
@@ -2739,8 +2835,8 @@ body.user-logged-in.path-start .members_project {
   margin: 10px 0 1em;
   line-height: 1.2;
 }
-/* line 73, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row {
+/* line 154, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row {
   width: 210px;
   height: 390px;
   margin: 0 25px 25px 0;
@@ -2748,8 +2844,8 @@ body.user-logged-in.path-start .members_project {
   border: 1px solid #ddd;
   border-radius: 8px;
 }
-/* line 82, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-title {
+/* line 163, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-title {
   padding: 8px;
   text-decoration: none;
   cursor: pointer;
@@ -2759,104 +2855,104 @@ body.user-logged-in.path-start .members_project {
   height: 24px;
   font-size: 12px;
 }
-/* line 92, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-title a {
+/* line 173, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-title a {
   color: #00aef4;
 }
-/* line 95, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-title a:hover {
+/* line 176, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-title a:hover {
   color: #0080b3;
   text-decoration: none;
   border-bottom: 1px solid rgba(0, 128, 179, 0.35);
 }
-/* line 103, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row iframe {
+/* line 184, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row iframe {
   border-radius: 7px 7px 0 0;
 }
-/* line 108, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-uid a {
+/* line 189, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-uid a {
   padding: 0 !important;
 }
-/* line 113, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-sponsored {
+/* line 194, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-sponsored {
   display: inline-block;
   position: relative;
   left: 64%;
   top: -37px;
   color: #808080;
 }
-/* line 121, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-complete {
+/* line 202, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-complete {
   padding: 0 8px;
   color: #808080;
 }
-/* line 125, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-complete .counter_discover {
+/* line 206, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-complete .counter_discover {
   width: 190px;
   background: #ddd;
   height: 6px;
   margin-top: 0;
 }
-/* line 132, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-complete:after {
+/* line 213, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-complete:after {
   display: none;
 }
-/* line 138, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .proc p, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-price-project p, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-finish-project p {
+/* line 219, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .proc p, .path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-price-project p, .path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-finish-project p {
   margin: 0;
   line-height: 14px;
 }
-/* line 143, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .proc p:first-child, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-price-project p:first-child, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-finish-project p:first-child {
+/* line 224, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .proc p:first-child, .path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-price-project p:first-child, .path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-finish-project p:first-child {
   color: #808080;
   font-size: 12px;
   font-weight: normal;
   text-transform: lowercase;
 }
-/* line 150, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .proc p:last-child, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-price-project p:last-child, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-finish-project p:last-child {
+/* line 231, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .proc p:last-child, .path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-price-project p:last-child, .path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-finish-project p:last-child {
   font-weight: bold;
   margin: 0;
   font-size: 11px;
   color: #4c4c4c;
 }
-/* line 158, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-price-project {
+/* line 239, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-price-project {
   position: relative;
   left: 74px;
   top: -28px;
   display: inline-block;
 }
-/* line 165, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-finish-project {
+/* line 246, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-finish-project {
   position: relative;
   left: 91px;
   top: -28px;
   display: inline-block;
 }
-/* line 172, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-uid a, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-uid span, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-komentarii, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-mesto, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-sum-sponsors, .path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-ends {
+/* line 253, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-uid a, .path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-uid span, .path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-komentarii, .path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-mesto, .path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-sum-sponsors, .path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-ends {
   padding: 0 8px;
   font-size: 12px;
   color: #808080;
   margin: 4px 0;
 }
-/* line 179, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-komentarii {
+/* line 260, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-komentarii {
   height: 110px;
   overflow: hidden;
 }
-/* line 184, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-mesto {
+/* line 265, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-mesto {
   left: 0;
 }
-/* line 191, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-mesto .field-content {
+/* line 272, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-mesto .field-content {
   font-size: 12px !important;
   margin: 0 15px;
 }
-/* line 196, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-mesto::before {
+/* line 277, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-mesto::before {
   content: '';
   height: 14px;
   width: 14px;
@@ -2865,51 +2961,51 @@ body.user-logged-in.path-start .members_project {
   background-size: contain;
   background-image: url("../img/location-icon.svg");
 }
-/* line 207, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-content .views-row .views-field-field-ends {
+/* line 288, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-content .views-row .views-field-field-ends {
   text-align: right;
   margin-top: 20px;
 }
-/* line 214, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-footer {
+/* line 295, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-footer {
   text-align: right;
   width: 90%;
 }
-/* line 218, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-footer a {
+/* line 299, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-footer a {
   color: #55A4F2;
   text-decoration: none;
   line-height: 12px;
   font-size: 12px;
   text-align: right;
 }
-/* line 225, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-footer a:hover {
+/* line 306, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-footer a:hover {
   color: #127ee9;
   text-decoration: underline;
 }
-/* line 230, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-left .view-footer a:before {
+/* line 311, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-left .view-footer a:before {
   display: block;
   border-bottom: 1px solid #ddd;
   height: 1px;
   width: 510px;
   margin-top: 9px;
 }
-/* line 241, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-right {
+/* line 322, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-right {
   margin-top: 100px;
 }
-/* line 244, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-right .views-element-container > h2::before {
+/* line 325, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-right .views-element-container > h2::before {
   background-image: url("../img/event-icon-black.svg");
   height: 12px;
   width: 12px;
   background-repeat: no-repeat;
   margin-left: -15px;
 }
-/* line 252, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-right h2 {
+/* line 333, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-right h2 {
   margin: 0 0 10px 15px;
   line-height: 1;
   font-weight: normal;
@@ -2918,8 +3014,8 @@ body.user-logged-in.path-start .members_project {
   color: #222;
   padding: 0;
 }
-/* line 263, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-right .view-sidebar-discover h2 {
+/* line 344, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-right .view-sidebar-discover h2 {
   display: block;
   padding: 4px 10px;
   margin: 0 -10px;
@@ -2929,12 +3025,12 @@ body.user-logged-in.path-start .members_project {
   text-transform: none;
   font-size: 15px;
 }
-/* line 273, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-right .view-sidebar-discover h2 a {
+/* line 354, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-right .view-sidebar-discover h2 a {
   color: #55a4f2;
 }
-/* line 276, ../scss/pages/_discover.scss */
-.path-discover .region .panel-2col .block-region-right .view-sidebar-discover h2 a:hover {
+/* line 357, ../scss/pages/_discover.scss */
+.path-discover .region-content .panel-2col .block-region-right .view-sidebar-discover h2 a:hover {
   color: #127ee9;
 }
 
