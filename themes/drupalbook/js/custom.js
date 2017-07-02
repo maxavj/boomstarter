@@ -29,7 +29,5 @@ document.getElementsByName('keys')[0].placeholder='Название проект
           $(this).addClass("q-clicked");
         };
 
-      });
-      
-
+      }); 
 })(jQuery);
